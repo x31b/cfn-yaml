@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html
+Type: AWS::ApplicationInsights::Application
+Properties: 
+  AutoConfigurationEnabled: Boolean
+  ComponentMonitoringSettings: 
+    - ComponentMonitoringSetting
+  CustomComponents: 
+    - CustomComponent
+  CWEMonitorEnabled: Boolean
+  LogPatternSets: 
+    - LogPatternSet
+  OpsCenterEnabled: Boolean
+  OpsItemSNSTopicArn: String
+  ResourceGroupName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ApplicationInsights-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

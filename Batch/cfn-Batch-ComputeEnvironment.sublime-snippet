@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-computeenvironment.html
+Type: AWS::Batch::ComputeEnvironment
+Properties: 
+  ComputeEnvironmentName: String
+  ComputeResources: 
+    ComputeResources
+  ServiceRole: String
+  State: String
+  Tags: Json
+  Type: String
+  UnmanagedvCpus: Integer
+
+]]></content>
+  <tabTrigger>cfn-Batch-ComputeEnvironment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

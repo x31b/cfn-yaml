@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apikey.html
+Type: AWS::AppSync::ApiKey
+Properties: 
+  ApiId: String
+  ApiKeyId: String
+  Description: String
+  Expires: Double
+
+]]></content>
+  <tabTrigger>cfn-AppSync-ApiKey</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

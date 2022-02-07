@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-registrypolicy.html
+Type: AWS::ECR::RegistryPolicy
+Properties: 
+  PolicyText: Json
+
+]]></content>
+  <tabTrigger>cfn-ECR-RegistryPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

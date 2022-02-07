@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html
+Type: AWS::QuickSight::DataSet
+Properties: 
+  AwsAccountId: String
+  ColumnGroups: 
+    - ColumnGroup
+  ColumnLevelPermissionRules: 
+    - ColumnLevelPermissionRule
+  DataSetId: String
+  FieldFolders: 
+    Key : Value
+  ImportMode: String
+  IngestionWaitPolicy: 
+    IngestionWaitPolicy
+  LogicalTableMap: 
+    Key : Value
+  Name: String
+  Permissions: 
+    - ResourcePermission
+  PhysicalTableMap: 
+    Key : Value
+  RowLevelPermissionDataSet: 
+    RowLevelPermissionDataSet
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-QuickSight-DataSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

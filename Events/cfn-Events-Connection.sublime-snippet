@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html
+Type: AWS::Events::Connection
+Properties: 
+  AuthorizationType: String
+  AuthParameters: Json
+  Description: String
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-Events-Connection</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

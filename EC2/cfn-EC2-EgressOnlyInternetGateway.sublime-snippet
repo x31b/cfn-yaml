@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-egressonlyinternetgateway.html
+Type: AWS::EC2::EgressOnlyInternetGateway
+Properties: 
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-EgressOnlyInternetGateway</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-subscriptiondefinitionversion.html
+Type: AWS::Greengrass::SubscriptionDefinitionVersion
+Properties: 
+  SubscriptionDefinitionId: String
+  Subscriptions: 
+    - Subscription
+
+]]></content>
+  <tabTrigger>cfn-Greengrass-SubscriptionDefinitionVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amazonmq-configuration.html
+Type: AWS::AmazonMQ::Configuration
+Properties: 
+  AuthenticationStrategy: String
+  Data: String
+  Description: String
+  EngineType: String
+  EngineVersion: String
+  Name: String
+  Tags: 
+    - TagsEntry
+
+]]></content>
+  <tabTrigger>cfn-AmazonMQ-Configuration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

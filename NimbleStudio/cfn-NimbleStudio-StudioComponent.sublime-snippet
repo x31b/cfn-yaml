@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html
+Type: AWS::NimbleStudio::StudioComponent
+Properties: 
+  Configuration: 
+    StudioComponentConfiguration
+  Description: String
+  Ec2SecurityGroupIds: 
+    - String
+  InitializationScripts: 
+    - StudioComponentInitializationScript
+  Name: String
+  ScriptParameters: 
+    - ScriptParameterKeyValue
+  StudioId: String
+  Subtype: String
+  Tags: 
+    Key : Value
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-NimbleStudio-StudioComponent</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

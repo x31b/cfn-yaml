@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailchannel.html
+Type: AWS::Pinpoint::EmailChannel
+Properties: 
+  ApplicationId: String
+  ConfigurationSet: String
+  Enabled: Boolean
+  FromAddress: String
+  Identity: String
+  RoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-EmailChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

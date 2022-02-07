@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-configurationprofile.html
+Type: AWS::AppConfig::ConfigurationProfile
+Properties: 
+  ApplicationId: String
+  Description: String
+  LocationUri: String
+  Name: String
+  RetrievalRoleArn: String
+  Tags: 
+    - Tags
+  Type: String
+  Validators: 
+    - Validators
+
+]]></content>
+  <tabTrigger>cfn-AppConfig-ConfigurationProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,26 +1,48 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html
-Type: "AWS::EC2::Instance"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html
+Type: AWS::EC2::Instance
 Properties: 
+  AdditionalInfo: String
   Affinity: String
   AvailabilityZone: String
   BlockDeviceMappings: 
-    - EC2 Block Device Mapping
+    - BlockDeviceMapping
+  CpuOptions: 
+    CpuOptions
+  CreditSpecification: 
+    CreditSpecification
   DisableApiTermination: Boolean
   EbsOptimized: Boolean
+  ElasticGpuSpecifications: 
+    - ElasticGpuSpecification
+  ElasticInferenceAccelerators: 
+    - ElasticInferenceAccelerator
+  EnclaveOptions: 
+    EnclaveOptions
+  HibernationOptions: 
+    HibernationOptions
   HostId: String
+  HostResourceGroupArn: String
   IamInstanceProfile: String
   ImageId: String
   InstanceInitiatedShutdownBehavior: String
   InstanceType: String
+  Ipv6AddressCount: Integer
+  Ipv6Addresses: 
+    - InstanceIpv6Address
   KernelId: String
   KeyName: String
+  LaunchTemplate: 
+    LaunchTemplateSpecification
+  LicenseSpecifications: 
+    - LicenseSpecification
   Monitoring: Boolean
   NetworkInterfaces: 
-    - EC2 Network Interface"
+    - NetworkInterface
   PlacementGroupName: String
   PrivateIpAddress: String
+  PropagateTagsToVolumeOnCreation: Boolean
   RamdiskId: String
   SecurityGroupIds: 
     - String
@@ -28,15 +50,15 @@ Properties:
     - String
   SourceDestCheck: Boolean
   SsmAssociations: 
-    - SSMAssociation
+    - SsmAssociation
   SubnetId: String
   Tags: 
-    - Resource Tag
+    - Tag
   Tenancy: String
   UserData: String
   Volumes: 
-    - EC2 MountPoint
-  AdditionalInfo: String
+    - Volume
+
 ]]></content>
   <tabTrigger>cfn-EC2-Instance</tabTrigger>
   <scope>source.yaml, source.cloudformation</scope>

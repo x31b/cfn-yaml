@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-environment.html
+Type: AWS::AppConfig::Environment
+Properties: 
+  ApplicationId: String
+  Description: String
+  Monitors: 
+    - Monitors
+  Name: String
+  Tags: 
+    - Tags
+
+]]></content>
+  <tabTrigger>cfn-AppConfig-Environment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

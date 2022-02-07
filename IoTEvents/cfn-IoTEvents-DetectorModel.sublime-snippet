@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html
+Type: AWS::IoTEvents::DetectorModel
+Properties: 
+  DetectorModelDefinition: 
+    DetectorModelDefinition
+  DetectorModelDescription: String
+  DetectorModelName: String
+  EvaluationMethod: String
+  Key: String
+  RoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTEvents-DetectorModel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

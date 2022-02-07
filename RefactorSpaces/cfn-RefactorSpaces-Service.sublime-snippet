@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-service.html
+Type: AWS::RefactorSpaces::Service
+Properties: 
+  ApplicationIdentifier: String
+  Description: String
+  EndpointType: String
+  EnvironmentIdentifier: String
+  LambdaEndpoint: 
+    LambdaEndpointInput
+  Name: String
+  Tags: 
+    - Tag
+  UrlEndpoint: 
+    UrlEndpointInput
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-RefactorSpaces-Service</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

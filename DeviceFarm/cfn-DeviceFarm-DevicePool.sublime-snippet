@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-devicepool.html
+Type: AWS::DeviceFarm::DevicePool
+Properties: 
+  Description: String
+  MaxDevices: Integer
+  Name: String
+  ProjectArn: String
+  Rules: 
+    - Rule
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DeviceFarm-DevicePool</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

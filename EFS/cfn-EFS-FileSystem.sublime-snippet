@@ -1,11 +1,22 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html
-Type: "AWS::EFS::FileSystem"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html
+Type: AWS::EFS::FileSystem
 Properties: 
-  FileSystemTags:
-    - FileSystemTags
+  AvailabilityZoneName: String
+  BackupPolicy: 
+    BackupPolicy
+  BypassPolicyLockoutSafetyCheck: Boolean
+  Encrypted: Boolean
+  FileSystemPolicy: Json
+  FileSystemTags: 
+    - ElasticFileSystemTag
+  KmsKeyId: String
+  LifecyclePolicies: 
+    - LifecyclePolicy
   PerformanceMode: String
+  ProvisionedThroughputInMibps: Double
+  ThroughputMode: String
 
 ]]></content>
   <tabTrigger>cfn-EFS-FileSystem</tabTrigger>

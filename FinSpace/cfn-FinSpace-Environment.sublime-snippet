@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-finspace-environment.html
+Type: AWS::FinSpace::Environment
+Properties: 
+  DataBundles: 
+    - String
+  Description: String
+  FederationMode: String
+  FederationParameters: 
+    FederationParameters
+  KmsKeyId: String
+  Name: String
+  SuperuserParameters: 
+    SuperuserParameters
+
+]]></content>
+  <tabTrigger>cfn-FinSpace-Environment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

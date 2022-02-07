@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html
+Type: AWS::ApiGateway::DomainName
+Properties: 
+  CertificateArn: String
+  DomainName: String
+  EndpointConfiguration: 
+    EndpointConfiguration
+  MutualTlsAuthentication: 
+    MutualTlsAuthentication
+  OwnershipVerificationCertificateArn: String
+  RegionalCertificateArn: String
+  SecurityPolicy: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-DomainName</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

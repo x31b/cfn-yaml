@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-disk.html
+Type: AWS::Lightsail::Disk
+Properties: 
+  AddOns: 
+    - AddOn
+  AvailabilityZone: String
+  DiskName: String
+  SizeInGb: Integer
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Disk</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html
+Type: AWS::CodePipeline::Webhook
+Properties: 
+  Authentication: String
+  AuthenticationConfiguration: 
+    WebhookAuthConfiguration
+  Filters: 
+    - WebhookFilterRule
+  Name: String
+  RegisterWithThirdParty: Boolean
+  TargetAction: String
+  TargetPipeline: String
+  TargetPipelineVersion: Integer
+
+]]></content>
+  <tabTrigger>cfn-CodePipeline-Webhook</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

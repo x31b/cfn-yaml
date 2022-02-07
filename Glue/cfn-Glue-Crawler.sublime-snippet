@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html
+Type: AWS::Glue::Crawler
+Properties: 
+  Classifiers: 
+    - String
+  Configuration: String
+  CrawlerSecurityConfiguration: String
+  DatabaseName: String
+  Description: String
+  Name: String
+  RecrawlPolicy: 
+    RecrawlPolicy
+  Role: String
+  Schedule: 
+    Schedule
+  SchemaChangePolicy: 
+    SchemaChangePolicy
+  TablePrefix: String
+  Tags: Json
+  Targets: 
+    Targets
+
+]]></content>
+  <tabTrigger>cfn-Glue-Crawler</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

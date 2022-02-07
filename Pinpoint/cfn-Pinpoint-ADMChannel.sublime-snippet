@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-admchannel.html
+Type: AWS::Pinpoint::ADMChannel
+Properties: 
+  ApplicationId: String
+  ClientId: String
+  ClientSecret: String
+  Enabled: Boolean
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-ADMChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-serviceactionassociation.html
+Type: AWS::ServiceCatalog::ServiceActionAssociation
+Properties: 
+  ProductId: String
+  ProvisioningArtifactId: String
+  ServiceActionId: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-ServiceActionAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

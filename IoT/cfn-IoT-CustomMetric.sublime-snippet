@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html
+Type: AWS::IoT::CustomMetric
+Properties: 
+  DisplayName: String
+  MetricName: String
+  MetricType: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoT-CustomMetric</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

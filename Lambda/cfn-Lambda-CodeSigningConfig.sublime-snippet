@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html
+Type: AWS::Lambda::CodeSigningConfig
+Properties: 
+  AllowedPublishers: 
+    AllowedPublishers
+  CodeSigningPolicies: 
+    CodeSigningPolicies
+  Description: String
+
+]]></content>
+  <tabTrigger>cfn-Lambda-CodeSigningConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

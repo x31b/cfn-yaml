@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-reportgroup.html
+Type: AWS::CodeBuild::ReportGroup
+Properties: 
+  DeleteReports: Boolean
+  ExportConfig: 
+    ReportExportConfig
+  Name: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-CodeBuild-ReportGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

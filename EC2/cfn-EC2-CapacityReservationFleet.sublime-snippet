@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-capacityreservationfleet.html
+Type: AWS::EC2::CapacityReservationFleet
+Properties: 
+  AllocationStrategy: String
+  EndDate: String
+  InstanceMatchCriteria: String
+  InstanceTypeSpecifications: 
+    - InstanceTypeSpecification
+  NoRemoveEndDate: Boolean
+  RemoveEndDate: Boolean
+  TagSpecifications: 
+    - TagSpecification
+  Tenancy: String
+  TotalTargetCapacity: Integer
+
+]]></content>
+  <tabTrigger>cfn-EC2-CapacityReservationFleet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

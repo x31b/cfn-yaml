@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplifyuibuilder-component.html
+Type: AWS::AmplifyUIBuilder::Component
+Properties: 
+  BindingProperties: 
+    Key : Value
+  Children: 
+    - ComponentChild
+  CollectionProperties: 
+    Key : Value
+  ComponentType: String
+  Name: String
+  Overrides: 
+    Key : Value
+  Properties: 
+    Key : Value
+  SourceId: String
+  Tags: 
+    Key : Value
+  Variants: 
+    - ComponentVariant
+
+]]></content>
+  <tabTrigger>cfn-AmplifyUIBuilder-Component</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

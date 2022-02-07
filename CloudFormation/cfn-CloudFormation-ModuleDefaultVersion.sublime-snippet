@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-moduledefaultversion.html
+Type: AWS::CloudFormation::ModuleDefaultVersion
+Properties: 
+  Arn: String
+  ModuleName: String
+  VersionId: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-ModuleDefaultVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

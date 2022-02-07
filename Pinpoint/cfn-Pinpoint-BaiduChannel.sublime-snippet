@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-baiduchannel.html
+Type: AWS::Pinpoint::BaiduChannel
+Properties: 
+  ApiKey: String
+  ApplicationId: String
+  Enabled: Boolean
+  SecretKey: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-BaiduChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

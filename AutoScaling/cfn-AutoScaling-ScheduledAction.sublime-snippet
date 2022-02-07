@@ -1,15 +1,16 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-scheduledaction.html
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-scheduledaction.html
 Type: AWS::AutoScaling::ScheduledAction
-Properties:
+Properties: 
   AutoScalingGroupName: String
   DesiredCapacity: Integer
-  EndTime: Time stamp
+  EndTime: String
   MaxSize: Integer
   MinSize: Integer
   Recurrence: String
-  StartTime: Time stamp
+  StartTime: String
+  TimeZone: String
 
 ]]></content>
   <tabTrigger>cfn-AutoScaling-ScheduledAction</tabTrigger>

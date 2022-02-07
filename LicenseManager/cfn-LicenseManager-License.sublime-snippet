@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html
+Type: AWS::LicenseManager::License
+Properties: 
+  Beneficiary: String
+  ConsumptionConfiguration: 
+    ConsumptionConfiguration
+  Entitlements: 
+    - Entitlement
+  HomeRegion: String
+  Issuer: 
+    IssuerData
+  LicenseMetadata: 
+    - Metadata
+  LicenseName: String
+  ProductName: String
+  ProductSKU: String
+  Status: String
+  Validity: 
+    ValidityDateFormat
+
+]]></content>
+  <tabTrigger>cfn-LicenseManager-License</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

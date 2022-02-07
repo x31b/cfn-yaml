@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html
+Type: AWS::IoT::DomainConfiguration
+Properties: 
+  AuthorizerConfig: 
+    AuthorizerConfig
+  DomainConfigurationName: String
+  DomainConfigurationStatus: String
+  DomainName: String
+  ServerCertificateArns: 
+    - String
+  ServiceType: String
+  Tags: 
+    - Tag
+  ValidationCertificateArn: String
+
+]]></content>
+  <tabTrigger>cfn-IoT-DomainConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

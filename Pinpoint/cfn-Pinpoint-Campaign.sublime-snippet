@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html
+Type: AWS::Pinpoint::Campaign
+Properties: 
+  AdditionalTreatments: 
+    - WriteTreatmentResource
+  ApplicationId: String
+  CampaignHook: 
+    CampaignHook
+  Description: String
+  HoldoutPercent: Integer
+  IsPaused: Boolean
+  Limits: 
+    Limits
+  MessageConfiguration: 
+    MessageConfiguration
+  Name: String
+  Priority: Integer
+  Schedule: 
+    Schedule
+  SegmentId: String
+  SegmentVersion: Integer
+  Tags: Json
+  TreatmentDescription: String
+  TreatmentName: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-Campaign</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

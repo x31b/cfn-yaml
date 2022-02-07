@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-identity.html
+Type: AWS::PinpointEmail::Identity
+Properties: 
+  DkimSigningEnabled: Boolean
+  FeedbackForwardingEnabled: Boolean
+  MailFromAttributes: 
+    MailFromAttributes
+  Name: String
+  Tags: 
+    - Tags
+
+]]></content>
+  <tabTrigger>cfn-PinpointEmail-Identity</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

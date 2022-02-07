@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverendpoint.html
+Type: AWS::Route53Resolver::ResolverEndpoint
+Properties: 
+  Direction: String
+  IpAddresses: 
+    - IpAddressRequest
+  Name: String
+  SecurityGroupIds: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-ResolverEndpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

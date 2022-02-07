@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewall.html
+Type: AWS::NetworkFirewall::Firewall
+Properties: 
+  DeleteProtection: Boolean
+  Description: String
+  FirewallName: String
+  FirewallPolicyArn: String
+  FirewallPolicyChangeProtection: Boolean
+  SubnetChangeProtection: Boolean
+  SubnetMappings: 
+    - SubnetMapping
+  Tags: 
+    - Tag
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-NetworkFirewall-Firewall</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

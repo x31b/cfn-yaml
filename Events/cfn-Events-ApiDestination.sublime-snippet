@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html
+Type: AWS::Events::ApiDestination
+Properties: 
+  ConnectionArn: String
+  Description: String
+  HttpMethod: String
+  InvocationEndpoint: String
+  InvocationRateLimitPerSecond: Integer
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-Events-ApiDestination</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

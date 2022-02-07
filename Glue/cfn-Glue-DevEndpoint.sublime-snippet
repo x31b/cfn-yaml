@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html
+Type: AWS::Glue::DevEndpoint
+Properties: 
+  Arguments: Json
+  EndpointName: String
+  ExtraJarsS3Path: String
+  ExtraPythonLibsS3Path: String
+  GlueVersion: String
+  NumberOfNodes: Integer
+  NumberOfWorkers: Integer
+  PublicKey: String
+  PublicKeys: 
+    - String
+  RoleArn: String
+  SecurityConfiguration: String
+  SecurityGroupIds: 
+    - String
+  SubnetId: String
+  Tags: Json
+  WorkerType: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-DevEndpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

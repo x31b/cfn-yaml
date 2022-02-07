@@ -1,15 +1,19 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html
-Type: "AWS::CertificateManager::Certificate"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html
+Type: AWS::CertificateManager::Certificate
 Properties: 
+  CertificateAuthorityArn: String
+  CertificateTransparencyLoggingPreference: String
   DomainName: String
-  DomainValidationOptions:
-    - DomainValidationOptions
-  SubjectAlternativeNames:
+  DomainValidationOptions: 
+    - DomainValidationOption
+  SubjectAlternativeNames: 
     - String
-  Tags:
-    - Resource Tag
+  Tags: 
+    - Tag
+  ValidationMethod: String
+
 ]]></content>
   <tabTrigger>cfn-CertificateManager-Certificate</tabTrigger>
   <scope>source.yaml, source.cloudformation</scope>

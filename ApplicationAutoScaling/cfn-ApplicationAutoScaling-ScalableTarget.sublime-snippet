@@ -1,14 +1,18 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html
-Type: "AWS::ApplicationAutoScaling::ScalableTarget"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html
+Type: AWS::ApplicationAutoScaling::ScalableTarget
+Properties: 
   MaxCapacity: Integer
   MinCapacity: Integer
   ResourceId: String
   RoleARN: String
   ScalableDimension: String
+  ScheduledActions: 
+    - ScheduledAction
   ServiceNamespace: String
+  SuspendedState: 
+    SuspendedState
 
 ]]></content>
   <tabTrigger>cfn-ApplicationAutoScaling-ScalableTarget</tabTrigger>

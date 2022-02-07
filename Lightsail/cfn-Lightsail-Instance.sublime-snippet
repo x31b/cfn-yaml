@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html
+Type: AWS::Lightsail::Instance
+Properties: 
+  AddOns: 
+    - AddOn
+  AvailabilityZone: String
+  BlueprintId: String
+  BundleId: String
+  Hardware: 
+    Hardware
+  InstanceName: String
+  KeyPairName: String
+  Networking: 
+    Networking
+  Tags: 
+    - Tag
+  UserData: String
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Instance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-contactflow.html
+Type: AWS::Connect::ContactFlow
+Properties: 
+  Content: String
+  Description: String
+  InstanceArn: String
+  Name: String
+  State: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-Connect-ContactFlow</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

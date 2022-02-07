@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html
+Type: AWS::S3Outposts::AccessPoint
+Properties: 
+  Bucket: String
+  Name: String
+  Policy: Json
+  VpcConfiguration: 
+    VpcConfiguration
+
+]]></content>
+  <tabTrigger>cfn-S3Outposts-AccessPoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

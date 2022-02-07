@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html
+Type: AWS::SageMaker::Pipeline
+Properties: 
+  ParallelismConfiguration: Json
+  PipelineDefinition: Json
+  PipelineDescription: String
+  PipelineDisplayName: String
+  PipelineName: String
+  RoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Pipeline</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html
+Type: AWS::Cognito::UserPoolRiskConfigurationAttachment
+Properties: 
+  AccountTakeoverRiskConfiguration: 
+    AccountTakeoverRiskConfigurationType
+  ClientId: String
+  CompromisedCredentialsRiskConfiguration: 
+    CompromisedCredentialsRiskConfigurationType
+  RiskExceptionConfiguration: 
+    RiskExceptionConfigurationType
+  UserPoolId: String
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolRiskConfigurationAttachment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

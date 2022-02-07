@@ -1,0 +1,47 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html
+Type: AWS::CodeBuild::Project
+Properties: 
+  Artifacts: 
+    Artifacts
+  BadgeEnabled: Boolean
+  BuildBatchConfig: 
+    ProjectBuildBatchConfig
+  Cache: 
+    ProjectCache
+  ConcurrentBuildLimit: Integer
+  Description: String
+  EncryptionKey: String
+  Environment: 
+    Environment
+  FileSystemLocations: 
+    - ProjectFileSystemLocation
+  LogsConfig: 
+    LogsConfig
+  Name: String
+  QueuedTimeoutInMinutes: Integer
+  ResourceAccessRole: String
+  SecondaryArtifacts: 
+    - Artifacts
+  SecondarySources: 
+    - Source
+  SecondarySourceVersions: 
+    - ProjectSourceVersion
+  ServiceRole: String
+  Source: 
+    Source
+  SourceVersion: String
+  Tags: 
+    - Tag
+  TimeoutInMinutes: Integer
+  Triggers: 
+    ProjectTriggers
+  Visibility: String
+  VpcConfig: 
+    VpcConfig
+
+]]></content>
+  <tabTrigger>cfn-CodeBuild-Project</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

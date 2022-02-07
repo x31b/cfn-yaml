@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html
+Type: AWS::SageMaker::App
+Properties: 
+  AppName: String
+  AppType: String
+  DomainId: String
+  ResourceSpec: 
+    ResourceSpec
+  Tags: 
+    - Tag
+  UserProfileName: String
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-App</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbcluster.html
+Type: AWS::DocDB::DBCluster
+Properties: 
+  AvailabilityZones: 
+    - String
+  BackupRetentionPeriod: Integer
+  DBClusterIdentifier: String
+  DBClusterParameterGroupName: String
+  DBSubnetGroupName: String
+  DeletionProtection: Boolean
+  EnableCloudwatchLogsExports: 
+    - String
+  EngineVersion: String
+  KmsKeyId: String
+  MasterUsername: String
+  MasterUserPassword: String
+  Port: Integer
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  SnapshotIdentifier: String
+  StorageEncrypted: Boolean
+  Tags: 
+    - Tag
+  VpcSecurityGroupIds: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-DocDB-DBCluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

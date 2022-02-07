@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoveryreadiness-resourceset.html
+Type: AWS::Route53RecoveryReadiness::ResourceSet
+Properties: 
+  Resources: 
+    - Resource
+  ResourceSetName: String
+  ResourceSetType: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53RecoveryReadiness-ResourceSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

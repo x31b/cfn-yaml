@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-jobtemplate.html
+Type: AWS::IoT::JobTemplate
+Properties: 
+  AbortConfig: Json
+  Description: String
+  Document: String
+  DocumentSource: String
+  JobArn: String
+  JobExecutionsRetryConfig: Json
+  JobExecutionsRolloutConfig: Json
+  JobTemplateId: String
+  PresignedUrlConfig: Json
+  Tags: 
+    - Tag
+  TimeoutConfig: Json
+
+]]></content>
+  <tabTrigger>cfn-IoT-JobTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

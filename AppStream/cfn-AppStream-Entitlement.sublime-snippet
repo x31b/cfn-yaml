@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html
+Type: AWS::AppStream::Entitlement
+Properties: 
+  AppVisibility: String
+  Attributes: 
+    - Attribute
+  Description: String
+  Name: String
+  StackName: String
+
+]]></content>
+  <tabTrigger>cfn-AppStream-Entitlement</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html
+Type: AWS::AppSync::DataSource
+Properties: 
+  ApiId: String
+  Description: String
+  DynamoDBConfig: 
+    DynamoDBConfig
+  ElasticsearchConfig: 
+    ElasticsearchConfig
+  HttpConfig: 
+    HttpConfig
+  LambdaConfig: 
+    LambdaConfig
+  Name: String
+  OpenSearchServiceConfig: 
+    OpenSearchServiceConfig
+  RelationalDatabaseConfig: 
+    RelationalDatabaseConfig
+  ServiceRoleArn: String
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-AppSync-DataSource</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

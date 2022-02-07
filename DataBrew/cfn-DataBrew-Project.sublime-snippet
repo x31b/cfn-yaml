@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-project.html
+Type: AWS::DataBrew::Project
+Properties: 
+  DatasetName: String
+  Name: String
+  RecipeName: String
+  RoleArn: String
+  Sample: 
+    Sample
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DataBrew-Project</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

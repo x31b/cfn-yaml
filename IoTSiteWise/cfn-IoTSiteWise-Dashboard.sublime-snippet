@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-dashboard.html
+Type: AWS::IoTSiteWise::Dashboard
+Properties: 
+  DashboardDefinition: String
+  DashboardDescription: String
+  DashboardName: String
+  ProjectId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTSiteWise-Dashboard</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

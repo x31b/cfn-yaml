@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html
+Type: AWS::Athena::WorkGroup
+Properties: 
+  Description: String
+  Name: String
+  RecursiveDeleteOption: Boolean
+  State: String
+  Tags: 
+    - Tag
+  WorkGroupConfiguration: 
+    WorkGroupConfiguration
+  WorkGroupConfigurationUpdates: 
+    WorkGroupConfigurationUpdates
+
+]]></content>
+  <tabTrigger>cfn-Athena-WorkGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

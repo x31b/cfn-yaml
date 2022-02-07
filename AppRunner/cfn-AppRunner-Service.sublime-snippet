@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html
+Type: AWS::AppRunner::Service
+Properties: 
+  AutoScalingConfigurationArn: String
+  EncryptionConfiguration: 
+    EncryptionConfiguration
+  HealthCheckConfiguration: 
+    HealthCheckConfiguration
+  InstanceConfiguration: 
+    InstanceConfiguration
+  ServiceName: String
+  SourceConfiguration: 
+    SourceConfiguration
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-AppRunner-Service</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

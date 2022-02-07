@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-vpceconfiguration.html
+Type: AWS::DeviceFarm::VPCEConfiguration
+Properties: 
+  ServiceDnsName: String
+  Tags: 
+    - Tag
+  VpceConfigurationDescription: String
+  VpceConfigurationName: String
+  VpceServiceName: String
+
+]]></content>
+  <tabTrigger>cfn-DeviceFarm-VPCEConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html
-Type: "AWS::Logs::MetricFilter"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html
+Type: AWS::Logs::MetricFilter
 Properties: 
   FilterPattern: String
   LogGroupName: String
-  MetricTransformations:
-    MetricTransformations
+  MetricTransformations: 
+    - MetricTransformation
 
 ]]></content>
   <tabTrigger>cfn-Logs-MetricFilter</tabTrigger>

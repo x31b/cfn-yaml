@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codegurureviewer-repositoryassociation.html
+Type: AWS::CodeGuruReviewer::RepositoryAssociation
+Properties: 
+  BucketName: String
+  ConnectionArn: String
+  Name: String
+  Owner: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-CodeGuruReviewer-RepositoryAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

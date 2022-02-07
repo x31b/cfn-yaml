@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html
+Type: AWS::NimbleStudio::LaunchProfile
+Properties: 
+  Description: String
+  Ec2SubnetIds: 
+    - String
+  LaunchProfileProtocolVersions: 
+    - String
+  Name: String
+  StreamConfiguration: 
+    StreamConfiguration
+  StudioComponentIds: 
+    - String
+  StudioId: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-NimbleStudio-LaunchProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-receiptrule.html
+Type: AWS::SES::ReceiptRule
+Properties: 
+  After: String
+  Rule: 
+    Rule
+  RuleSetName: String
+
+]]></content>
+  <tabTrigger>cfn-SES-ReceiptRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

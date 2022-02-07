@@ -1,0 +1,47 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html
+Type: AWS::Cognito::UserPool
+Properties: 
+  AccountRecoverySetting: 
+    AccountRecoverySetting
+  AdminCreateUserConfig: 
+    AdminCreateUserConfig
+  AliasAttributes: 
+    - String
+  AutoVerifiedAttributes: 
+    - String
+  DeviceConfiguration: 
+    DeviceConfiguration
+  EmailConfiguration: 
+    EmailConfiguration
+  EmailVerificationMessage: String
+  EmailVerificationSubject: String
+  EnabledMfas: 
+    - String
+  LambdaConfig: 
+    LambdaConfig
+  MfaConfiguration: String
+  Policies: 
+    Policies
+  Schema: 
+    - SchemaAttribute
+  SmsAuthenticationMessage: String
+  SmsConfiguration: 
+    SmsConfiguration
+  SmsVerificationMessage: String
+  UsernameAttributes: 
+    - String
+  UsernameConfiguration: 
+    UsernameConfiguration
+  UserPoolAddOns: 
+    UserPoolAddOns
+  UserPoolName: String
+  UserPoolTags: Json
+  VerificationMessageTemplate: 
+    VerificationMessageTemplate
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPool</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

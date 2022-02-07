@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-userprofile.html
+Type: AWS::OpsWorks::UserProfile
+Properties: 
+  AllowSelfManagement: Boolean
+  IamUserArn: String
+  SshPublicKey: String
+  SshUsername: String
+
+]]></content>
+  <tabTrigger>cfn-OpsWorks-UserProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

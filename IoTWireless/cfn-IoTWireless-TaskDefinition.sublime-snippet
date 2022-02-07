@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html
+Type: AWS::IoTWireless::TaskDefinition
+Properties: 
+  AutoCreateTasks: Boolean
+  Name: String
+  Tags: 
+    - Tag
+  Update: 
+    UpdateWirelessGatewayTaskCreate
+
+]]></content>
+  <tabTrigger>cfn-IoTWireless-TaskDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

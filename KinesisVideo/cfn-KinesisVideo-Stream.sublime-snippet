@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisvideo-stream.html
+Type: AWS::KinesisVideo::Stream
+Properties: 
+  DataRetentionInHours: Integer
+  DeviceName: String
+  KmsKeyId: String
+  MediaType: String
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-KinesisVideo-Stream</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

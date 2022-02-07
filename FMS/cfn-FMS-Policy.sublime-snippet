@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html
+Type: AWS::FMS::Policy
+Properties: 
+  DeleteAllPolicyResources: Boolean
+  ExcludeMap: 
+    IEMap
+  ExcludeResourceTags: Boolean
+  IncludeMap: 
+    IEMap
+  PolicyName: String
+  RemediationEnabled: Boolean
+  ResourcesCleanUp: Boolean
+  ResourceTags: 
+    - ResourceTag
+  ResourceType: String
+  ResourceTypeList: 
+    - String
+  SecurityServicePolicyData: Json
+  Tags: 
+    - PolicyTag
+
+]]></content>
+  <tabTrigger>cfn-FMS-Policy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

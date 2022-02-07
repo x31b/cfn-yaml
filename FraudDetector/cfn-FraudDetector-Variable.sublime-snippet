@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-variable.html
+Type: AWS::FraudDetector::Variable
+Properties: 
+  DataSource: String
+  DataType: String
+  DefaultValue: String
+  Description: String
+  Name: String
+  Tags: 
+    - Tag
+  VariableType: String
+
+]]></content>
+  <tabTrigger>cfn-FraudDetector-Variable</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

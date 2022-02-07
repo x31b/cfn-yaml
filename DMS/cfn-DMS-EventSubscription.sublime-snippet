@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html
+Type: AWS::DMS::EventSubscription
+Properties: 
+  Enabled: Boolean
+  EventCategories: 
+    - String
+  SnsTopicArn: String
+  SourceIds: 
+    - String
+  SourceType: String
+  SubscriptionName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DMS-EventSubscription</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

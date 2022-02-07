@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html
+Type: AWS::S3Outposts::Bucket
+Properties: 
+  BucketName: String
+  LifecycleConfiguration: 
+    LifecycleConfiguration
+  OutpostId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-S3Outposts-Bucket</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

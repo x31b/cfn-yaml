@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationobjectstorage.html
+Type: AWS::DataSync::LocationObjectStorage
+Properties: 
+  AccessKey: String
+  AgentArns: 
+    - String
+  BucketName: String
+  SecretKey: String
+  ServerHostname: String
+  ServerPort: Integer
+  ServerProtocol: String
+  Subdirectory: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DataSync-LocationObjectStorage</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

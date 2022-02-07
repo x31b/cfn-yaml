@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-activity.html
+Type: AWS::StepFunctions::Activity
+Properties: 
+  Name: String
+  Tags: 
+    - TagsEntry
+
+]]></content>
+  <tabTrigger>cfn-StepFunctions-Activity</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

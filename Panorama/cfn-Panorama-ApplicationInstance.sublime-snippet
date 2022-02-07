@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html
+Type: AWS::Panorama::ApplicationInstance
+Properties: 
+  ApplicationInstanceIdToReplace: String
+  DefaultRuntimeContextDevice: String
+  Description: String
+  DeviceId: String
+  ManifestOverridesPayload: 
+    ManifestOverridesPayload
+  ManifestPayload: 
+    ManifestPayload
+  Name: String
+  RuntimeRoleArn: String
+  StatusFilter: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Panorama-ApplicationInstance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

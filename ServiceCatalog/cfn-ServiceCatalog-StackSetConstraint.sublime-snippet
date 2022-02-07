@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-stacksetconstraint.html
+Type: AWS::ServiceCatalog::StackSetConstraint
+Properties: 
+  AcceptLanguage: String
+  AccountList: 
+    - String
+  AdminRole: String
+  Description: String
+  ExecutionRole: String
+  PortfolioId: String
+  ProductId: String
+  RegionList: 
+    - String
+  StackInstanceControl: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-StackSetConstraint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

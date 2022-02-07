@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-conformancepack.html
+Type: AWS::Config::ConformancePack
+Properties: 
+  ConformancePackInputParameters: 
+    - ConformancePackInputParameter
+  ConformancePackName: String
+  DeliveryS3Bucket: String
+  DeliveryS3KeyPrefix: String
+  TemplateBody: String
+  TemplateS3Uri: String
+
+]]></content>
+  <tabTrigger>cfn-Config-ConformancePack</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

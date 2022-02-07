@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-eventsubscription.html
+Type: AWS::Redshift::EventSubscription
+Properties: 
+  Enabled: Boolean
+  EventCategories: 
+    - String
+  Severity: String
+  SnsTopicArn: String
+  SourceIds: 
+    - String
+  SourceType: String
+  SubscriptionName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Redshift-EventSubscription</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

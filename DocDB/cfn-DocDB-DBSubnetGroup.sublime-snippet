@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbsubnetgroup.html
+Type: AWS::DocDB::DBSubnetGroup
+Properties: 
+  DBSubnetGroupDescription: String
+  DBSubnetGroupName: String
+  SubnetIds: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DocDB-DBSubnetGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-cachepolicy.html
+Type: AWS::CloudFront::CachePolicy
+Properties: 
+  CachePolicyConfig: 
+    CachePolicyConfig
+
+]]></content>
+  <tabTrigger>cfn-CloudFront-CachePolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

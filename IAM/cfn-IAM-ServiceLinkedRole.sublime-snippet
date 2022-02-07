@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-servicelinkedrole.html
+Type: AWS::IAM::ServiceLinkedRole
+Properties: 
+  AWSServiceName: String
+  CustomSuffix: String
+  Description: String
+
+]]></content>
+  <tabTrigger>cfn-IAM-ServiceLinkedRole</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

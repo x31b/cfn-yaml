@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolgroup.html
+Type: AWS::Cognito::UserPoolGroup
+Properties: 
+  Description: String
+  GroupName: String
+  Precedence: Double
+  RoleArn: String
+  UserPoolId: String
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

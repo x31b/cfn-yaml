@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworkscm-server.html
+Type: AWS::OpsWorksCM::Server
+Properties: 
+  AssociatePublicIpAddress: Boolean
+  BackupId: String
+  BackupRetentionCount: Integer
+  CustomCertificate: String
+  CustomDomain: String
+  CustomPrivateKey: String
+  DisableAutomatedBackup: Boolean
+  Engine: String
+  EngineAttributes: 
+    - EngineAttribute
+  EngineModel: String
+  EngineVersion: String
+  InstanceProfileArn: String
+  InstanceType: String
+  KeyPair: String
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  SecurityGroupIds: 
+    - String
+  ServerName: String
+  ServiceRoleArn: String
+  SubnetIds: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-OpsWorksCM-Server</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

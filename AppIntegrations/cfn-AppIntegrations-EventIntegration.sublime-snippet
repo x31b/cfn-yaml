@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appintegrations-eventintegration.html
+Type: AWS::AppIntegrations::EventIntegration
+Properties: 
+  Description: String
+  EventBridgeBus: String
+  EventFilter: 
+    EventFilter
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-AppIntegrations-EventIntegration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

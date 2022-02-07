@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-aps-rulegroupsnamespace.html
+Type: AWS::APS::RuleGroupsNamespace
+Properties: 
+  Data: String
+  Name: String
+  Tags: 
+    - Tag
+  Workspace: String
+
+]]></content>
+  <tabTrigger>cfn-APS-RuleGroupsNamespace</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-multicastgroup.html
+Type: AWS::IoTWireless::MulticastGroup
+Properties: 
+  AssociateWirelessDevice: String
+  Description: String
+  DisassociateWirelessDevice: String
+  LoRaWAN: 
+    LoRaWAN
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTWireless-MulticastGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

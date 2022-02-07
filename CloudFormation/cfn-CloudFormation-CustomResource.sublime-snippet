@@ -1,11 +1,9 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html
-Type: "Custom::String"
-Version: "1.0"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html
+Type: AWS::CloudFormation::CustomResource
+Properties: 
   ServiceToken: String
-    ... provider-defined properties ...
 
 ]]></content>
   <tabTrigger>cfn-CloudFormation-CustomResource</tabTrigger>

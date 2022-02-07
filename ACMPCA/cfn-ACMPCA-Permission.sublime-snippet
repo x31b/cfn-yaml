@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-permission.html
+Type: AWS::ACMPCA::Permission
+Properties: 
+  Actions: 
+    - String
+  CertificateAuthorityArn: String
+  Principal: String
+  SourceAccount: String
+
+]]></content>
+  <tabTrigger>cfn-ACMPCA-Permission</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

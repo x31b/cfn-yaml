@@ -1,0 +1,59 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html
+Type: AWS::DMS::Endpoint
+Properties: 
+  CertificateArn: String
+  DatabaseName: String
+  DocDbSettings: 
+    DocDbSettings
+  DynamoDbSettings: 
+    DynamoDbSettings
+  ElasticsearchSettings: 
+    ElasticsearchSettings
+  EndpointIdentifier: String
+  EndpointType: String
+  EngineName: String
+  ExtraConnectionAttributes: String
+  GcpMySQLSettings: 
+    GcpMySQLSettings
+  IbmDb2Settings: 
+    IbmDb2Settings
+  KafkaSettings: 
+    KafkaSettings
+  KinesisSettings: 
+    KinesisSettings
+  KmsKeyId: String
+  MicrosoftSqlServerSettings: 
+    MicrosoftSqlServerSettings
+  MongoDbSettings: 
+    MongoDbSettings
+  MySqlSettings: 
+    MySqlSettings
+  NeptuneSettings: 
+    NeptuneSettings
+  OracleSettings: 
+    OracleSettings
+  Password: String
+  Port: Integer
+  PostgreSqlSettings: 
+    PostgreSqlSettings
+  RedisSettings: 
+    RedisSettings
+  RedshiftSettings: 
+    RedshiftSettings
+  ResourceIdentifier: String
+  S3Settings: 
+    S3Settings
+  ServerName: String
+  SslMode: String
+  SybaseSettings: 
+    SybaseSettings
+  Tags: 
+    - Tag
+  Username: String
+
+]]></content>
+  <tabTrigger>cfn-DMS-Endpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html
+Type: AWS::ApiGatewayV2::Stage
+Properties: 
+  AccessLogSettings: 
+    AccessLogSettings
+  AccessPolicyId: String
+  ApiId: String
+  AutoDeploy: Boolean
+  ClientCertificateId: String
+  DefaultRouteSettings: 
+    RouteSettings
+  DeploymentId: String
+  Description: String
+  RouteSettings: Json
+  StageName: String
+  StageVariables: Json
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Stage</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

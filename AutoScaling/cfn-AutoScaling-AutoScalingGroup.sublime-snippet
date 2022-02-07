@@ -1,32 +1,45 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html
-Type: "AWS::AutoScaling::AutoScalingGroup"
-Properties:
-  AvailabilityZones:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html
+Type: AWS::AutoScaling::AutoScalingGroup
+Properties: 
+  AutoScalingGroupName: String
+  AvailabilityZones: 
     - String
+  CapacityRebalance: Boolean
+  Context: String
   Cooldown: String
   DesiredCapacity: String
+  DesiredCapacityType: String
   HealthCheckGracePeriod: Integer
   HealthCheckType: String
   InstanceId: String
   LaunchConfigurationName: String
-  LoadBalancerNames:
+  LaunchTemplate: 
+    LaunchTemplateSpecification
+  LifecycleHookSpecificationList: 
+    - LifecycleHookSpecification
+  LoadBalancerNames: 
     - String
+  MaxInstanceLifetime: Integer
   MaxSize: String
-  MetricsCollection:
+  MetricsCollection: 
     - MetricsCollection
   MinSize: String
-  NotificationConfigurations:
-    - NotificationConfigurations
+  MixedInstancesPolicy: 
+    MixedInstancesPolicy
+  NewInstancesProtectedFromScaleIn: Boolean
+  NotificationConfigurations: 
+    - NotificationConfiguration
   PlacementGroup: String
-  Tags:
-    - Auto Scaling Tag
-  TargetGroupARNs:
+  ServiceLinkedRoleARN: String
+  Tags: 
+    - TagProperty
+  TargetGroupARNs: 
     - String
-  TerminationPolicies:
+  TerminationPolicies: 
     - String
-  VPCZoneIdentifier:
+  VPCZoneIdentifier: 
     - String
 
 ]]></content>

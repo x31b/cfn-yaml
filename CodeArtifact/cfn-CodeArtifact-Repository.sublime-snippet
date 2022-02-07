@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html
+Type: AWS::CodeArtifact::Repository
+Properties: 
+  Description: String
+  DomainName: String
+  DomainOwner: String
+  ExternalConnections: 
+    - String
+  PermissionsPolicyDocument: Json
+  RepositoryName: String
+  Tags: 
+    - Tag
+  Upstreams: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-CodeArtifact-Repository</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

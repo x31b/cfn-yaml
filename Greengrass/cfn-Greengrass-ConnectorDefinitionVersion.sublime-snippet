@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-connectordefinitionversion.html
+Type: AWS::Greengrass::ConnectorDefinitionVersion
+Properties: 
+  ConnectorDefinitionId: String
+  Connectors: 
+    - Connector
+
+]]></content>
+  <tabTrigger>cfn-Greengrass-ConnectorDefinitionVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

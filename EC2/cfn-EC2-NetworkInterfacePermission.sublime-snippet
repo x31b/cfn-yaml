@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinterfacepermission.html
+Type: AWS::EC2::NetworkInterfacePermission
+Properties: 
+  AwsAccountId: String
+  NetworkInterfaceId: String
+  Permission: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-NetworkInterfacePermission</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

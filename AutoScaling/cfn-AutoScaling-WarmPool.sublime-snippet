@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-warmpool.html
+Type: AWS::AutoScaling::WarmPool
+Properties: 
+  AutoScalingGroupName: String
+  InstanceReusePolicy: 
+    InstanceReusePolicy
+  MaxGroupPreparedCapacity: Integer
+  MinSize: Integer
+  PoolState: String
+
+]]></content>
+  <tabTrigger>cfn-AutoScaling-WarmPool</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html
+Type: AWS::SageMaker::FeatureGroup
+Properties: 
+  Description: String
+  EventTimeFeatureName: String
+  FeatureDefinitions: 
+    - FeatureDefinition
+  FeatureGroupName: String
+  OfflineStoreConfig: Json
+  OnlineStoreConfig: Json
+  RecordIdentifierFeatureName: String
+  RoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-FeatureGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

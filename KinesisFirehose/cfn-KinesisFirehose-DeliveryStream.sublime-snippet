@@ -1,15 +1,30 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisfirehose-deliverystream.html
-Type: "AWS::KinesisFirehose::DeliveryStream"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisfirehose-deliverystream.html
+Type: AWS::KinesisFirehose::DeliveryStream
 Properties: 
+  AmazonopensearchserviceDestinationConfiguration: 
+    AmazonopensearchserviceDestinationConfiguration
+  DeliveryStreamEncryptionConfigurationInput: 
+    DeliveryStreamEncryptionConfigurationInput
   DeliveryStreamName: String
-  ElasticsearchDestinationConfiguration:
+  DeliveryStreamType: String
+  ElasticsearchDestinationConfiguration: 
     ElasticsearchDestinationConfiguration
-  RedshiftDestinationConfiguration:
+  ExtendedS3DestinationConfiguration: 
+    ExtendedS3DestinationConfiguration
+  HttpEndpointDestinationConfiguration: 
+    HttpEndpointDestinationConfiguration
+  KinesisStreamSourceConfiguration: 
+    KinesisStreamSourceConfiguration
+  RedshiftDestinationConfiguration: 
     RedshiftDestinationConfiguration
-  S3DestinationConfiguration:
+  S3DestinationConfiguration: 
     S3DestinationConfiguration
+  SplunkDestinationConfiguration: 
+    SplunkDestinationConfiguration
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-KinesisFirehose-DeliveryStream</tabTrigger>

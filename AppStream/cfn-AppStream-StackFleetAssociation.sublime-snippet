@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stackfleetassociation.html
+Type: AWS::AppStream::StackFleetAssociation
+Properties: 
+  FleetName: String
+  StackName: String
+
+]]></content>
+  <tabTrigger>cfn-AppStream-StackFleetAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

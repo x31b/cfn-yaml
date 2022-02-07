@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html
+Type: AWS::KMS::ReplicaKey
+Properties: 
+  Description: String
+  Enabled: Boolean
+  KeyPolicy: Json
+  PendingWindowInDays: Integer
+  PrimaryKeyArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-KMS-ReplicaKey</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

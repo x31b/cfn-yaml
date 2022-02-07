@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-apnsvoipchannel.html
+Type: AWS::Pinpoint::APNSVoipChannel
+Properties: 
+  ApplicationId: String
+  BundleId: String
+  Certificate: String
+  DefaultAuthenticationMethod: String
+  Enabled: Boolean
+  PrivateKey: String
+  TeamId: String
+  TokenKey: String
+  TokenKeyId: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-APNSVoipChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

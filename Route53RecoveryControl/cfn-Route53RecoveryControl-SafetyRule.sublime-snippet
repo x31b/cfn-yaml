@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html
+Type: AWS::Route53RecoveryControl::SafetyRule
+Properties: 
+  AssertionRule: 
+    AssertionRule
+  ControlPanelArn: String
+  GatingRule: 
+    GatingRule
+  Name: String
+  RuleConfig: 
+    RuleConfig
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53RecoveryControl-SafetyRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

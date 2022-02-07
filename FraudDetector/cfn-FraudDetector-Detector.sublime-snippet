@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html
+Type: AWS::FraudDetector::Detector
+Properties: 
+  AssociatedModels: 
+    - Model
+  Description: String
+  DetectorId: String
+  DetectorVersionStatus: String
+  EventType: 
+    EventType
+  RuleExecutionMode: String
+  Rules: 
+    - Rule
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-FraudDetector-Detector</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

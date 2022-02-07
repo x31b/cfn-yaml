@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-parametergroup.html
+Type: AWS::MemoryDB::ParameterGroup
+Properties: 
+  Description: String
+  Family: String
+  ParameterGroupName: String
+  Parameters: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-MemoryDB-ParameterGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

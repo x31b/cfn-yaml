@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budget.html
+Type: AWS::Budgets::Budget
+Properties: 
+  Budget: 
+    BudgetData
+  NotificationsWithSubscribers: 
+    - NotificationWithSubscribers
+
+]]></content>
+  <tabTrigger>cfn-Budgets-Budget</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

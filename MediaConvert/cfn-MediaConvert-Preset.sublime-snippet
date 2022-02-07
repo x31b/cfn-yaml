@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-preset.html
+Type: AWS::MediaConvert::Preset
+Properties: 
+  Category: String
+  Description: String
+  Name: String
+  SettingsJson: 
+    Json
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-MediaConvert-Preset</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

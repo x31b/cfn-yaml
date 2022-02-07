@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smschannel.html
+Type: AWS::Pinpoint::SMSChannel
+Properties: 
+  ApplicationId: String
+  Enabled: Boolean
+  SenderId: String
+  ShortCode: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-SMSChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

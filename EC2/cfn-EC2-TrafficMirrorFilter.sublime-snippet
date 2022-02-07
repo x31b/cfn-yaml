@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilter.html
+Type: AWS::EC2::TrafficMirrorFilter
+Properties: 
+  Description: String
+  NetworkServices: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EC2-TrafficMirrorFilter</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

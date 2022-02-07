@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html
+Type: AWS::SageMaker::MonitoringSchedule
+Properties: 
+  EndpointName: String
+  FailureReason: String
+  LastMonitoringExecutionSummary: 
+    MonitoringExecutionSummary
+  MonitoringScheduleConfig: 
+    MonitoringScheduleConfig
+  MonitoringScheduleName: String
+  MonitoringScheduleStatus: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-MonitoringSchedule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

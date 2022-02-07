@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html
+Type: AWS::SageMaker::Model
+Properties: 
+  Containers: 
+    - ContainerDefinition
+  EnableNetworkIsolation: Boolean
+  ExecutionRoleArn: String
+  InferenceExecutionConfig: 
+    InferenceExecutionConfig
+  ModelName: String
+  PrimaryContainer: 
+    ContainerDefinition
+  Tags: 
+    - Tag
+  VpcConfig: 
+    VpcConfig
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Model</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html
+Type: AWS::DataBrew::Schedule
+Properties: 
+  CronExpression: String
+  JobNames: 
+    - String
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DataBrew-Schedule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

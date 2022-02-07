@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-scheduledaction.html
+Type: AWS::Redshift::ScheduledAction
+Properties: 
+  Enable: Boolean
+  EndTime: String
+  IamRole: String
+  Schedule: String
+  ScheduledActionDescription: String
+  ScheduledActionName: String
+  StartTime: String
+  TargetAction: 
+    ScheduledActionType
+
+]]></content>
+  <tabTrigger>cfn-Redshift-ScheduledAction</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

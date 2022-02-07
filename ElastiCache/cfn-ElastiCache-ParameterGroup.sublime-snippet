@@ -1,12 +1,14 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html
-Type: "AWS::ElastiCache::ParameterGroup"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html
+Type: AWS::ElastiCache::ParameterGroup
 Properties: 
   CacheParameterGroupFamily: String
   Description: String
-  Properties:
-    String: String
+  Properties: 
+    Key : Value
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-ElastiCache-ParameterGroup</tabTrigger>

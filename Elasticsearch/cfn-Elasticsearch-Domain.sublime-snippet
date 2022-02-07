@@ -1,21 +1,35 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html
-Type: "AWS::Elasticsearch::Domain"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html
+Type: AWS::Elasticsearch::Domain
 Properties: 
-  AccessPolicies: JSON object
-  AdvancedOptions:
-    Advanced Options
+  AccessPolicies: Json
+  AdvancedOptions: 
+    Key : Value
+  AdvancedSecurityOptions: 
+    AdvancedSecurityOptionsInput
+  CognitoOptions: 
+    CognitoOptions
+  DomainEndpointOptions: 
+    DomainEndpointOptions
   DomainName: String
-  EBSOptions:
-    EBS Options
-  ElasticsearchClusterConfig:
-    Elasticsearch Cluster Config
+  EBSOptions: 
+    EBSOptions
+  ElasticsearchClusterConfig: 
+    ElasticsearchClusterConfig
   ElasticsearchVersion: String
-  SnapshotOptions:
-    Snapshot Options
-  Tags:
-    - Resource Tag
+  EncryptionAtRestOptions: 
+    EncryptionAtRestOptions
+  LogPublishingOptions: 
+    Key : Value
+  NodeToNodeEncryptionOptions: 
+    NodeToNodeEncryptionOptions
+  SnapshotOptions: 
+    SnapshotOptions
+  Tags: 
+    - Tag
+  VPCOptions: 
+    VPCOptions
 
 ]]></content>
   <tabTrigger>cfn-Elasticsearch-Domain</tabTrigger>

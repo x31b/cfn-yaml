@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightspath.html
+Type: AWS::EC2::NetworkInsightsPath
+Properties: 
+  Destination: String
+  DestinationIp: String
+  DestinationPort: Integer
+  Protocol: String
+  Source: String
+  SourceIp: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EC2-NetworkInsightsPath</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

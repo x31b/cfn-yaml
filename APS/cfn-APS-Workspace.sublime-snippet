@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-aps-workspace.html
+Type: AWS::APS::Workspace
+Properties: 
+  AlertManagerDefinition: String
+  Alias: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-APS-Workspace</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html
+Type: AWS::EC2::VPCEndpointConnectionNotification
+Properties: 
+  ConnectionEvents: 
+    - String
+  ConnectionNotificationArn: String
+  ServiceId: String
+  VPCEndpointId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-VPCEndpointConnectionNotification</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

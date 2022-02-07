@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-querydefinition.html
+Type: AWS::Logs::QueryDefinition
+Properties: 
+  LogGroupNames: 
+    - String
+  Name: String
+  QueryString: 
+    String
+
+]]></content>
+  <tabTrigger>cfn-Logs-QueryDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-route.html
+Type: AWS::RefactorSpaces::Route
+Properties: 
+  ApplicationIdentifier: String
+  EnvironmentIdentifier: String
+  RouteType: String
+  ServiceIdentifier: String
+  Tags: 
+    - Tag
+  UriPathRoute: 
+    UriPathRouteInput
+
+]]></content>
+  <tabTrigger>cfn-RefactorSpaces-Route</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

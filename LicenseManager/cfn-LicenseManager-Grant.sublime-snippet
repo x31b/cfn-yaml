@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-grant.html
+Type: AWS::LicenseManager::Grant
+Properties: 
+  AllowedOperations: 
+    - String
+  GrantName: String
+  HomeRegion: String
+  LicenseArn: String
+  Principals: 
+    - String
+  Status: String
+
+]]></content>
+  <tabTrigger>cfn-LicenseManager-Grant</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

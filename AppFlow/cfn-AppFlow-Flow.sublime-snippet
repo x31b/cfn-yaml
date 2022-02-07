@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html
+Type: AWS::AppFlow::Flow
+Properties: 
+  Description: String
+  DestinationFlowConfigList: 
+    - DestinationFlowConfig
+  FlowName: String
+  KMSArn: String
+  SourceFlowConfig: 
+    SourceFlowConfig
+  Tags: 
+    - Tag
+  Tasks: 
+    - Task
+  TriggerConfig: 
+    TriggerConfig
+
+]]></content>
+  <tabTrigger>cfn-AppFlow-Flow</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

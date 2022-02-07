@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html
+Type: AWS::LakeFormation::Permissions
+Properties: 
+  DataLakePrincipal: 
+    DataLakePrincipal
+  Permissions: 
+    - String
+  PermissionsWithGrantOption: 
+    - String
+  Resource: 
+    Resource
+
+]]></content>
+  <tabTrigger>cfn-LakeFormation-Permissions</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindow.html
+Type: AWS::SSM::MaintenanceWindow
+Properties: 
+  AllowUnassociatedTargets: Boolean
+  Cutoff: Integer
+  Description: String
+  Duration: Integer
+  EndDate: String
+  Name: String
+  Schedule: String
+  ScheduleOffset: Integer
+  ScheduleTimezone: String
+  StartDate: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SSM-MaintenanceWindow</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

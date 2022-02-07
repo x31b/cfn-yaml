@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-webacl.html
+Type: AWS::WAFRegional::WebACL
+Properties: 
+  DefaultAction: 
+    Action
+  MetricName: String
+  Name: String
+  Rules: 
+    - Rule
+
+]]></content>
+  <tabTrigger>cfn-WAFRegional-WebACL</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

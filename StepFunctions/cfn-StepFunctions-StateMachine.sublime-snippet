@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html
+Type: AWS::StepFunctions::StateMachine
+Properties: 
+  Definition: 
+    Definition
+  DefinitionS3Location: 
+    S3Location
+  DefinitionString: 
+    String
+  DefinitionSubstitutions: 
+    Key : Value
+  LoggingConfiguration: 
+    LoggingConfiguration
+  RoleArn: String
+  StateMachineName: String
+  StateMachineType: String
+  Tags: 
+    - TagsEntry
+  TracingConfiguration: 
+    TracingConfiguration
+
+]]></content>
+  <tabTrigger>cfn-StepFunctions-StateMachine</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

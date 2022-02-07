@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-trigger.html
+Type: AWS::Glue::Trigger
+Properties: 
+  Actions: 
+    - Action
+  Description: String
+  Name: String
+  Predicate: 
+    Predicate
+  Schedule: String
+  StartOnCreation: Boolean
+  Tags: Json
+  Type: String
+  WorkflowName: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-Trigger</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html
+Type: AWS::ACMPCA::Certificate
+Properties: 
+  ApiPassthrough: 
+    ApiPassthrough
+  CertificateAuthorityArn: String
+  CertificateSigningRequest: String
+  SigningAlgorithm: String
+  TemplateArn: String
+  Validity: 
+    Validity
+  ValidityNotBefore: 
+    Validity
+
+]]></content>
+  <tabTrigger>cfn-ACMPCA-Certificate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

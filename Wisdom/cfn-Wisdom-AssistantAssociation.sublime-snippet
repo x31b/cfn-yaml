@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-assistantassociation.html
+Type: AWS::Wisdom::AssistantAssociation
+Properties: 
+  AssistantId: String
+  Association: 
+    AssociationData
+  AssociationType: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Wisdom-AssistantAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

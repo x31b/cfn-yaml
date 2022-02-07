@@ -1,12 +1,17 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html
-Type: "AWS::Kinesis::Stream"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html
+Type: AWS::Kinesis::Stream
 Properties: 
   Name: String
+  RetentionPeriodHours: Integer
   ShardCount: Integer
-  Tags:
-    - Resource Tag 
+  StreamEncryption: 
+    StreamEncryption
+  StreamModeDetails: 
+    StreamModeDetails
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-Kinesis-Stream</tabTrigger>

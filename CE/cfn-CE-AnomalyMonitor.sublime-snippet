@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalymonitor.html
+Type: AWS::CE::AnomalyMonitor
+Properties: 
+  MonitorDimension: String
+  MonitorName: String
+  MonitorSpecification: String
+  MonitorType: String
+
+]]></content>
+  <tabTrigger>cfn-CE-AnomalyMonitor</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

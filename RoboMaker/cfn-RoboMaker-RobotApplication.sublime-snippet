@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html
+Type: AWS::RoboMaker::RobotApplication
+Properties: 
+  CurrentRevisionId: String
+  Name: String
+  RobotSoftwareSuite: 
+    RobotSoftwareSuite
+  Sources: 
+    - SourceConfig
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-RoboMaker-RobotApplication</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

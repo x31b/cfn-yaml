@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chatbot-slackchannelconfiguration.html
+Type: AWS::Chatbot::SlackChannelConfiguration
+Properties: 
+  ConfigurationName: String
+  GuardrailPolicies: 
+    - String
+  IamRoleArn: String
+  LoggingLevel: String
+  SlackChannelId: String
+  SlackWorkspaceId: String
+  SnsTopicArns: 
+    - String
+  UserRoleRequired: Boolean
+
+]]></content>
+  <tabTrigger>cfn-Chatbot-SlackChannelConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

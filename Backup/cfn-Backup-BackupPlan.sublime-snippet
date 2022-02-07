@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupplan.html
+Type: AWS::Backup::BackupPlan
+Properties: 
+  BackupPlan: 
+    BackupPlanResourceType
+  BackupPlanTags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-Backup-BackupPlan</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

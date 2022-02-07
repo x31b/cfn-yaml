@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html
+Type: AWS::ServiceCatalog::CloudFormationProvisionedProduct
+Properties: 
+  AcceptLanguage: String
+  NotificationArns: 
+    - String
+  PathId: String
+  PathName: String
+  ProductId: String
+  ProductName: String
+  ProvisionedProductName: String
+  ProvisioningArtifactId: String
+  ProvisioningArtifactName: String
+  ProvisioningParameters: 
+    - ProvisioningParameter
+  ProvisioningPreferences: 
+    ProvisioningPreferences
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-CloudFormationProvisionedProduct</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

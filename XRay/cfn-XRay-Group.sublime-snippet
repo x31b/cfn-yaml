@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html
+Type: AWS::XRay::Group
+Properties: 
+  FilterExpression: String
+  GroupName: String
+  InsightsConfiguration: 
+    InsightsConfiguration
+  Tags: 
+    - Json
+
+]]></content>
+  <tabTrigger>cfn-XRay-Group</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

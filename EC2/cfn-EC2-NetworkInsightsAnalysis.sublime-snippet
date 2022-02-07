@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightsanalysis.html
+Type: AWS::EC2::NetworkInsightsAnalysis
+Properties: 
+  FilterInArns: 
+    - String
+  NetworkInsightsPathId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EC2-NetworkInsightsAnalysis</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

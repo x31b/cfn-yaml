@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html
+Type: AWS::SageMaker::EndpointConfig
+Properties: 
+  AsyncInferenceConfig: 
+    AsyncInferenceConfig
+  DataCaptureConfig: 
+    DataCaptureConfig
+  EndpointConfigName: String
+  KmsKeyId: String
+  ProductionVariants: 
+    - ProductionVariant
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-EndpointConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

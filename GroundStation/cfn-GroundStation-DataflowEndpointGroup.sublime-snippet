@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-dataflowendpointgroup.html
+Type: AWS::GroundStation::DataflowEndpointGroup
+Properties: 
+  EndpointDetails: 
+    - EndpointDetails
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-GroundStation-DataflowEndpointGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

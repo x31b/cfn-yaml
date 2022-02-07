@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html
+Type: AWS::DMS::ReplicationInstance
+Properties: 
+  AllocatedStorage: Integer
+  AllowMajorVersionUpgrade: Boolean
+  AutoMinorVersionUpgrade: Boolean
+  AvailabilityZone: String
+  EngineVersion: String
+  KmsKeyId: String
+  MultiAZ: Boolean
+  PreferredMaintenanceWindow: String
+  PubliclyAccessible: Boolean
+  ReplicationInstanceClass: String
+  ReplicationInstanceIdentifier: String
+  ReplicationSubnetGroupIdentifier: String
+  ResourceIdentifier: String
+  Tags: 
+    - Tag
+  VpcSecurityGroupIds: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-DMS-ReplicationInstance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

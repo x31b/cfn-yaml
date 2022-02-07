@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html
+Type: AWS::GroundStation::MissionProfile
+Properties: 
+  ContactPostPassDurationSeconds: Integer
+  ContactPrePassDurationSeconds: Integer
+  DataflowEdges: 
+    - DataflowEdge
+  MinimumViableContactDurationSeconds: Integer
+  Name: String
+  Tags: 
+    - Tag
+  TrackingConfigArn: String
+
+]]></content>
+  <tabTrigger>cfn-GroundStation-MissionProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

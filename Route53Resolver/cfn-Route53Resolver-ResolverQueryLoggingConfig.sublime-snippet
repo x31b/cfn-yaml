@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverqueryloggingconfig.html
+Type: AWS::Route53Resolver::ResolverQueryLoggingConfig
+Properties: 
+  DestinationArn: String
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-ResolverQueryLoggingConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

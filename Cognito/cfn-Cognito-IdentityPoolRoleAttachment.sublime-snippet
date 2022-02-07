@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html
+Type: AWS::Cognito::IdentityPoolRoleAttachment
+Properties: 
+  IdentityPoolId: String
+  RoleMappings: Json
+  Roles: Json
+
+]]></content>
+  <tabTrigger>cfn-Cognito-IdentityPoolRoleAttachment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

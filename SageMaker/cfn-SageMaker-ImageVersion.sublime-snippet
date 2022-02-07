@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-imageversion.html
+Type: AWS::SageMaker::ImageVersion
+Properties: 
+  BaseImage: String
+  ImageName: String
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-ImageVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

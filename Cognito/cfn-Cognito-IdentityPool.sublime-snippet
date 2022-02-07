@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html
+Type: AWS::Cognito::IdentityPool
+Properties: 
+  AllowClassicFlow: Boolean
+  AllowUnauthenticatedIdentities: Boolean
+  CognitoEvents: Json
+  CognitoIdentityProviders: 
+    - CognitoIdentityProvider
+  CognitoStreams: 
+    CognitoStreams
+  DeveloperProviderName: String
+  IdentityPoolName: String
+  OpenIdConnectProviderARNs: 
+    - String
+  PushSync: 
+    PushSync
+  SamlProviderARNs: 
+    - String
+  SupportedLoginProviders: Json
+
+]]></content>
+  <tabTrigger>cfn-Cognito-IdentityPool</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

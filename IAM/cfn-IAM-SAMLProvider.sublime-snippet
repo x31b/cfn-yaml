@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-samlprovider.html
+Type: AWS::IAM::SAMLProvider
+Properties: 
+  Name: String
+  SamlMetadataDocument: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IAM-SAMLProvider</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

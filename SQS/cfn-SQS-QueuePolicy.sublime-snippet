@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-policy.html
-Type: "AWS::SQS::QueuePolicy"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queuepolicy.html
+Type: AWS::SQS::QueuePolicy
 Properties: 
-  PolicyDocument: JSON
-  Queues:
-    - String 
+  PolicyDocument: Json
+  Queues: 
+    - String
 
 ]]></content>
   <tabTrigger>cfn-SQS-QueuePolicy</tabTrigger>

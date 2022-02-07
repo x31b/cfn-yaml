@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html
+Type: AWS::Neptune::DBCluster
+Properties: 
+  AssociatedRoles: 
+    - DBClusterRole
+  AvailabilityZones: 
+    - String
+  BackupRetentionPeriod: Integer
+  DBClusterIdentifier: String
+  DBClusterParameterGroupName: String
+  DBSubnetGroupName: String
+  DeletionProtection: Boolean
+  EnableCloudwatchLogsExports: 
+    - String
+  EngineVersion: String
+  IamAuthEnabled: Boolean
+  KmsKeyId: String
+  Port: Integer
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  RestoreToTime: String
+  RestoreType: String
+  SnapshotIdentifier: String
+  SourceDBClusterIdentifier: String
+  StorageEncrypted: Boolean
+  Tags: 
+    - Tag
+  UseLatestRestorableTime: Boolean
+  VpcSecurityGroupIds: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-Neptune-DBCluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-hoursofoperation.html
+Type: AWS::Connect::HoursOfOperation
+Properties: 
+  Config: 
+    - HoursOfOperationConfig
+  Description: String
+  InstanceArn: String
+  Name: String
+  Tags: 
+    - Tag
+  TimeZone: String
+
+]]></content>
+  <tabTrigger>cfn-Connect-HoursOfOperation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

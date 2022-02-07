@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html
+Type: AWS::EMR::SecurityConfiguration
+Properties: 
+  Name: String
+  SecurityConfiguration: Json
+
+]]></content>
+  <tabTrigger>cfn-EMR-SecurityConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

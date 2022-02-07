@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-ruleset.html
+Type: AWS::DataBrew::Ruleset
+Properties: 
+  Description: String
+  Name: String
+  Rules: 
+    - Rule
+  Tags: 
+    - Tag
+  TargetArn: String
+
+]]></content>
+  <tabTrigger>cfn-DataBrew-Ruleset</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

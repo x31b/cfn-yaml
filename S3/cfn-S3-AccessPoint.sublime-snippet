@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html
+Type: AWS::S3::AccessPoint
+Properties: 
+  Bucket: String
+  Name: String
+  Policy: Json
+  PolicyStatus: Json
+  PublicAccessBlockConfiguration: 
+    PublicAccessBlockConfiguration
+  VpcConfiguration: 
+    VpcConfiguration
+
+]]></content>
+  <tabTrigger>cfn-S3-AccessPoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

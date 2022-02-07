@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-config.html
+Type: AWS::GroundStation::Config
+Properties: 
+  ConfigData: 
+    ConfigData
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-GroundStation-Config</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

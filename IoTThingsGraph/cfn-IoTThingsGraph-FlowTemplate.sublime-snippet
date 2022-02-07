@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotthingsgraph-flowtemplate.html
+Type: AWS::IoTThingsGraph::FlowTemplate
+Properties: 
+  CompatibleNamespaceVersion: Double
+  Definition: 
+    DefinitionDocument
+
+]]></content>
+  <tabTrigger>cfn-IoTThingsGraph-FlowTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualservice.html
+Type: AWS::AppMesh::VirtualService
+Properties: 
+  MeshName: String
+  MeshOwner: String
+  Spec: 
+    VirtualServiceSpec
+  Tags: 
+    - Tag
+  VirtualServiceName: String
+
+]]></content>
+  <tabTrigger>cfn-AppMesh-VirtualService</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amazonmq-configurationassociation.html
+Type: AWS::AmazonMQ::ConfigurationAssociation
+Properties: 
+  Broker: String
+  Configuration: 
+    ConfigurationId
+
+]]></content>
+  <tabTrigger>cfn-AmazonMQ-ConfigurationAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

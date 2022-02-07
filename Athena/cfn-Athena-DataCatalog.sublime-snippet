@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-datacatalog.html
+Type: AWS::Athena::DataCatalog
+Properties: 
+  Description: String
+  Name: String
+  Parameters: 
+    Key : Value
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-Athena-DataCatalog</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

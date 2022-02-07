@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbinstance.html
+Type: AWS::Neptune::DBInstance
+Properties: 
+  AllowMajorVersionUpgrade: Boolean
+  AutoMinorVersionUpgrade: Boolean
+  AvailabilityZone: String
+  DBClusterIdentifier: String
+  DBInstanceClass: String
+  DBInstanceIdentifier: String
+  DBParameterGroupName: String
+  DBSnapshotIdentifier: String
+  DBSubnetGroupName: String
+  PreferredMaintenanceWindow: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Neptune-DBInstance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

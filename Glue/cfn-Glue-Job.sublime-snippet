@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html
+Type: AWS::Glue::Job
+Properties: 
+  AllocatedCapacity: Double
+  Command: 
+    JobCommand
+  Connections: 
+    ConnectionsList
+  DefaultArguments: Json
+  Description: String
+  ExecutionProperty: 
+    ExecutionProperty
+  GlueVersion: String
+  LogUri: String
+  MaxCapacity: Double
+  MaxRetries: Double
+  Name: String
+  NotificationProperty: 
+    NotificationProperty
+  NumberOfWorkers: Integer
+  Role: String
+  SecurityConfiguration: String
+  Tags: Json
+  Timeout: Integer
+  WorkerType: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-Job</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

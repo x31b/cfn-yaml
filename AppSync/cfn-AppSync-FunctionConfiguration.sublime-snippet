@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-functionconfiguration.html
+Type: AWS::AppSync::FunctionConfiguration
+Properties: 
+  ApiId: String
+  DataSourceName: String
+  Description: String
+  FunctionVersion: String
+  MaxBatchSize: Integer
+  Name: String
+  RequestMappingTemplate: String
+  RequestMappingTemplateS3Location: String
+  ResponseMappingTemplate: String
+  ResponseMappingTemplateS3Location: String
+  SyncConfig: 
+    SyncConfig
+
+]]></content>
+  <tabTrigger>cfn-AppSync-FunctionConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

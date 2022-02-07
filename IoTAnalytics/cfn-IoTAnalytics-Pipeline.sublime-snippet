@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html
+Type: AWS::IoTAnalytics::Pipeline
+Properties: 
+  PipelineActivities: 
+    - Activity
+  PipelineName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTAnalytics-Pipeline</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

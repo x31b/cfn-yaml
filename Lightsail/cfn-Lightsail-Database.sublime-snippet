@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-database.html
+Type: AWS::Lightsail::Database
+Properties: 
+  AvailabilityZone: String
+  BackupRetention: Boolean
+  CaCertificateIdentifier: String
+  MasterDatabaseName: String
+  MasterUsername: String
+  MasterUserPassword: String
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  PubliclyAccessible: Boolean
+  RelationalDatabaseBlueprintId: String
+  RelationalDatabaseBundleId: String
+  RelationalDatabaseName: String
+  RelationalDatabaseParameters: 
+    - RelationalDatabaseParameter
+  RotateMasterUserPassword: Boolean
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Database</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

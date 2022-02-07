@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-transitgatewayregistration.html
+Type: AWS::NetworkManager::TransitGatewayRegistration
+Properties: 
+  GlobalNetworkId: String
+  TransitGatewayArn: String
+
+]]></content>
+  <tabTrigger>cfn-NetworkManager-TransitGatewayRegistration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

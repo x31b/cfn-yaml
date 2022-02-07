@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-database.html
+Type: AWS::Timestream::Database
+Properties: 
+  DatabaseName: String
+  KmsKeyId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Timestream-Database</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ipam.html
+Type: AWS::EC2::IPAM
+Properties: 
+  Description: String
+  OperatingRegions: 
+    - IpamOperatingRegion
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EC2-IPAM</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

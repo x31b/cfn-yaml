@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html
+Type: AWS::SSM::ResourceDataSync
+Properties: 
+  BucketName: String
+  BucketPrefix: String
+  BucketRegion: String
+  KMSKeyArn: String
+  S3Destination: 
+    S3Destination
+  SyncFormat: String
+  SyncName: String
+  SyncSource: 
+    SyncSource
+  SyncType: String
+
+]]></content>
+  <tabTrigger>cfn-SSM-ResourceDataSync</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

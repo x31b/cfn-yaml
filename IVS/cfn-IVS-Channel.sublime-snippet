@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ivs-channel.html
+Type: AWS::IVS::Channel
+Properties: 
+  Authorized: Boolean
+  LatencyMode: String
+  Name: String
+  RecordingConfigurationArn: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-IVS-Channel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisvideo-signalingchannel.html
+Type: AWS::KinesisVideo::SignalingChannel
+Properties: 
+  MessageTtlSeconds: Integer
+  Name: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-KinesisVideo-SignalingChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

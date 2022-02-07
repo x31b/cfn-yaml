@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-registrypolicy.html
+Type: AWS::EventSchemas::RegistryPolicy
+Properties: 
+  Policy: Json
+  RegistryName: String
+  RevisionId: String
+
+]]></content>
+  <tabTrigger>cfn-EventSchemas-RegistryPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

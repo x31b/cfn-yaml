@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnauthorizationrule.html
+Type: AWS::EC2::ClientVpnAuthorizationRule
+Properties: 
+  AccessGroupId: String
+  AuthorizeAllGroups: Boolean
+  ClientVpnEndpointId: String
+  Description: String
+  TargetNetworkCidr: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-ClientVpnAuthorizationRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

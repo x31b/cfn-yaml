@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apimapping.html
+Type: AWS::ApiGatewayV2::ApiMapping
+Properties: 
+  ApiId: String
+  ApiMappingKey: String
+  DomainName: String
+  Stage: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-ApiMapping</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

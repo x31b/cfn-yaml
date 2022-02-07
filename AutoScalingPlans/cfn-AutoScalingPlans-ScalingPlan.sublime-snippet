@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscalingplans-scalingplan.html
+Type: AWS::AutoScalingPlans::ScalingPlan
+Properties: 
+  ApplicationSource: 
+    ApplicationSource
+  ScalingInstructions: 
+    - ScalingInstruction
+
+]]></content>
+  <tabTrigger>cfn-AutoScalingPlans-ScalingPlan</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

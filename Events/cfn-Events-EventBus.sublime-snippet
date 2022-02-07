@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbus.html
+Type: AWS::Events::EventBus
+Properties: 
+  EventSourceName: String
+  Name: String
+  Tags: 
+    - TagEntry
+
+]]></content>
+  <tabTrigger>cfn-Events-EventBus</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

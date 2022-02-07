@@ -1,15 +1,23 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html
-Type: "AWS::SQS::Queue"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html
+Type: AWS::SQS::Queue
 Properties: 
+  ContentBasedDeduplication: Boolean
+  DeduplicationScope: String
   DelaySeconds: Integer
+  FifoQueue: Boolean
+  FifoThroughputLimit: String
+  KmsDataKeyReusePeriodSeconds: Integer
+  KmsMasterKeyId: String
   MaximumMessageSize: Integer
   MessageRetentionPeriod: Integer
   QueueName: String
   ReceiveMessageWaitTimeSeconds: Integer
-  RedrivePolicy:
-    RedrivePolicy
+  RedriveAllowPolicy: Json
+  RedrivePolicy: Json
+  Tags: 
+    - Tag
   VisibilityTimeout: Integer
 
 ]]></content>

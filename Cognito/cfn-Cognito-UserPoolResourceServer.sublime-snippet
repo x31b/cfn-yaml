@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolresourceserver.html
+Type: AWS::Cognito::UserPoolResourceServer
+Properties: 
+  Identifier: String
+  Name: String
+  Scopes: 
+    - ResourceServerScopeType
+  UserPoolId: String
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolResourceServer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

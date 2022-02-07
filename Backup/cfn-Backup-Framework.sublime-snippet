@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html
+Type: AWS::Backup::Framework
+Properties: 
+  FrameworkControls: 
+    - FrameworkControl
+  FrameworkDescription: String
+  FrameworkName: String
+  FrameworkTags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Backup-Framework</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

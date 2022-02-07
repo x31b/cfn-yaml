@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html
+Type: AWS::IoTAnalytics::Channel
+Properties: 
+  ChannelName: String
+  ChannelStorage: 
+    ChannelStorage
+  RetentionPeriod: 
+    RetentionPeriod
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTAnalytics-Channel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html
+Type: AWS::InspectorV2::Filter
+Properties: 
+  Description: String
+  FilterAction: String
+  FilterCriteria: 
+    FilterCriteria
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-InspectorV2-Filter</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

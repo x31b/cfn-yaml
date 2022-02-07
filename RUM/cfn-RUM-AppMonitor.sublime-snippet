@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rum-appmonitor.html
+Type: AWS::RUM::AppMonitor
+Properties: 
+  AppMonitorConfiguration: 
+    AppMonitorConfiguration
+  CwLogEnabled: Boolean
+  Domain: String
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-RUM-AppMonitor</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

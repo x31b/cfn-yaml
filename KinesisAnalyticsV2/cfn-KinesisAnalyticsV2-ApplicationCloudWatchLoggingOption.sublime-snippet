@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationcloudwatchloggingoption.html
+Type: AWS::KinesisAnalyticsV2::ApplicationCloudWatchLoggingOption
+Properties: 
+  ApplicationName: String
+  CloudWatchLoggingOption: 
+    CloudWatchLoggingOption
+
+]]></content>
+  <tabTrigger>cfn-KinesisAnalyticsV2-ApplicationCloudWatchLoggingOption</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

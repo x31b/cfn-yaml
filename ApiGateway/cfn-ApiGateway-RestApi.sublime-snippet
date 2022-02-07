@@ -1,16 +1,28 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html
-Type: "AWS::ApiGateway::RestApi"
-Properties:
-  Body: JSON object
-  BodyS3Location: S3Location
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html
+Type: AWS::ApiGateway::RestApi
+Properties: 
+  ApiKeySourceType: String
+  BinaryMediaTypes: 
+    - String
+  Body: Json
+  BodyS3Location: 
+    S3Location
   CloneFrom: String
   Description: String
+  DisableExecuteApiEndpoint: Boolean
+  EndpointConfiguration: 
+    EndpointConfiguration
   FailOnWarnings: Boolean
+  MinimumCompressionSize: Integer
+  Mode: String
   Name: String
-  Parameters:
-    - String
+  Parameters: 
+    Key : Value
+  Policy: Json
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-ApiGateway-RestApi</tabTrigger>

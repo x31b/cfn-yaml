@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-resourcegroup.html
+Type: AWS::Inspector::ResourceGroup
+Properties: 
+  ResourceGroupTags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Inspector-ResourceGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

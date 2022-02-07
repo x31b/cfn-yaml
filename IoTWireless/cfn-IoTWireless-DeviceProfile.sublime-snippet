@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-deviceprofile.html
+Type: AWS::IoTWireless::DeviceProfile
+Properties: 
+  LoRaWAN: 
+    LoRaWANDeviceProfile
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTWireless-DeviceProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

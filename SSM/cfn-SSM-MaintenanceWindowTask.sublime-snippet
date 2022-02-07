@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindowtask.html
+Type: AWS::SSM::MaintenanceWindowTask
+Properties: 
+  CutoffBehavior: String
+  Description: String
+  LoggingInfo: 
+    LoggingInfo
+  MaxConcurrency: String
+  MaxErrors: String
+  Name: String
+  Priority: Integer
+  ServiceRoleArn: String
+  Targets: 
+    - Target
+  TaskArn: String
+  TaskInvocationParameters: 
+    TaskInvocationParameters
+  TaskParameters: Json
+  TaskType: String
+  WindowId: String
+
+]]></content>
+  <tabTrigger>cfn-SSM-MaintenanceWindowTask</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

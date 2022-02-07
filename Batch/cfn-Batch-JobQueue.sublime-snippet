@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html
+Type: AWS::Batch::JobQueue
+Properties: 
+  ComputeEnvironmentOrder: 
+    - ComputeEnvironmentOrder
+  JobQueueName: String
+  Priority: Integer
+  SchedulingPolicyArn: String
+  State: String
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-Batch-JobQueue</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

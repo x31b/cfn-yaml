@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-prefixlist.html
+Type: AWS::EC2::PrefixList
+Properties: 
+  AddressFamily: String
+  Entries: 
+    - Entry
+  MaxEntries: Integer
+  PrefixListName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EC2-PrefixList</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

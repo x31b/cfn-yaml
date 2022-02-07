@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-storedquery.html
+Type: AWS::Config::StoredQuery
+Properties: 
+  QueryDescription: String
+  QueryExpression: String
+  QueryName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Config-StoredQuery</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

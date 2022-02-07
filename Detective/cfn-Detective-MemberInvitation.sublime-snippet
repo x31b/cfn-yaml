@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-detective-memberinvitation.html
+Type: AWS::Detective::MemberInvitation
+Properties: 
+  DisableEmailNotification: Boolean
+  GraphArn: String
+  MemberEmailAddress: String
+  MemberId: String
+  Message: String
+
+]]></content>
+  <tabTrigger>cfn-Detective-MemberInvitation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

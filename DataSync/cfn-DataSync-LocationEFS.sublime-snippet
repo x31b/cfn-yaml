@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationefs.html
+Type: AWS::DataSync::LocationEFS
+Properties: 
+  Ec2Config: 
+    Ec2Config
+  EfsFilesystemArn: String
+  Subdirectory: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DataSync-LocationEFS</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

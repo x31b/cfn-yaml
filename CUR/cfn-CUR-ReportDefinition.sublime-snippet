@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-reportdefinition.html
+Type: AWS::CUR::ReportDefinition
+Properties: 
+  AdditionalArtifacts: 
+    - String
+  AdditionalSchemaElements: 
+    - String
+  BillingViewArn: String
+  Compression: String
+  Format: String
+  RefreshClosedReports: Boolean
+  ReportName: String
+  ReportVersioning: String
+  S3Bucket: String
+  S3Prefix: String
+  S3Region: String
+  TimeUnit: String
+
+]]></content>
+  <tabTrigger>cfn-CUR-ReportDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

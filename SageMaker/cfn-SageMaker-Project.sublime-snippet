@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html
+Type: AWS::SageMaker::Project
+Properties: 
+  ProjectDescription: String
+  ProjectName: String
+  ServiceCatalogProvisioningDetails: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Project</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

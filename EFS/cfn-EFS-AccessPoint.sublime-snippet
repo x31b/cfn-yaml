@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html
+Type: AWS::EFS::AccessPoint
+Properties: 
+  AccessPointTags: 
+    - AccessPointTag
+  ClientToken: String
+  FileSystemId: String
+  PosixUser: 
+    PosixUser
+  RootDirectory: 
+    RootDirectory
+
+]]></content>
+  <tabTrigger>cfn-EFS-AccessPoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

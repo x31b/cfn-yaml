@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-groupversion.html
+Type: AWS::Greengrass::GroupVersion
+Properties: 
+  ConnectorDefinitionVersionArn: String
+  CoreDefinitionVersionArn: String
+  DeviceDefinitionVersionArn: String
+  FunctionDefinitionVersionArn: String
+  GroupId: String
+  LoggerDefinitionVersionArn: String
+  ResourceDefinitionVersionArn: String
+  SubscriptionDefinitionVersionArn: String
+
+]]></content>
+  <tabTrigger>cfn-Greengrass-GroupVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

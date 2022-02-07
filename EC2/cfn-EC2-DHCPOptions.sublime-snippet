@@ -1,18 +1,18 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcp-options.html
-Type: "AWS::EC2::DHCPOptions"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html
+Type: AWS::EC2::DHCPOptions
+Properties: 
   DomainName: String
-  DomainNameServers:
+  DomainNameServers: 
     - String
-  NetbiosNameServers:
+  NetbiosNameServers: 
     - String
-  NetbiosNodeType: Number
-  NtpServers:
+  NetbiosNodeType: Integer
+  NtpServers: 
     - String
-  Tags:
-    -Resource Tag
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-EC2-DHCPOptions</tabTrigger>

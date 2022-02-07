@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html
+Type: AWS::AppSync::ApiCache
+Properties: 
+  ApiCachingBehavior: String
+  ApiId: String
+  AtRestEncryptionEnabled: Boolean
+  TransitEncryptionEnabled: Boolean
+  Ttl: Double
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-AppSync-ApiCache</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

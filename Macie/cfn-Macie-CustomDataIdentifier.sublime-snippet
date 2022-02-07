@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html
+Type: AWS::Macie::CustomDataIdentifier
+Properties: 
+  Description: String
+  IgnoreWords: 
+    - String
+  Keywords: 
+    - String
+  MaximumMatchDistance: Integer
+  Name: String
+  Regex: String
+
+]]></content>
+  <tabTrigger>cfn-Macie-CustomDataIdentifier</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

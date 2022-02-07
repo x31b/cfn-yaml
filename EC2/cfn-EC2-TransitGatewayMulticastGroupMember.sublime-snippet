@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewaymulticastgroupmember.html
+Type: AWS::EC2::TransitGatewayMulticastGroupMember
+Properties: 
+  GroupIpAddress: String
+  NetworkInterfaceId: String
+  TransitGatewayMulticastDomainId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-TransitGatewayMulticastGroupMember</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

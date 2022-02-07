@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayattachment.html
+Type: AWS::EC2::TransitGatewayAttachment
+Properties: 
+  SubnetIds: 
+    - String
+  Tags: 
+    - Tag
+  TransitGatewayId: String
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-TransitGatewayAttachment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

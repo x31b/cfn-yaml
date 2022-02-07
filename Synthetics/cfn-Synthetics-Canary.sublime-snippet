@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-synthetics-canary.html
+Type: AWS::Synthetics::Canary
+Properties: 
+  ArtifactConfig: 
+    ArtifactConfig
+  ArtifactS3Location: String
+  Code: 
+    Code
+  ExecutionRoleArn: String
+  FailureRetentionPeriod: Integer
+  Name: String
+  RunConfig: 
+    RunConfig
+  RuntimeVersion: String
+  Schedule: 
+    Schedule
+  StartCanaryAfterCreation: Boolean
+  SuccessRetentionPeriod: Integer
+  Tags: 
+    - Tag
+  VisualReference: 
+    VisualReference
+  VPCConfig: 
+    VPCConfig
+
+]]></content>
+  <tabTrigger>cfn-Synthetics-Canary</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

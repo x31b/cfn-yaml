@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smstemplate.html
+Type: AWS::Pinpoint::SmsTemplate
+Properties: 
+  Body: String
+  DefaultSubstitutions: String
+  Tags: Json
+  TemplateDescription: String
+  TemplateName: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-SmsTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

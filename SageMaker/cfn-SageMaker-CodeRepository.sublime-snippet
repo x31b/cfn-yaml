@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html
+Type: AWS::SageMaker::CodeRepository
+Properties: 
+  CodeRepositoryName: String
+  GitConfig: 
+    GitConfig
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-CodeRepository</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

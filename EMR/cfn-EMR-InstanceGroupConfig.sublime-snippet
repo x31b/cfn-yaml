@@ -1,18 +1,22 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html
-Type: "AWS::EMR::InstanceGroupConfig"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html
+Type: AWS::EMR::InstanceGroupConfig
 Properties: 
+  AutoScalingPolicy: 
+    AutoScalingPolicy
   BidPrice: String
-  Configurations:
+  Configurations: 
     - Configuration
-  EbsConfiguration" : EBSConfiguration
-  InstanceCount" : Integer
-  InstanceRole" : String
-  InstanceType" : String
-  JobFlowId": String
-  Market" : String
-  Name" : String
+  CustomAmiId: String
+  EbsConfiguration: 
+    EbsConfiguration
+  InstanceCount: Integer
+  InstanceRole: String
+  InstanceType: String
+  JobFlowId: String
+  Market: String
+  Name: String
 
 ]]></content>
   <tabTrigger>cfn-EMR-InstanceGroupConfig</tabTrigger>

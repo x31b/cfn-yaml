@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-inputsecuritygroup.html
+Type: AWS::MediaLive::InputSecurityGroup
+Properties: 
+  Tags: Json
+  WhitelistRules: 
+    - InputWhitelistRuleCidr
+
+]]></content>
+  <tabTrigger>cfn-MediaLive-InputSecurityGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

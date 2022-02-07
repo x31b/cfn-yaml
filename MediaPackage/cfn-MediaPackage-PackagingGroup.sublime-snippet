@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html
+Type: AWS::MediaPackage::PackagingGroup
+Properties: 
+  Authorization: 
+    Authorization
+  EgressAccessLogs: 
+    LogConfiguration
+  Id: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-MediaPackage-PackagingGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

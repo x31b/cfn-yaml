@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html
+Type: AWS::MemoryDB::Cluster
+Properties: 
+  ACLName: String
+  AutoMinorVersionUpgrade: Boolean
+  ClusterName: String
+  Description: String
+  EngineVersion: String
+  FinalSnapshotName: String
+  KmsKeyId: String
+  MaintenanceWindow: String
+  NodeType: String
+  NumReplicasPerShard: Integer
+  NumShards: Integer
+  ParameterGroupName: String
+  Port: Integer
+  SecurityGroupIds: 
+    - String
+  SnapshotArns: 
+    - String
+  SnapshotName: String
+  SnapshotRetentionLimit: Integer
+  SnapshotWindow: String
+  SnsTopicArn: String
+  SnsTopicStatus: String
+  SubnetGroupName: String
+  Tags: 
+    - Tag
+  TLSEnabled: Boolean
+
+]]></content>
+  <tabTrigger>cfn-MemoryDB-Cluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

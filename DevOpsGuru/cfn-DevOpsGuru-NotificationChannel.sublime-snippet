@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devopsguru-notificationchannel.html
+Type: AWS::DevOpsGuru::NotificationChannel
+Properties: 
+  Config: 
+    NotificationChannelConfig
+
+]]></content>
+  <tabTrigger>cfn-DevOpsGuru-NotificationChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

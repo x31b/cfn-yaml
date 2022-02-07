@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html
+Type: AWS::KinesisAnalyticsV2::Application
+Properties: 
+  ApplicationConfiguration: 
+    ApplicationConfiguration
+  ApplicationDescription: String
+  ApplicationMode: String
+  ApplicationName: String
+  RuntimeEnvironment: String
+  ServiceExecutionRole: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-KinesisAnalyticsV2-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

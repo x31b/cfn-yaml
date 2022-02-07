@@ -16,13 +16,17 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import os
+import json
+from urllib.parse import urlparse
+from pathlib import Path
 
-docurl = "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/"
+docurl = "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/"
 
 page = requests.get (docurl + "aws-template-resource-type-ref.html" )
 html_doc = page.content
 
 urllist = []
+serviceurllist = []
 
 # Create the folder for the snippets
 try:
@@ -33,7 +37,7 @@ except:
 soup = BeautifulSoup(html_doc, 'html.parser')
 
 # Selector based lookup - gets what we want and awstoc duplicates
-urllisttmp = soup.select('li a[href*="aws-"]')
+urllisttmp = soup.select('li a[href*="AWS"]')
 
 # Build a list of link description, url
 for url in urllisttmp:
@@ -50,11 +54,48 @@ snippetEnd = """
 ]]></content>"""
 
 
-count = 0
-for (pagelink,pageurl) in urllist:
 
+serviceurllist = []
+
+path = Path('listfile.txt')
+if not path.is_file():
+  for (pagelink,pageurl) in urllist:
+    pageurl = pageurl.replace("./", "")
+    print("Processing service " + pagelink + " -- " + pageurl)
+    servicepage = requests.get (pageurl)
+    service_html_doc = servicepage.content
+    print("Got page " + str(len(service_html_doc)))
+    service_soup = BeautifulSoup(service_html_doc, 'html.parser')
+    # Selector based lookup - gets what we want and awstoc duplicates
+    serviceurllisttmp = service_soup.select('li a[href*="aws-"]')
+
+    # Build a list of link description, url
+    for serviceurl in serviceurllisttmp:
+      
+      try:
+        myclass = url['class']
+      except:
+        # We actually only care about the ones without a class !!!
+        print("Service url: " + serviceurl['href'])
+        serviceurllist.append([serviceurl.text, docurl + serviceurl['href']])
+    
+
+  json_string = json.dumps(serviceurllist)
+
+  with open('listfile.txt', 'w') as filehandle:
+    filehandle.write('%s\n' % json_string) 
+else:
+  with open('listfile.txt', 'r') as filehandle:
+    serviceurllist = json.load(filehandle)
+# currently we have a list of page titles, page urls
+# for services page which lists all the necessary information
+
+count = 0
+for (pagelink,pageurl) in serviceurllist:
+  print("Processing type " + pagelink)
   hotkey = ""
   snippet = ""
+  pageurl = pageurl.replace("./", "")
   pagelinklist = pagelink.split("::")
   hotkey = "cfn-" + pagelinklist[1]
   for i in range(2,len(pagelinklist)):
@@ -70,32 +111,43 @@ for (pagelink,pageurl) in urllist:
   snippet = snippet +  snippetStart
   snippet = snippet +  "#AWS-DOC " + pageurl + '\n'
 
+  print("Requesting page " + pageurl)
+
   page = requests.get(pageurl).content
   soup2 = BeautifulSoup(page, 'html.parser')
   fragment = soup2.select_one('#YAML pre')
 
-  for tag in fragment:
-    #Some source material has an extra \n that needs to be stripped
-    snippetfilter = tag.text
-    if snippetfilter[0] == '\n':
-      snippet = snippet + snippetfilter[1:]
-    else:
-      snippet = snippet + tag.text  
+  print("TAG text is " + fragment.text)
+  snippet = snippet + fragment.text
 
-  count += 1
+  # for tag in fragment:
+  #   print("TAG text is " + tag.get_text())
+  #   #Some source material has an extra \n that needs to be stripped
+  #   snippetfilter = tag.text
+  #   if snippetfilter[0] == '\n':
+  #     snippet = snippet + snippetfilter[1:]
+  #   else:
+  #     snippet = snippet + tag.text  
+
+  # count += 1
   snippet = snippet + snippetEnd
   snippet = snippet +  snippetFinish
 
   # if count == 10:
   #   break
 
-  print "writing: " + "cfn-yaml/" + hotkey+".sublime-snippet"
+  print("writing: " + "cfn-yaml/" + hotkey+".sublime-snippet")
   # print snippet
+  print("Snippet: " + snippet)
   try:
     os.mkdir("cfn-yaml/" + pagelinklist[1])
   except:
     pass
 
-  f = open("cfn-yaml/" + pagelinklist[1] + "/" + hotkey+".sublime-snippet", "wb")
+  # with open("cfn-yaml/" + pagelinklist[1] + "/" + hotkey+".sublime-snippet", 'w') as filehandle:
+  #     filehandle.write('%s\n' % json_string) 
+
+  # f = open("cfn-yaml/" + pagelinklist[1] + "/" + hotkey+".sublime-snippet", "wb")
+  f = open("cfn-yaml/" + pagelinklist[1] + "/" + hotkey+".sublime-snippet", "w")
   f.write(snippet)
   f.close()

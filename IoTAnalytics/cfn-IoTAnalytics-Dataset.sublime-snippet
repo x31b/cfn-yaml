@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html
+Type: AWS::IoTAnalytics::Dataset
+Properties: 
+  Actions: 
+    - Action
+  ContentDeliveryRules: 
+    - DatasetContentDeliveryRule
+  DatasetName: String
+  LateDataRules: 
+    - LateDataRule
+  RetentionPeriod: 
+    RetentionPeriod
+  Tags: 
+    - Tag
+  Triggers: 
+    - Trigger
+  VersioningConfiguration: 
+    VersioningConfiguration
+
+]]></content>
+  <tabTrigger>cfn-IoTAnalytics-Dataset</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

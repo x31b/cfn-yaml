@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html
+Type: AWS::Glue::MLTransform
+Properties: 
+  Description: String
+  GlueVersion: String
+  InputRecordTables: 
+    InputRecordTables
+  MaxCapacity: Double
+  MaxRetries: Integer
+  Name: String
+  NumberOfWorkers: Integer
+  Role: String
+  Tags: Json
+  Timeout: Integer
+  TransformEncryption: 
+    TransformEncryption
+  TransformParameters: 
+    TransformParameters
+  WorkerType: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-MLTransform</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

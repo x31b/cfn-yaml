@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dlm-lifecyclepolicy.html
+Type: AWS::DLM::LifecyclePolicy
+Properties: 
+  Description: String
+  ExecutionRoleArn: String
+  PolicyDetails: 
+    PolicyDetails
+  State: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DLM-LifecyclePolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

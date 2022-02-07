@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html
+Type: AWS::MediaConnect::Flow
+Properties: 
+  AvailabilityZone: String
+  Name: String
+  Source: 
+    Source
+  SourceFailoverConfig: 
+    FailoverConfig
+
+]]></content>
+  <tabTrigger>cfn-MediaConnect-Flow</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

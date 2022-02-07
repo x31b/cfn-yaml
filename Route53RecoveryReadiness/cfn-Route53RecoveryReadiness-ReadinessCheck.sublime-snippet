@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoveryreadiness-readinesscheck.html
+Type: AWS::Route53RecoveryReadiness::ReadinessCheck
+Properties: 
+  ReadinessCheckName: String
+  ResourceSetName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53RecoveryReadiness-ReadinessCheck</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

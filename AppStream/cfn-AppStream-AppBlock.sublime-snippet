@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-appblock.html
+Type: AWS::AppStream::AppBlock
+Properties: 
+  Description: String
+  DisplayName: String
+  Name: String
+  SetupScriptDetails: 
+    ScriptDetails
+  SourceS3Location: 
+    S3Location
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-AppStream-AppBlock</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

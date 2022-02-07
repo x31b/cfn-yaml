@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html
+Type: AWS::Backup::ReportPlan
+Properties: 
+  ReportDeliveryChannel: Json
+  ReportPlanDescription: String
+  ReportPlanName: String
+  ReportPlanTags: 
+    - Tag
+  ReportSetting: Json
+
+]]></content>
+  <tabTrigger>cfn-Backup-ReportPlan</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

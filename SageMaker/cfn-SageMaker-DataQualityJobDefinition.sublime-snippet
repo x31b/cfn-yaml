@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html
+Type: AWS::SageMaker::DataQualityJobDefinition
+Properties: 
+  DataQualityAppSpecification: 
+    DataQualityAppSpecification
+  DataQualityBaselineConfig: 
+    DataQualityBaselineConfig
+  DataQualityJobInput: 
+    DataQualityJobInput
+  DataQualityJobOutputConfig: 
+    MonitoringOutputConfig
+  JobDefinitionName: String
+  JobResources: 
+    MonitoringResources
+  NetworkConfig: 
+    NetworkConfig
+  RoleArn: String
+  StoppingCondition: 
+    StoppingCondition
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-DataQualityJobDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

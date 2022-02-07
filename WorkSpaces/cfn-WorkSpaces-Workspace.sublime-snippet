@@ -1,14 +1,18 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html
-Type: "AWS::WorkSpaces::Workspace"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html
+Type: AWS::WorkSpaces::Workspace
 Properties: 
   BundleId: String
   DirectoryId: String
-  UserName: String
   RootVolumeEncryptionEnabled: Boolean
+  Tags: 
+    - Tag
+  UserName: String
   UserVolumeEncryptionEnabled: Boolean
   VolumeEncryptionKey: String
+  WorkspaceProperties: 
+    WorkspaceProperties
 
 ]]></content>
   <tabTrigger>cfn-WorkSpaces-Workspace</tabTrigger>

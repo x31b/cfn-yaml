@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html
+Type: AWS::ECS::ClusterCapacityProviderAssociations
+Properties: 
+  CapacityProviders: 
+    - String
+  Cluster: String
+  DefaultCapacityProviderStrategy: 
+    - CapacityProviderStrategy
+
+]]></content>
+  <tabTrigger>cfn-ECS-ClusterCapacityProviderAssociations</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

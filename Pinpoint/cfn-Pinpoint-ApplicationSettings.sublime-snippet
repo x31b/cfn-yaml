@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html
+Type: AWS::Pinpoint::ApplicationSettings
+Properties: 
+  ApplicationId: String
+  CampaignHook: 
+    CampaignHook
+  CloudWatchMetricsEnabled: Boolean
+  Limits: 
+    Limits
+  QuietTime: 
+    QuietTime
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-ApplicationSettings</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

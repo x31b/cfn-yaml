@@ -1,3 +1,26 @@
+The purpose of this fork is to update the snippet set and the corresponding update script.
+
+Instructions for updating the snippet set:
+```
+## Pre
+pip install beautifulsoup4
+find . -maxdepth 1 -type d -exec rm -rf '{}' \;
+rm listfile.txt | true # this deletes the temp file if it exists
+
+# Run 
+# Note: this takes a few minutes
+python3 ./aws_snippet_builder.py
+
+# Post
+rsync -ar ./cfn-yaml/* ./
+rm -rf cfn-yaml
+```
+
+Original readme follows below.
+
+---
+
+
 #cfn-yaml:
 #YAML CloudFormation Template Snippet Set for Sublime Text 3
 
@@ -24,3 +47,4 @@ git clone https://github.com/Narrowbeam/cfn-yaml.git
 Please note that while this was a work in progress, it does provide a fairly full set of snippets.  Since I created this collection, i've taken the decision for various reasons to migrate towards vscode as my default editor, so won't be updating this repo going forwards.  I may however write a more generic snippet generator for aws resources following AWS releasing the resource api spec in machine readable json format.  No more crawling the documentation set to build the snippets.  If I do this, I will produce snippets for sublime as well as vscode; Until then, hope this remains fairly up to date.
 
 If you find any issues or want to expand the snippet set, just create a pull request :-)
+

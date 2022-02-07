@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html
+Type: AWS::MediaPackage::OriginEndpoint
+Properties: 
+  Authorization: 
+    Authorization
+  ChannelId: String
+  CmafPackage: 
+    CmafPackage
+  DashPackage: 
+    DashPackage
+  Description: String
+  HlsPackage: 
+    HlsPackage
+  Id: String
+  ManifestName: String
+  MssPackage: 
+    MssPackage
+  Origination: String
+  StartoverWindowSeconds: Integer
+  Tags: 
+    - Tag
+  TimeDelaySeconds: Integer
+  Whitelist: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-MediaPackage-OriginEndpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html
+Type: AWS::EMR::InstanceFleetConfig
+Properties: 
+  ClusterId: String
+  InstanceFleetType: String
+  InstanceTypeConfigs: 
+    - InstanceTypeConfig
+  LaunchSpecifications: 
+    InstanceFleetProvisioningSpecifications
+  Name: String
+  TargetOnDemandCapacity: Integer
+  TargetSpotCapacity: Integer
+
+]]></content>
+  <tabTrigger>cfn-EMR-InstanceFleetConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

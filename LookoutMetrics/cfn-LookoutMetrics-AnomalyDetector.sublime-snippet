@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html
+Type: AWS::LookoutMetrics::AnomalyDetector
+Properties: 
+  AnomalyDetectorConfig: 
+    AnomalyDetectorConfig
+  AnomalyDetectorDescription: String
+  AnomalyDetectorName: String
+  KmsKeyArn: String
+  MetricSetList: 
+    - MetricSet
+
+]]></content>
+  <tabTrigger>cfn-LookoutMetrics-AnomalyDetector</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

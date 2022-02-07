@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html
+Type: AWS::Cognito::UserPoolUser
+Properties: 
+  ClientMetadata: Json
+  DesiredDeliveryMediums: 
+    - String
+  ForceAliasCreation: Boolean
+  MessageAction: String
+  UserAttributes: 
+    - AttributeType
+  Username: String
+  UserPoolId: String
+  ValidationData: 
+    - AttributeType
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolUser</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

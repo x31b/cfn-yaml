@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html
+Type: AWS::SageMaker::AppImageConfig
+Properties: 
+  AppImageConfigName: String
+  KernelGatewayImageConfig: 
+    KernelGatewayImageConfig
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-AppImageConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

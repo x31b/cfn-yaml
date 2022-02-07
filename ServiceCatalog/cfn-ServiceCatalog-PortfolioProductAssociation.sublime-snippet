@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolioproductassociation.html
+Type: AWS::ServiceCatalog::PortfolioProductAssociation
+Properties: 
+  AcceptLanguage: String
+  PortfolioId: String
+  ProductId: String
+  SourcePortfolioId: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-PortfolioProductAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

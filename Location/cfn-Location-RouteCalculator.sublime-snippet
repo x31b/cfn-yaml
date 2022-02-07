@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-routecalculator.html
+Type: AWS::Location::RouteCalculator
+Properties: 
+  CalculatorName: String
+  DataSource: String
+  Description: String
+  PricingPlan: String
+
+]]></content>
+  <tabTrigger>cfn-Location-RouteCalculator</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloud9-environmentec2.html
+Type: AWS::Cloud9::EnvironmentEC2
+Properties: 
+  AutomaticStopTimeMinutes: Integer
+  ConnectionType: String
+  Description: String
+  ImageId: String
+  InstanceType: String
+  Name: String
+  OwnerArn: String
+  Repositories: 
+    - Repository
+  SubnetId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Cloud9-EnvironmentEC2</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

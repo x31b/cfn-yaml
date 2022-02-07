@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-workflow.html
+Type: AWS::Transfer::Workflow
+Properties: 
+  Description: String
+  OnExceptionSteps: 
+    - WorkflowStep
+  Steps: 
+    - WorkflowStep
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Transfer-Workflow</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

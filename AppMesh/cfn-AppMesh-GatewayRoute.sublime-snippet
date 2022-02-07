@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-gatewayroute.html
+Type: AWS::AppMesh::GatewayRoute
+Properties: 
+  GatewayRouteName: String
+  MeshName: String
+  MeshOwner: String
+  Spec: 
+    GatewayRouteSpec
+  Tags: 
+    - Tag
+  VirtualGatewayName: String
+
+]]></content>
+  <tabTrigger>cfn-AppMesh-GatewayRoute</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

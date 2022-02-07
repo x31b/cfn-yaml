@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html
+Type: AWS::PinpointEmail::ConfigurationSet
+Properties: 
+  DeliveryOptions: 
+    DeliveryOptions
+  Name: String
+  ReputationOptions: 
+    ReputationOptions
+  SendingOptions: 
+    SendingOptions
+  Tags: 
+    - Tags
+  TrackingOptions: 
+    TrackingOptions
+
+]]></content>
+  <tabTrigger>cfn-PinpointEmail-ConfigurationSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

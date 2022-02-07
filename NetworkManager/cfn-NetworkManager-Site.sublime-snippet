@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-site.html
+Type: AWS::NetworkManager::Site
+Properties: 
+  Description: String
+  GlobalNetworkId: String
+  Location: 
+    Location
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-NetworkManager-Site</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

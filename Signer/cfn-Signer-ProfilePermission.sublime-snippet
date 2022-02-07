@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-profilepermission.html
+Type: AWS::Signer::ProfilePermission
+Properties: 
+  Action: String
+  Principal: String
+  ProfileName: String
+  ProfileVersion: String
+  StatementId: String
+
+]]></content>
+  <tabTrigger>cfn-Signer-ProfilePermission</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

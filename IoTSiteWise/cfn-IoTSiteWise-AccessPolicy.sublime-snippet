@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-accesspolicy.html
+Type: AWS::IoTSiteWise::AccessPolicy
+Properties: 
+  AccessPolicyIdentity: 
+    AccessPolicyIdentity
+  AccessPolicyPermission: String
+  AccessPolicyResource: 
+    AccessPolicyResource
+
+]]></content>
+  <tabTrigger>cfn-IoTSiteWise-AccessPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

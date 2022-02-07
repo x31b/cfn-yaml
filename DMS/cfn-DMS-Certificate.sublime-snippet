@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-certificate.html
+Type: AWS::DMS::Certificate
+Properties: 
+  CertificateIdentifier: String
+  CertificatePem: String
+  CertificateWallet: String
+
+]]></content>
+  <tabTrigger>cfn-DMS-Certificate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

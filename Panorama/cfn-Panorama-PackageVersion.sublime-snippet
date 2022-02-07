@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html
+Type: AWS::Panorama::PackageVersion
+Properties: 
+  MarkLatest: Boolean
+  OwnerAccount: String
+  PackageId: String
+  PackageVersion: String
+  PatchVersion: String
+  UpdatedLatestPatchVersion: String
+
+]]></content>
+  <tabTrigger>cfn-Panorama-PackageVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

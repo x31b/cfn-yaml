@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robot.html
+Type: AWS::RoboMaker::Robot
+Properties: 
+  Architecture: String
+  Fleet: String
+  GreengrassGroupId: String
+  Name: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-RoboMaker-Robot</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

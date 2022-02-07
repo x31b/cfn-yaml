@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html
+Type: AWS::EC2::EC2Fleet
+Properties: 
+  Context: String
+  ExcessCapacityTerminationPolicy: String
+  LaunchTemplateConfigs: 
+    - FleetLaunchTemplateConfigRequest
+  OnDemandOptions: 
+    OnDemandOptionsRequest
+  ReplaceUnhealthyInstances: Boolean
+  SpotOptions: 
+    SpotOptionsRequest
+  TagSpecifications: 
+    - TagSpecification
+  TargetCapacitySpecification: 
+    TargetCapacitySpecificationRequest
+  TerminateInstancesWithExpiration: Boolean
+  Type: String
+  ValidFrom: String
+  ValidUntil: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-EC2Fleet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

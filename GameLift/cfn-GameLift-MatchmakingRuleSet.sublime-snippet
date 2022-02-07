@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingruleset.html
+Type: AWS::GameLift::MatchmakingRuleSet
+Properties: 
+  Name: String
+  RuleSetBody: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-GameLift-MatchmakingRuleSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

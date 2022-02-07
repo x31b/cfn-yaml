@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-vpclink.html
+Type: AWS::ApiGatewayV2::VpcLink
+Properties: 
+  Name: String
+  SecurityGroupIds: 
+    - String
+  SubnetIds: 
+    - String
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-VpcLink</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

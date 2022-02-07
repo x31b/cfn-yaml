@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html
+Type: AWS::ACMPCA::CertificateAuthority
+Properties: 
+  CsrExtensions: 
+    CsrExtensions
+  KeyAlgorithm: String
+  KeyStorageSecurityStandard: String
+  RevocationConfiguration: 
+    RevocationConfiguration
+  SigningAlgorithm: String
+  Subject: 
+    Subject
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-ACMPCA-CertificateAuthority</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

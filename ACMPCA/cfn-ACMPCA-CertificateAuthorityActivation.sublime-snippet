@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthorityactivation.html
+Type: AWS::ACMPCA::CertificateAuthorityActivation
+Properties: 
+  Certificate: String
+  CertificateAuthorityArn: String
+  CertificateChain: String
+  Status: String
+
+]]></content>
+  <tabTrigger>cfn-ACMPCA-CertificateAuthorityActivation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

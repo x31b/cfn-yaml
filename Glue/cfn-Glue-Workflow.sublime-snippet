@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-workflow.html
+Type: AWS::Glue::Workflow
+Properties: 
+  DefaultRunProperties: Json
+  Description: String
+  Name: String
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-Glue-Workflow</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

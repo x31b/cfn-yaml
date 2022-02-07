@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewaypeeringattachment.html
+Type: AWS::EC2::TransitGatewayPeeringAttachment
+Properties: 
+  Options: 
+    TransitGatewayPeeringAttachmentOptions
+  PeerAccountId: String
+  PeerRegion: String
+  PeerTransitGatewayId: String
+  Tags: 
+    - Tag
+  TransitGatewayId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-TransitGatewayPeeringAttachment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

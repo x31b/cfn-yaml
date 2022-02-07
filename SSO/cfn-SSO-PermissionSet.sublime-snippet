@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html
+Type: AWS::SSO::PermissionSet
+Properties: 
+  Description: String
+  InlinePolicy: Json
+  InstanceArn: String
+  ManagedPolicies: 
+    - String
+  Name: String
+  RelayStateType: String
+  SessionDuration: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SSO-PermissionSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

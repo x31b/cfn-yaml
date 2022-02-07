@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-launch.html
+Type: AWS::Evidently::Launch
+Properties: 
+  Description: String
+  Groups: 
+    - LaunchGroupObject
+  MetricMonitors: 
+    - MetricDefinitionObject
+  Name: String
+  Project: String
+  RandomizationSalt: String
+  ScheduledSplitsConfig: 
+    - StepConfig
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Evidently-Launch</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

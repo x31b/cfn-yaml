@@ -1,11 +1,14 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html
-Type: "AWS::ApiGateway::Deployment"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html
+Type: AWS::ApiGateway::Deployment
+Properties: 
+  DeploymentCanarySettings: 
+    DeploymentCanarySettings
   Description: String
   RestApiId: String
-  StageDescription: StageDescription
+  StageDescription: 
+    StageDescription
   StageName: String
 
 ]]></content>

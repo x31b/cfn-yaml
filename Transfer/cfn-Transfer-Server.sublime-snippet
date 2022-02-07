@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html
+Type: AWS::Transfer::Server
+Properties: 
+  Certificate: String
+  Domain: String
+  EndpointDetails: 
+    EndpointDetails
+  EndpointType: String
+  IdentityProviderDetails: 
+    IdentityProviderDetails
+  IdentityProviderType: String
+  LoggingRole: String
+  ProtocolDetails: 
+    ProtocolDetails
+  Protocols: 
+    - Protocol
+  SecurityPolicyName: String
+  Tags: 
+    - Tag
+  WorkflowDetails: 
+    WorkflowDetails
+
+]]></content>
+  <tabTrigger>cfn-Transfer-Server</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

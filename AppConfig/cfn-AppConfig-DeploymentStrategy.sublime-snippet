@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-deploymentstrategy.html
+Type: AWS::AppConfig::DeploymentStrategy
+Properties: 
+  DeploymentDurationInMinutes: Double
+  Description: String
+  FinalBakeTimeInMinutes: Double
+  GrowthFactor: Double
+  GrowthType: String
+  Name: String
+  ReplicateTo: String
+  Tags: 
+    - Tags
+
+]]></content>
+  <tabTrigger>cfn-AppConfig-DeploymentStrategy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

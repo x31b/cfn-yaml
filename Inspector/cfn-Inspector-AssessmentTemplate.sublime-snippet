@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html
+Type: AWS::Inspector::AssessmentTemplate
+Properties: 
+  AssessmentTargetArn: String
+  AssessmentTemplateName: String
+  DurationInSeconds: Integer
+  RulesPackageArns: 
+    - String
+  UserAttributesForFindings: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Inspector-AssessmentTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

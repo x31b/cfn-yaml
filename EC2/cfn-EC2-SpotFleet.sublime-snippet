@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-spotfleet.html
-Type: "AWS::EC2::SpotFleet"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-spotfleet.html
+Type: AWS::EC2::SpotFleet
 Properties: 
-  SpotFleetRequestConfigData:
+  SpotFleetRequestConfigData: 
     SpotFleetRequestConfigData
 
 ]]></content>

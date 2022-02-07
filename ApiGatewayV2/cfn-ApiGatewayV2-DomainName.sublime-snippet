@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html
+Type: AWS::ApiGatewayV2::DomainName
+Properties: 
+  DomainName: String
+  DomainNameConfigurations: 
+    - DomainNameConfiguration
+  MutualTlsAuthentication: 
+    MutualTlsAuthentication
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-DomainName</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

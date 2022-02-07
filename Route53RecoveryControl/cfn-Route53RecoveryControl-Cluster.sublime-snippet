@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-cluster.html
+Type: AWS::Route53RecoveryControl::Cluster
+Properties: 
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53RecoveryControl-Cluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

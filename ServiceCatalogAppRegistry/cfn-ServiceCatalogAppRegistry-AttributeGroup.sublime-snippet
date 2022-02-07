@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalogappregistry-attributegroup.html
+Type: AWS::ServiceCatalogAppRegistry::AttributeGroup
+Properties: 
+  Attributes: Json
+  Description: String
+  Name: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalogAppRegistry-AttributeGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

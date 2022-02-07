@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html
+Type: AWS::ImageBuilder::InfrastructureConfiguration
+Properties: 
+  Description: String
+  InstanceMetadataOptions: 
+    InstanceMetadataOptions
+  InstanceProfileName: String
+  InstanceTypes: 
+    - String
+  KeyPair: String
+  Logging: 
+    Logging
+  Name: String
+  ResourceTags: 
+    Key : Value
+  SecurityGroupIds: 
+    - String
+  SnsTopicArn: String
+  SubnetId: String
+  Tags: 
+    Key : Value
+  TerminateInstanceOnFailure: Boolean
+
+]]></content>
+  <tabTrigger>cfn-ImageBuilder-InfrastructureConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

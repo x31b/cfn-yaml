@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-application.html
+Type: AWS::RefactorSpaces::Application
+Properties: 
+  ApiGatewayProxy: 
+    ApiGatewayProxyInput
+  EnvironmentIdentifier: String
+  Name: String
+  ProxyType: String
+  Tags: 
+    - Tag
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-RefactorSpaces-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

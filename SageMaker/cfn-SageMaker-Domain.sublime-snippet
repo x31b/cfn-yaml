@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html
+Type: AWS::SageMaker::Domain
+Properties: 
+  AppNetworkAccessType: String
+  AuthMode: String
+  DefaultUserSettings: 
+    UserSettings
+  DomainName: String
+  KmsKeyId: String
+  SubnetIds: 
+    - String
+  Tags: 
+    - Tag
+  VpcId: String
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Domain</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

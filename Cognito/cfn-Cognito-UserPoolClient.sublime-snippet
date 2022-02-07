@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html
+Type: AWS::Cognito::UserPoolClient
+Properties: 
+  AccessTokenValidity: Integer
+  AllowedOAuthFlows: 
+    - String
+  AllowedOAuthFlowsUserPoolClient: Boolean
+  AllowedOAuthScopes: 
+    - String
+  AnalyticsConfiguration: 
+    AnalyticsConfiguration
+  CallbackURLs: 
+    - String
+  ClientName: String
+  DefaultRedirectURI: String
+  EnableTokenRevocation: Boolean
+  ExplicitAuthFlows: 
+    - String
+  GenerateSecret: Boolean
+  IdTokenValidity: Integer
+  LogoutURLs: 
+    - String
+  PreventUserExistenceErrors: String
+  ReadAttributes: 
+    - String
+  RefreshTokenValidity: Integer
+  SupportedIdentityProviders: 
+    - String
+  TokenValidityUnits: 
+    TokenValidityUnits
+  UserPoolId: String
+  WriteAttributes: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolClient</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

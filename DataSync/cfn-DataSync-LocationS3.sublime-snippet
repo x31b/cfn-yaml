@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locations3.html
+Type: AWS::DataSync::LocationS3
+Properties: 
+  S3BucketArn: String
+  S3Config: 
+    S3Config
+  S3StorageClass: String
+  Subdirectory: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DataSync-LocationS3</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

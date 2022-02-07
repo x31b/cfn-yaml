@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opensearchservice-domain.html
+Type: AWS::OpenSearchService::Domain
+Properties: 
+  AccessPolicies: Json
+  AdvancedOptions: 
+    Key : Value
+  AdvancedSecurityOptions: 
+    AdvancedSecurityOptionsInput
+  ClusterConfig: 
+    ClusterConfig
+  CognitoOptions: 
+    CognitoOptions
+  DomainEndpointOptions: 
+    DomainEndpointOptions
+  DomainName: String
+  EBSOptions: 
+    EBSOptions
+  EncryptionAtRestOptions: 
+    EncryptionAtRestOptions
+  EngineVersion: String
+  LogPublishingOptions: 
+    Key : Value
+  NodeToNodeEncryptionOptions: 
+    NodeToNodeEncryptionOptions
+  SnapshotOptions: 
+    SnapshotOptions
+  Tags: 
+    - Tag
+  VPCOptions: 
+    VPCOptions
+
+]]></content>
+  <tabTrigger>cfn-OpenSearchService-Domain</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-ledger.html
+Type: AWS::QLDB::Ledger
+Properties: 
+  DeletionProtection: Boolean
+  KmsKey: String
+  Name: String
+  PermissionsMode: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-QLDB-Ledger</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

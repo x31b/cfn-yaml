@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-responseheaderspolicy.html
+Type: AWS::CloudFront::ResponseHeadersPolicy
+Properties: 
+  ResponseHeadersPolicyConfig: 
+    ResponseHeadersPolicyConfig
+
+]]></content>
+  <tabTrigger>cfn-CloudFront-ResponseHeadersPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

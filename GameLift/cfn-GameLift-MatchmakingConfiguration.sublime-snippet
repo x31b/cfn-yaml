@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingconfiguration.html
+Type: AWS::GameLift::MatchmakingConfiguration
+Properties: 
+  AcceptanceRequired: Boolean
+  AcceptanceTimeoutSeconds: Integer
+  AdditionalPlayerCount: Integer
+  BackfillMode: String
+  CustomEventData: String
+  Description: String
+  FlexMatchMode: String
+  GameProperties: 
+    - GameProperty
+  GameSessionData: String
+  GameSessionQueueArns: 
+    - String
+  Name: String
+  NotificationTarget: String
+  RequestTimeoutSeconds: Integer
+  RuleSetName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-GameLift-MatchmakingConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayroutetable.html
+Type: AWS::EC2::TransitGatewayRouteTable
+Properties: 
+  Tags: 
+    - Tag
+  TransitGatewayId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-TransitGatewayRouteTable</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

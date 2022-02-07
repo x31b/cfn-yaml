@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html
+Type: AWS::IoTEvents::Input
+Properties: 
+  InputDefinition: 
+    InputDefinition
+  InputDescription: String
+  InputName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTEvents-Input</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

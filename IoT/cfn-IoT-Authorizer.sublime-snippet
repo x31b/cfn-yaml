@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html
+Type: AWS::IoT::Authorizer
+Properties: 
+  AuthorizerFunctionArn: String
+  AuthorizerName: String
+  SigningDisabled: Boolean
+  Status: String
+  Tags: 
+    - Tag
+  TokenKeyName: String
+  TokenSigningPublicKeys: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-IoT-Authorizer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

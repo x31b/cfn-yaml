@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html
+Type: AWS::SageMaker::ModelExplainabilityJobDefinition
+Properties: 
+  JobDefinitionName: String
+  JobResources: 
+    MonitoringResources
+  ModelExplainabilityAppSpecification: 
+    ModelExplainabilityAppSpecification
+  ModelExplainabilityBaselineConfig: 
+    ModelExplainabilityBaselineConfig
+  ModelExplainabilityJobInput: 
+    ModelExplainabilityJobInput
+  ModelExplainabilityJobOutputConfig: 
+    MonitoringOutputConfig
+  NetworkConfig: 
+    NetworkConfig
+  RoleArn: String
+  StoppingCondition: 
+    StoppingCondition
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-ModelExplainabilityJobDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

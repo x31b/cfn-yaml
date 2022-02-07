@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html
+Type: AWS::CodeArtifact::Domain
+Properties: 
+  DomainName: String
+  EncryptionKey: String
+  PermissionsPolicyDocument: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-CodeArtifact-Domain</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-tagoptionassociation.html
+Type: AWS::ServiceCatalog::TagOptionAssociation
+Properties: 
+  ResourceId: String
+  TagOptionId: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-TagOptionAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

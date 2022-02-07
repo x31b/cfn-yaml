@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationfsxwindows.html
+Type: AWS::DataSync::LocationFSxWindows
+Properties: 
+  Domain: String
+  FsxFilesystemArn: String
+  Password: String
+  SecurityGroupArns: 
+    - String
+  Subdirectory: String
+  Tags: 
+    - Tag
+  User: String
+
+]]></content>
+  <tabTrigger>cfn-DataSync-LocationFSxWindows</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

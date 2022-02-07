@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html
+Type: AWS::ApiGatewayV2::Integration
+Properties: 
+  ApiId: String
+  ConnectionId: String
+  ConnectionType: String
+  ContentHandlingStrategy: String
+  CredentialsArn: String
+  Description: String
+  IntegrationMethod: String
+  IntegrationSubtype: String
+  IntegrationType: String
+  IntegrationUri: String
+  PassthroughBehavior: String
+  PayloadFormatVersion: String
+  RequestParameters: Json
+  RequestTemplates: Json
+  ResponseParameters: Json
+  TemplateSelectionExpression: String
+  TimeoutInMillis: Integer
+  TlsConfig: 
+    TlsConfig
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Integration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

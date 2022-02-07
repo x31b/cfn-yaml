@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverdnssecconfig.html
+Type: AWS::Route53Resolver::ResolverDNSSECConfig
+Properties: 
+  ResourceId: String
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-ResolverDNSSECConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

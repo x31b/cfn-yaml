@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-detective-graph.html
+Type: AWS::Detective::Graph
+Properties: 
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Detective-Graph</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

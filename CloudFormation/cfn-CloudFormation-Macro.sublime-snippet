@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-macro.html
+Type: AWS::CloudFormation::Macro
+Properties: 
+  Description: String
+  FunctionName: String
+  LogGroupName: String
+  LogRoleARN: String
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-Macro</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

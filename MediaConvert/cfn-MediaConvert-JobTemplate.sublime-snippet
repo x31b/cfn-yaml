@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html
+Type: AWS::MediaConvert::JobTemplate
+Properties: 
+  AccelerationSettings: 
+    AccelerationSettings
+  Category: String
+  Description: String
+  HopDestinations: 
+    - HopDestination
+  Name: String
+  Priority: Integer
+  Queue: String
+  SettingsJson: 
+    Json
+  StatusUpdateInterval: String
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-MediaConvert-JobTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

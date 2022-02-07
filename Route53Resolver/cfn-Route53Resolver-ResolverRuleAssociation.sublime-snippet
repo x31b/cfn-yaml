@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverruleassociation.html
+Type: AWS::Route53Resolver::ResolverRuleAssociation
+Properties: 
+  Name: String
+  ResolverRuleId: String
+  VPCId: String
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-ResolverRuleAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

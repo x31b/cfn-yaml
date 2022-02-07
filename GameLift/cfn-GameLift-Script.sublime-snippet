@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-script.html
+Type: AWS::GameLift::Script
+Properties: 
+  Name: String
+  StorageLocation: 
+    S3Location
+  Tags: 
+    - Tag
+  Version: String
+
+]]></content>
+  <tabTrigger>cfn-GameLift-Script</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

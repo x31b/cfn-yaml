@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html
+Type: AWS::Pinpoint::Segment
+Properties: 
+  ApplicationId: String
+  Dimensions: 
+    SegmentDimensions
+  Name: String
+  SegmentGroups: 
+    SegmentGroups
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-Segment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

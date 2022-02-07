@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplankey.html
+Type: AWS::ApiGateway::UsagePlanKey
+Properties: 
+  KeyId: String
+  KeyType: String
+  UsagePlanId: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-UsagePlanKey</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

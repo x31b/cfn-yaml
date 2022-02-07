@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalogappregistry-resourceassociation.html
+Type: AWS::ServiceCatalogAppRegistry::ResourceAssociation
+Properties: 
+  Application: String
+  Resource: String
+  ResourceType: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalogAppRegistry-ResourceAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

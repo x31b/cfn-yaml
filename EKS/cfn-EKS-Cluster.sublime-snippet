@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html
+Type: AWS::EKS::Cluster
+Properties: 
+  EncryptionConfig: 
+    - EncryptionConfig
+  KubernetesNetworkConfig: 
+    KubernetesNetworkConfig
+  Logging: 
+    Logging
+  Name: String
+  ResourcesVpcConfig: 
+    ResourcesVpcConfig
+  RoleArn: String
+  Tags: 
+    - Tag
+  Version: String
+
+]]></content>
+  <tabTrigger>cfn-EKS-Cluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

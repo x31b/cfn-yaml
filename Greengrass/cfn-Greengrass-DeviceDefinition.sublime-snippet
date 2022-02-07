@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-devicedefinition.html
+Type: AWS::Greengrass::DeviceDefinition
+Properties: 
+  InitialVersion: 
+    DeviceDefinitionVersion
+  Name: String
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-Greengrass-DeviceDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

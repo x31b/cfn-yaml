@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html
+Type: AWS::SageMaker::NotebookInstance
+Properties: 
+  AcceleratorTypes: 
+    - String
+  AdditionalCodeRepositories: 
+    - String
+  DefaultCodeRepository: String
+  DirectInternetAccess: String
+  InstanceType: String
+  KmsKeyId: String
+  LifecycleConfigName: String
+  NotebookInstanceName: String
+  PlatformIdentifier: String
+  RoleArn: String
+  RootAccess: String
+  SecurityGroupIds: 
+    - String
+  SubnetId: String
+  Tags: 
+    - Tag
+  VolumeSizeInGB: Integer
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-NotebookInstance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

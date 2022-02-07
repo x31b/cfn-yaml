@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html
+Type: AWS::Amplify::App
+Properties: 
+  AccessToken: String
+  AutoBranchCreationConfig: 
+    AutoBranchCreationConfig
+  BasicAuthConfig: 
+    BasicAuthConfig
+  BuildSpec: String
+  CustomHeaders: String
+  CustomRules: 
+    - CustomRule
+  Description: String
+  EnableBranchAutoDeletion: Boolean
+  EnvironmentVariables: 
+    - EnvironmentVariable
+  IAMServiceRole: String
+  Name: String
+  OauthToken: String
+  Repository: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Amplify-App</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

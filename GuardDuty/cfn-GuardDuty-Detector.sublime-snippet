@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-detector.html
+Type: AWS::GuardDuty::Detector
+Properties: 
+  DataSources: 
+    CFNDataSourceConfigurations
+  Enable: Boolean
+  FindingPublishingFrequency: String
+
+]]></content>
+  <tabTrigger>cfn-GuardDuty-Detector</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

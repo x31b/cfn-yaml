@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-container.html
+Type: AWS::Lightsail::Container
+Properties: 
+  ContainerServiceDeployment: 
+    ContainerServiceDeployment
+  IsDisabled: Boolean
+  Power: String
+  PublicDomainNames: 
+    - PublicDomainName
+  Scale: Integer
+  ServiceName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Container</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

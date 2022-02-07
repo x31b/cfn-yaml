@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-distribution.html
+Type: AWS::Lightsail::Distribution
+Properties: 
+  BundleId: String
+  CacheBehaviors: 
+    - CacheBehaviorPerPath
+  CacheBehaviorSettings: 
+    CacheSettings
+  CertificateName: String
+  DefaultCacheBehavior: 
+    CacheBehavior
+  DistributionName: String
+  IpAddressType: String
+  IsEnabled: Boolean
+  Origin: 
+    InputOrigin
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Distribution</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

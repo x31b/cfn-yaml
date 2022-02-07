@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-ipset.html
+Type: AWS::WAFv2::IPSet
+Properties: 
+  Addresses: 
+    - String
+  Description: String
+  IPAddressVersion: String
+  Name: String
+  Scope: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-WAFv2-IPSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

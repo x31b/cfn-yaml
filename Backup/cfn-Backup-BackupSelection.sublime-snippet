@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupselection.html
+Type: AWS::Backup::BackupSelection
+Properties: 
+  BackupPlanId: String
+  BackupSelection: 
+    BackupSelectionResourceType
+
+]]></content>
+  <tabTrigger>cfn-Backup-BackupSelection</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

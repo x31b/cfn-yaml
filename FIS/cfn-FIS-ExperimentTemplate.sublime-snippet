@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html
+Type: AWS::FIS::ExperimentTemplate
+Properties: 
+  Actions: 
+    Key : Value
+  Description: String
+  RoleArn: String
+  StopConditions: 
+    - ExperimentTemplateStopCondition
+  Tags: 
+    Key : Value
+  Targets: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-FIS-ExperimentTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

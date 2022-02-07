@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationtask.html
+Type: AWS::DMS::ReplicationTask
+Properties: 
+  CdcStartPosition: String
+  CdcStartTime: Double
+  CdcStopPosition: String
+  MigrationType: String
+  ReplicationInstanceArn: String
+  ReplicationTaskIdentifier: String
+  ReplicationTaskSettings: String
+  ResourceIdentifier: String
+  SourceEndpointArn: String
+  TableMappings: String
+  Tags: 
+    - Tag
+  TargetEndpointArn: String
+  TaskData: String
+
+]]></content>
+  <tabTrigger>cfn-DMS-ReplicationTask</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

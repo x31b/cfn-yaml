@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html
+Type: AWS::MemoryDB::User
+Properties: 
+  AccessString: 
+    String
+  AuthenticationMode: Json
+  Tags: 
+    - Tag
+  UserName: String
+
+]]></content>
+  <tabTrigger>cfn-MemoryDB-User</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

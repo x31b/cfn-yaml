@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucketpolicy.html
+Type: AWS::S3Outposts::BucketPolicy
+Properties: 
+  Bucket: String
+  PolicyDocument: Json
+
+]]></content>
+  <tabTrigger>cfn-S3Outposts-BucketPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

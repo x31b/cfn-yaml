@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html
+Type: AWS::CloudWatch::CompositeAlarm
+Properties: 
+  ActionsEnabled: Boolean
+  AlarmActions: 
+    - String
+  AlarmDescription: String
+  AlarmName: String
+  AlarmRule: String
+  InsufficientDataActions: 
+    - String
+  OKActions: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-CloudWatch-CompositeAlarm</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

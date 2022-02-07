@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-originrequestpolicy.html
+Type: AWS::CloudFront::OriginRequestPolicy
+Properties: 
+  OriginRequestPolicyConfig: 
+    OriginRequestPolicyConfig
+
+]]></content>
+  <tabTrigger>cfn-CloudFront-OriginRequestPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

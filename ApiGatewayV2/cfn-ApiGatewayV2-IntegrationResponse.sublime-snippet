@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integrationresponse.html
+Type: AWS::ApiGatewayV2::IntegrationResponse
+Properties: 
+  ApiId: String
+  ContentHandlingStrategy: String
+  IntegrationId: String
+  IntegrationResponseKey: String
+  ResponseParameters: Json
+  ResponseTemplates: Json
+  TemplateSelectionExpression: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-IntegrationResponse</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

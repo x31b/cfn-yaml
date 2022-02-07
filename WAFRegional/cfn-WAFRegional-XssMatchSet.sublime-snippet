@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-xssmatchset.html
+Type: AWS::WAFRegional::XssMatchSet
+Properties: 
+  Name: String
+  XssMatchTuples: 
+    - XssMatchTuple
+
+]]></content>
+  <tabTrigger>cfn-WAFRegional-XssMatchSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

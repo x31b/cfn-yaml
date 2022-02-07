@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html
+Type: AWS::MediaLive::Channel
+Properties: 
+  CdiInputSpecification: 
+    CdiInputSpecification
+  ChannelClass: String
+  Destinations: 
+    - OutputDestination
+  EncoderSettings: 
+    EncoderSettings
+  InputAttachments: 
+    - InputAttachment
+  InputSpecification: 
+    InputSpecification
+  LogLevel: String
+  Name: String
+  RoleArn: String
+  Tags: Json
+  Vpc: 
+    VpcOutputSettings
+
+]]></content>
+  <tabTrigger>cfn-MediaLive-Channel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html
+Type: AWS::Location::Tracker
+Properties: 
+  Description: String
+  KmsKeyId: String
+  PositionFiltering: String
+  PricingPlan: String
+  PricingPlanDataSource: String
+  TrackerName: String
+
+]]></content>
+  <tabTrigger>cfn-Location-Tracker</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

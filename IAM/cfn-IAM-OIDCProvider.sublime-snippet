@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html
+Type: AWS::IAM::OIDCProvider
+Properties: 
+  ClientIdList: 
+    - String
+  Tags: 
+    - Tag
+  ThumbprintList: 
+    - String
+  Url: String
+
+]]></content>
+  <tabTrigger>cfn-IAM-OIDCProvider</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

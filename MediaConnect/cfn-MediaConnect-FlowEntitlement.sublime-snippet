@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowentitlement.html
+Type: AWS::MediaConnect::FlowEntitlement
+Properties: 
+  DataTransferSubscriberFeePercent: Integer
+  Description: String
+  Encryption: 
+    Encryption
+  EntitlementStatus: String
+  FlowArn: String
+  Name: String
+  Subscribers: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-MediaConnect-FlowEntitlement</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

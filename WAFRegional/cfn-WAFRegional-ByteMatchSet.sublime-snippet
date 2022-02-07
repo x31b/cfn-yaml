@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-bytematchset.html
+Type: AWS::WAFRegional::ByteMatchSet
+Properties: 
+  ByteMatchTuples: 
+    - ByteMatchTuple
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-WAFRegional-ByteMatchSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-eventstream.html
+Type: AWS::Pinpoint::EventStream
+Properties: 
+  ApplicationId: String
+  DestinationStreamArn: String
+  RoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-EventStream</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

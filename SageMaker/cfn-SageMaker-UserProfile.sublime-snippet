@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html
+Type: AWS::SageMaker::UserProfile
+Properties: 
+  DomainId: String
+  SingleSignOnUserIdentifier: String
+  SingleSignOnUserValue: String
+  Tags: 
+    - Tag
+  UserProfileName: String
+  UserSettings: 
+    UserSettings
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-UserProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

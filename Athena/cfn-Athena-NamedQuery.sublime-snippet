@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-namedquery.html
+Type: AWS::Athena::NamedQuery
+Properties: 
+  Database: String
+  Description: String
+  Name: String
+  QueryString: 
+    String
+  WorkGroup: String
+
+]]></content>
+  <tabTrigger>cfn-Athena-NamedQuery</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

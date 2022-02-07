@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbclusterparametergroup.html
+Type: AWS::DocDB::DBClusterParameterGroup
+Properties: 
+  Description: String
+  Family: String
+  Name: String
+  Parameters: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DocDB-DBClusterParameterGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

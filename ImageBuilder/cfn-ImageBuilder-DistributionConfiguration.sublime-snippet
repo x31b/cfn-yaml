@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-distributionconfiguration.html
+Type: AWS::ImageBuilder::DistributionConfiguration
+Properties: 
+  Description: String
+  Distributions: 
+    - Distribution
+  Name: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-ImageBuilder-DistributionConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

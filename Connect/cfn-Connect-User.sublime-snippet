@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html
+Type: AWS::Connect::User
+Properties: 
+  DirectoryUserId: String
+  HierarchyGroupArn: String
+  IdentityInfo: 
+    UserIdentityInfo
+  InstanceArn: String
+  Password: String
+  PhoneConfig: 
+    UserPhoneConfig
+  RoutingProfileArn: String
+  SecurityProfileArns: 
+    - String
+  Tags: 
+    - Tag
+  Username: String
+
+]]></content>
+  <tabTrigger>cfn-Connect-User</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

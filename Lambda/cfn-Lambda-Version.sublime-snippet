@@ -1,11 +1,13 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html
-Type: "AWS::Lambda::Version"
-Properties:     
-  CodeSha256" : String
-  Description" : String         
-  FunctionName" : String
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html
+Type: AWS::Lambda::Version
+Properties: 
+  CodeSha256: String
+  Description: String
+  FunctionName: String
+  ProvisionedConcurrencyConfig: 
+    ProvisionedConcurrencyConfiguration
 
 ]]></content>
   <tabTrigger>cfn-Lambda-Version</tabTrigger>

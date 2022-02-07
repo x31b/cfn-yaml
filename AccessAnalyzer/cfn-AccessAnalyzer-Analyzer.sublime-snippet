@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html
+Type: AWS::AccessAnalyzer::Analyzer
+Properties: 
+  AnalyzerName: String
+  ArchiveRules: 
+    - ArchiveRule
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-AccessAnalyzer-Analyzer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html
+Type: AWS::ImageBuilder::ContainerRecipe
+Properties: 
+  Components: 
+    - ComponentConfiguration
+  ContainerType: String
+  Description: String
+  DockerfileTemplateData: String
+  DockerfileTemplateUri: String
+  ImageOsVersionOverride: String
+  InstanceConfiguration: 
+    InstanceConfiguration
+  KmsKeyId: String
+  Name: String
+  ParentImage: String
+  PlatformOverride: String
+  Tags: 
+    Key : Value
+  TargetRepository: 
+    TargetContainerRepository
+  Version: String
+  WorkingDirectory: String
+
+]]></content>
+  <tabTrigger>cfn-ImageBuilder-ContainerRecipe</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

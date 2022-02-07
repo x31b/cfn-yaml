@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html
+Type: AWS::Macie::FindingsFilter
+Properties: 
+  Action: String
+  Description: String
+  FindingCriteria: 
+    FindingCriteria
+  Name: String
+  Position: Integer
+
+]]></content>
+  <tabTrigger>cfn-Macie-FindingsFilter</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

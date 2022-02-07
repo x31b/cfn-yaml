@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rekognition-collection.html
+Type: AWS::Rekognition::Collection
+Properties: 
+  CollectionId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Rekognition-Collection</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

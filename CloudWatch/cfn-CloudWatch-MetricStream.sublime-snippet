@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html
+Type: AWS::CloudWatch::MetricStream
+Properties: 
+  ExcludeFilters: 
+    - MetricStreamFilter
+  FirehoseArn: String
+  IncludeFilters: 
+    - MetricStreamFilter
+  Name: String
+  OutputFormat: String
+  RoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-CloudWatch-MetricStream</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

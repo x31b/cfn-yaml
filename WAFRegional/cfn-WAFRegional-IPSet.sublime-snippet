@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ipset.html
+Type: AWS::WAFRegional::IPSet
+Properties: 
+  IPSetDescriptors: 
+    - IPSetDescriptor
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-WAFRegional-IPSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

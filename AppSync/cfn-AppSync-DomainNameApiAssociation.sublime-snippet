@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-domainnameapiassociation.html
+Type: AWS::AppSync::DomainNameApiAssociation
+Properties: 
+  ApiId: String
+  DomainName: String
+
+]]></content>
+  <tabTrigger>cfn-AppSync-DomainNameApiAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

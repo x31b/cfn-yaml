@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html
+Type: AWS::MediaStore::Container
+Properties: 
+  AccessLoggingEnabled: Boolean
+  ContainerName: String
+  CorsPolicy: 
+    - CorsRule
+  LifecyclePolicy: String
+  MetricPolicy: 
+    MetricPolicy
+  Policy: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-MediaStore-Container</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

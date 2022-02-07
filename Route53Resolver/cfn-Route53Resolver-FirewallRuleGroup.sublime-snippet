@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-firewallrulegroup.html
+Type: AWS::Route53Resolver::FirewallRuleGroup
+Properties: 
+  FirewallRules: 
+    - FirewallRule
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-FirewallRuleGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

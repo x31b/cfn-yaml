@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-alert.html
+Type: AWS::LookoutMetrics::Alert
+Properties: 
+  Action: 
+    Action
+  AlertDescription: String
+  AlertName: String
+  AlertSensitivityThreshold: Integer
+  AnomalyDetectorArn: String
+
+]]></content>
+  <tabTrigger>cfn-LookoutMetrics-Alert</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

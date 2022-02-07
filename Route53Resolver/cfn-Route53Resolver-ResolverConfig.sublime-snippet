@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverconfig.html
+Type: AWS::Route53Resolver::ResolverConfig
+Properties: 
+  AutodefinedReverseFlag: String
+  ResourceId: String
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-ResolverConfig</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

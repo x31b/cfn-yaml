@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html
+Type: AWS::CodeGuruProfiler::ProfilingGroup
+Properties: 
+  AgentPermissions: Json
+  AnomalyDetectionNotificationConfiguration: 
+    - Channel
+  ComputePlatform: String
+  ProfilingGroupName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-CodeGuruProfiler-ProfilingGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

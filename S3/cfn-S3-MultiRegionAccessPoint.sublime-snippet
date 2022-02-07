@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-multiregionaccesspoint.html
+Type: AWS::S3::MultiRegionAccessPoint
+Properties: 
+  Name: String
+  PublicAccessBlockConfiguration: 
+    PublicAccessBlockConfiguration
+  Regions: 
+    - Region
+
+]]></content>
+  <tabTrigger>cfn-S3-MultiRegionAccessPoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

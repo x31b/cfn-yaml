@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html
+Type: AWS::RoboMaker::SimulationApplication
+Properties: 
+  CurrentRevisionId: String
+  Environment: String
+  Name: String
+  RenderingEngine: 
+    RenderingEngine
+  RobotSoftwareSuite: 
+    RobotSoftwareSuite
+  SimulationSoftwareSuite: 
+    SimulationSoftwareSuite
+  Sources: 
+    - SourceConfig
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-RoboMaker-SimulationApplication</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

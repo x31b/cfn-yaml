@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html
+Type: AWS::ImageBuilder::Component
+Properties: 
+  ChangeDescription: String
+  Data: String
+  Description: String
+  KmsKeyId: String
+  Name: String
+  Platform: String
+  SupportedOsVersions: 
+    - String
+  Tags: 
+    Key : Value
+  Uri: String
+  Version: String
+
+]]></content>
+  <tabTrigger>cfn-ImageBuilder-Component</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

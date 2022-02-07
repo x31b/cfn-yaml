@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html
+Type: AWS::Cassandra::Table
+Properties: 
+  BillingMode: 
+    BillingMode
+  ClusteringKeyColumns: 
+    - ClusteringKeyColumn
+  DefaultTimeToLive: Integer
+  EncryptionSpecification: 
+    EncryptionSpecification
+  KeyspaceName: String
+  PartitionKeyColumns: 
+    - Column
+  PointInTimeRecoveryEnabled: Boolean
+  RegularColumns: 
+    - Column
+  TableName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Cassandra-Table</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

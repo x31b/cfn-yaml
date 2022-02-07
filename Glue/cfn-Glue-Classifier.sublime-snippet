@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html
+Type: AWS::Glue::Classifier
+Properties: 
+  CsvClassifier: 
+    CsvClassifier
+  GrokClassifier: 
+    GrokClassifier
+  JsonClassifier: 
+    JsonClassifier
+  XMLClassifier: 
+    XMLClassifier
+
+]]></content>
+  <tabTrigger>cfn-Glue-Classifier</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

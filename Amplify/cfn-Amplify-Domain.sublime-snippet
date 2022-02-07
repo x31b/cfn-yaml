@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html
+Type: AWS::Amplify::Domain
+Properties: 
+  AppId: String
+  AutoSubDomainCreationPatterns: 
+    - String
+  AutoSubDomainIAMRole: String
+  DomainName: String
+  EnableAutoSubDomain: Boolean
+  SubDomainSettings: 
+    - SubDomainSetting
+
+]]></content>
+  <tabTrigger>cfn-Amplify-Domain</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html
+Type: AWS::GameLift::GameSessionQueue
+Properties: 
+  CustomEventData: String
+  Destinations: 
+    - Destination
+  FilterConfiguration: 
+    FilterConfiguration
+  Name: String
+  NotificationTarget: String
+  PlayerLatencyPolicies: 
+    - PlayerLatencyPolicy
+  PriorityConfiguration: 
+    PriorityConfiguration
+  Tags: 
+    - Tag
+  TimeoutInSeconds: Integer
+
+]]></content>
+  <tabTrigger>cfn-GameLift-GameSessionQueue</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

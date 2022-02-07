@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html
+Type: AWS::ResourceGroups::Group
+Properties: 
+  Configuration: 
+    - ConfigurationItem
+  Description: String
+  Name: String
+  ResourceQuery: 
+    ResourceQuery
+  Resources: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ResourceGroups-Group</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

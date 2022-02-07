@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html
+Type: AWS::EKS::Nodegroup
+Properties: 
+  AmiType: String
+  CapacityType: String
+  ClusterName: String
+  DiskSize: Double
+  ForceUpdateEnabled: Boolean
+  InstanceTypes: 
+    - String
+  Labels: Json
+  LaunchTemplate: 
+    LaunchTemplateSpecification
+  NodegroupName: String
+  NodeRole: String
+  ReleaseVersion: String
+  RemoteAccess: 
+    RemoteAccess
+  ScalingConfig: 
+    ScalingConfig
+  Subnets: 
+    - String
+  Tags: Json
+  Taints: 
+    - Taint
+  UpdateConfig: 
+    UpdateConfig
+  Version: String
+
+]]></content>
+  <tabTrigger>cfn-EKS-Nodegroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

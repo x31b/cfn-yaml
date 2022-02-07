@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-resourceupdateconstraint.html
+Type: AWS::ServiceCatalog::ResourceUpdateConstraint
+Properties: 
+  AcceptLanguage: String
+  Description: String
+  PortfolioId: String
+  ProductId: String
+  TagUpdateOnProvisionedProduct: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-ResourceUpdateConstraint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

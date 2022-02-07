@@ -1,21 +1,23 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html
-Type: "AWS::OpsWorks::App"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html
+Type: AWS::OpsWorks::App
 Properties: 
-  AppSource:
+  AppSource: 
     Source
-  Attributes:
-    String:String
+  Attributes: 
+    Key : Value
+  DataSources: 
+    - DataSource
   Description: String
-  Domains:
+  Domains: 
     - String
   EnableSsl: Boolean
-  Environment:
-    - Environment
+  Environment: 
+    - EnvironmentVariable
   Name: String
   Shortname: String
-  SslConfiguration:
+  SslConfiguration: 
     SslConfiguration
   StackId: String
   Type: String

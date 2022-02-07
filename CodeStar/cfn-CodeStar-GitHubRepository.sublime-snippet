@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestar-githubrepository.html
+Type: AWS::CodeStar::GitHubRepository
+Properties: 
+  Code: 
+    Code
+  ConnectionArn: String
+  EnableIssues: Boolean
+  IsPrivate: Boolean
+  RepositoryAccessToken: String
+  RepositoryDescription: String
+  RepositoryName: String
+  RepositoryOwner: String
+
+]]></content>
+  <tabTrigger>cfn-CodeStar-GitHubRepository</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-inapptemplate.html
+Type: AWS::Pinpoint::InAppTemplate
+Properties: 
+  Content: 
+    - InAppMessageContent
+  CustomConfig: Json
+  Layout: String
+  Tags: Json
+  TemplateDescription: String
+  TemplateName: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-InAppTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

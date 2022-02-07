@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html
+Type: AWS::Lightsail::LoadBalancerTlsCertificate
+Properties: 
+  CertificateAlternativeNames: 
+    - String
+  CertificateDomainName: String
+  CertificateName: String
+  IsAttached: Boolean
+  LoadBalancerName: String
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-LoadBalancerTlsCertificate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

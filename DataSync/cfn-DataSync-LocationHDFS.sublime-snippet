@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationhdfs.html
+Type: AWS::DataSync::LocationHDFS
+Properties: 
+  AgentArns: 
+    - String
+  AuthenticationType: String
+  BlockSize: Integer
+  KerberosKeytab: String
+  KerberosKrb5Conf: String
+  KerberosPrincipal: String
+  KmsKeyProviderUri: String
+  NameNodes: 
+    - NameNode
+  QopConfiguration: 
+    QopConfiguration
+  ReplicationFactor: Integer
+  SimpleUser: String
+  Subdirectory: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DataSync-LocationHDFS</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

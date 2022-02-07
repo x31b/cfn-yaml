@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html
+Type: AWS::CloudFormation::StackSet
+Properties: 
+  AdministrationRoleARN: String
+  AutoDeployment: 
+    AutoDeployment
+  CallAs: String
+  Capabilities: 
+    - String
+  Description: String
+  ExecutionRoleName: String
+  ManagedExecution: Json
+  OperationPreferences: 
+    OperationPreferences
+  Parameters: 
+    - Parameter
+  PermissionModel: String
+  StackInstancesGroup: 
+    - StackInstances
+  StackSetName: String
+  Tags: 
+    - Tag
+  TemplateBody: String
+  TemplateURL: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-StackSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

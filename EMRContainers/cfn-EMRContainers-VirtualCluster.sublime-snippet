@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emrcontainers-virtualcluster.html
+Type: AWS::EMRContainers::VirtualCluster
+Properties: 
+  ContainerProvider: 
+    ContainerProvider
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EMRContainers-VirtualCluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

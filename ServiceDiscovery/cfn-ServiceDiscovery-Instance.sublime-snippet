@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-instance.html
+Type: AWS::ServiceDiscovery::Instance
+Properties: 
+  InstanceAttributes: Json
+  InstanceId: String
+  ServiceId: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceDiscovery-Instance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

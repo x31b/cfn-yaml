@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-endpoint.html
+Type: AWS::S3Outposts::Endpoint
+Properties: 
+  AccessType: String
+  CustomerOwnedIpv4Pool: String
+  OutpostId: String
+  SecurityGroupId: String
+  SubnetId: String
+
+]]></content>
+  <tabTrigger>cfn-S3Outposts-Endpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

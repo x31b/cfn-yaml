@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appintegrations-dataintegration.html
+Type: AWS::AppIntegrations::DataIntegration
+Properties: 
+  Description: String
+  KmsKey: String
+  Name: String
+  ScheduleConfig: 
+    ScheduleConfig
+  SourceURI: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-AppIntegrations-DataIntegration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

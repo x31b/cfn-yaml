@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html
+Type: AWS::Glue::Partition
+Properties: 
+  CatalogId: String
+  DatabaseName: String
+  PartitionInput: 
+    PartitionInput
+  TableName: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-Partition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

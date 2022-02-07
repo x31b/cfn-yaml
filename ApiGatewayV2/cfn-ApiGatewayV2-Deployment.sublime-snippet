@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-deployment.html
+Type: AWS::ApiGatewayV2::Deployment
+Properties: 
+  ApiId: String
+  Description: String
+  StageName: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Deployment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

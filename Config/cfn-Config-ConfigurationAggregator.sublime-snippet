@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html
+Type: AWS::Config::ConfigurationAggregator
+Properties: 
+  AccountAggregationSources: 
+    - AccountAggregationSource
+  ConfigurationAggregatorName: String
+  OrganizationAggregationSource: 
+    OrganizationAggregationSource
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Config-ConfigurationAggregator</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

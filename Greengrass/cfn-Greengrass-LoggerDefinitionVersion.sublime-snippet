@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-loggerdefinitionversion.html
+Type: AWS::Greengrass::LoggerDefinitionVersion
+Properties: 
+  LoggerDefinitionId: String
+  Loggers: 
+    - Logger
+
+]]></content>
+  <tabTrigger>cfn-Greengrass-LoggerDefinitionVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

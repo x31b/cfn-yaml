@@ -1,21 +1,33 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html
-Type: "AWS::GameLift::Fleet"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html
+Type: AWS::GameLift::Fleet
 Properties: 
   BuildId: String
+  CertificateConfiguration: 
+    CertificateConfiguration
   Description: String
   DesiredEC2Instances: Integer
-  EC2InboundPermissions:
-    - EC2InboundPermission
+  EC2InboundPermissions: 
+    - IpPermission
   EC2InstanceType: String
-  LogPaths:
-    [ String, ... ]
+  FleetType: String
+  InstanceRoleARN: String
+  Locations: 
+    - LocationConfiguration
   MaxSize: Integer
+  MetricGroups: 
+    - String
   MinSize: Integer
   Name: String
-  ServerLaunchParameters: String
-  ServerLaunchPath: String
+  NewGameSessionProtectionPolicy: String
+  PeerVpcAwsAccountId: String
+  PeerVpcId: String
+  ResourceCreationLimitPolicy: 
+    ResourceCreationLimitPolicy
+  RuntimeConfiguration: 
+    RuntimeConfiguration
+  ScriptId: String
 
 ]]></content>
   <tabTrigger>cfn-GameLift-Fleet</tabTrigger>

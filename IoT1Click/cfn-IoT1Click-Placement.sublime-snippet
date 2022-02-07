@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html
+Type: AWS::IoT1Click::Placement
+Properties: 
+  AssociatedDevices: Json
+  Attributes: Json
+  PlacementName: String
+  ProjectName: String
+
+]]></content>
+  <tabTrigger>cfn-IoT1Click-Placement</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-resource.html
-Type: "AWS::ApiGateway::Resource"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-resource.html
+Type: AWS::ApiGateway::Resource
+Properties: 
   ParentId: String
   PathPart: String
   RestApiId: String

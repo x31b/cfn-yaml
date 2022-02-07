@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmcontacts-contact.html
+Type: AWS::SSMContacts::Contact
+Properties: 
+  Alias: String
+  DisplayName: String
+  Plan: 
+    - Stage
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-SSMContacts-Contact</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

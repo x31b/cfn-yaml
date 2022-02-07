@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html
+Type: AWS::MediaPackage::PackagingConfiguration
+Properties: 
+  CmafPackage: 
+    CmafPackage
+  DashPackage: 
+    DashPackage
+  HlsPackage: 
+    HlsPackage
+  Id: String
+  MssPackage: 
+    MssPackage
+  PackagingGroupId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-MediaPackage-PackagingConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

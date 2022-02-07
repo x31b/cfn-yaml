@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttarget.html
+Type: AWS::Inspector::AssessmentTarget
+Properties: 
+  AssessmentTargetName: String
+  ResourceGroupArn: String
+
+]]></content>
+  <tabTrigger>cfn-Inspector-AssessmentTarget</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

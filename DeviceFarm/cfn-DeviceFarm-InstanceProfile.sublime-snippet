@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-instanceprofile.html
+Type: AWS::DeviceFarm::InstanceProfile
+Properties: 
+  Description: String
+  ExcludeAppPackagesFromCleanup: 
+    - String
+  Name: String
+  PackageCleanup: Boolean
+  RebootAfterUse: Boolean
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DeviceFarm-InstanceProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

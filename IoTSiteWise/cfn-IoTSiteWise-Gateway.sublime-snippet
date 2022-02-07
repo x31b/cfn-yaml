@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-gateway.html
+Type: AWS::IoTSiteWise::Gateway
+Properties: 
+  GatewayCapabilitySummaries: 
+    - GatewayCapabilitySummary
+  GatewayName: String
+  GatewayPlatform: 
+    GatewayPlatform
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTSiteWise-Gateway</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

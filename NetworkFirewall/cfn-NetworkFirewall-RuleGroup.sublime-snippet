@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html
+Type: AWS::NetworkFirewall::RuleGroup
+Properties: 
+  Capacity: Integer
+  Description: String
+  RuleGroup: 
+    RuleGroup
+  RuleGroupName: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-NetworkFirewall-RuleGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

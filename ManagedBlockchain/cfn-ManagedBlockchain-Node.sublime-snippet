@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-node.html
+Type: AWS::ManagedBlockchain::Node
+Properties: 
+  MemberId: String
+  NetworkId: String
+  NodeConfiguration: 
+    NodeConfiguration
+
+]]></content>
+  <tabTrigger>cfn-ManagedBlockchain-Node</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

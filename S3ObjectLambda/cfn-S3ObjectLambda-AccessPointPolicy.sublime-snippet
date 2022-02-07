@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3objectlambda-accesspointpolicy.html
+Type: AWS::S3ObjectLambda::AccessPointPolicy
+Properties: 
+  ObjectLambdaAccessPoint: String
+  PolicyDocument: Json
+
+]]></content>
+  <tabTrigger>cfn-S3ObjectLambda-AccessPointPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

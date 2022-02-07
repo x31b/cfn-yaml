@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualrouter.html
+Type: AWS::AppMesh::VirtualRouter
+Properties: 
+  MeshName: String
+  MeshOwner: String
+  Spec: 
+    VirtualRouterSpec
+  Tags: 
+    - Tag
+  VirtualRouterName: String
+
+]]></content>
+  <tabTrigger>cfn-AppMesh-VirtualRouter</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

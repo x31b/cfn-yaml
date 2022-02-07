@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-connectionalias.html
+Type: AWS::WorkSpaces::ConnectionAlias
+Properties: 
+  ConnectionString: 
+    String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-WorkSpaces-ConnectionAlias</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

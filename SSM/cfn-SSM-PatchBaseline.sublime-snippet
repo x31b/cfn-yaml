@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-patchbaseline.html
+Type: AWS::SSM::PatchBaseline
+Properties: 
+  ApprovalRules: 
+    RuleGroup
+  ApprovedPatches: 
+    - String
+  ApprovedPatchesComplianceLevel: String
+  ApprovedPatchesEnableNonSecurity: Boolean
+  Description: String
+  GlobalFilters: 
+    PatchFilterGroup
+  Name: String
+  OperatingSystem: String
+  PatchGroups: 
+    - String
+  RejectedPatches: 
+    - String
+  RejectedPatchesAction: String
+  Sources: 
+    - PatchSource
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SSM-PatchBaseline</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

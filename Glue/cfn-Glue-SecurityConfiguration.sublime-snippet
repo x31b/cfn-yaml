@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-securityconfiguration.html
+Type: AWS::Glue::SecurityConfiguration
+Properties: 
+  EncryptionConfiguration: 
+    EncryptionConfiguration
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-SecurityConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

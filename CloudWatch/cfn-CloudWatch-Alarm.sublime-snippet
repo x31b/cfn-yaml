@@ -1,26 +1,33 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html
-Type: "AWS::CloudWatch::Alarm"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html
+Type: AWS::CloudWatch::Alarm
+Properties: 
   ActionsEnabled: Boolean
-  AlarmActions:
+  AlarmActions: 
     - String
   AlarmDescription: String
   AlarmName: String
   ComparisonOperator: String
-  Dimensions:
-    - Metric dimension
-  EvaluationPeriods: String
-  InsufficientDataActions:
+  DatapointsToAlarm: Integer
+  Dimensions: 
+    - Dimension
+  EvaluateLowSampleCountPercentile: String
+  EvaluationPeriods: Integer
+  ExtendedStatistic: String
+  InsufficientDataActions: 
     - String
   MetricName: String
+  Metrics: 
+    - MetricDataQuery
   Namespace: String
-  OKActions:
+  OKActions: 
     - String
-  Period: String
+  Period: Integer
   Statistic: String
-  Threshold: String
+  Threshold: Double
+  ThresholdMetricId: String
+  TreatMissingData: String
   Unit: String
 
 ]]></content>

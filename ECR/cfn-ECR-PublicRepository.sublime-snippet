@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html
+Type: AWS::ECR::PublicRepository
+Properties: 
+  RepositoryCatalogData: Json
+  RepositoryName: String
+  RepositoryPolicyText: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ECR-PublicRepository</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationproduct.html
+Type: AWS::ServiceCatalog::CloudFormationProduct
+Properties: 
+  AcceptLanguage: String
+  Description: String
+  Distributor: String
+  Name: String
+  Owner: String
+  ProvisioningArtifactParameters: 
+    - ProvisioningArtifactProperties
+  ReplaceProvisioningArtifacts: Boolean
+  SupportDescription: String
+  SupportEmail: String
+  SupportUrl: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-CloudFormationProduct</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

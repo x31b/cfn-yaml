@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html
+Type: AWS::Budgets::BudgetsAction
+Properties: 
+  ActionThreshold: 
+    ActionThreshold
+  ActionType: String
+  ApprovalModel: String
+  BudgetName: String
+  Definition: 
+    Definition
+  ExecutionRoleArn: String
+  NotificationType: String
+  Subscribers: 
+    - Subscriber
+
+]]></content>
+  <tabTrigger>cfn-Budgets-BudgetsAction</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

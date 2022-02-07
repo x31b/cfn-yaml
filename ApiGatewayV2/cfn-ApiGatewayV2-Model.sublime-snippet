@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html
+Type: AWS::ApiGatewayV2::Model
+Properties: 
+  ApiId: String
+  ContentType: String
+  Description: String
+  Name: String
+  Schema: Json
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Model</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

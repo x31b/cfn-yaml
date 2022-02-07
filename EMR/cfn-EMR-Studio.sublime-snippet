@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-studio.html
+Type: AWS::EMR::Studio
+Properties: 
+  AuthMode: String
+  DefaultS3Location: String
+  Description: String
+  EngineSecurityGroupId: String
+  IdpAuthUrl: String
+  IdpRelayStateParameterName: String
+  Name: String
+  ServiceRole: String
+  SubnetIds: 
+    - String
+  Tags: 
+    - Tag
+  UserRole: String
+  VpcId: String
+  WorkspaceSecurityGroupId: String
+
+]]></content>
+  <tabTrigger>cfn-EMR-Studio</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

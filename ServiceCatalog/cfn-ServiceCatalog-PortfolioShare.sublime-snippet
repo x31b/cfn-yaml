@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolioshare.html
+Type: AWS::ServiceCatalog::PortfolioShare
+Properties: 
+  AcceptLanguage: String
+  AccountId: String
+  PortfolioId: String
+  ShareTagOptions: Boolean
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-PortfolioShare</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

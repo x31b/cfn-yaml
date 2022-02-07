@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-streamingimage.html
+Type: AWS::NimbleStudio::StreamingImage
+Properties: 
+  Description: String
+  Ec2ImageId: String
+  Name: String
+  StudioId: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-NimbleStudio-StreamingImage</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

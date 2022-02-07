@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html
+Type: AWS::EKS::FargateProfile
+Properties: 
+  ClusterName: String
+  FargateProfileName: String
+  PodExecutionRoleArn: String
+  Selectors: 
+    - Selector
+  Subnets: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EKS-FargateProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

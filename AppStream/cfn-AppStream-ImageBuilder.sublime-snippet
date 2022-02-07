@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html
+Type: AWS::AppStream::ImageBuilder
+Properties: 
+  AccessEndpoints: 
+    - AccessEndpoint
+  AppstreamAgentVersion: String
+  Description: String
+  DisplayName: String
+  DomainJoinInfo: 
+    DomainJoinInfo
+  EnableDefaultInternetAccess: Boolean
+  IamRoleArn: String
+  ImageArn: String
+  ImageName: String
+  InstanceType: String
+  Name: String
+  Tags: 
+    - Tag
+  VpcConfig: 
+    VpcConfig
+
+]]></content>
+  <tabTrigger>cfn-AppStream-ImageBuilder</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

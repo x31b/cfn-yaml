@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ivs-playbackkeypair.html
+Type: AWS::IVS::PlaybackKeyPair
+Properties: 
+  Name: String
+  PublicKeyMaterial: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IVS-PlaybackKeyPair</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

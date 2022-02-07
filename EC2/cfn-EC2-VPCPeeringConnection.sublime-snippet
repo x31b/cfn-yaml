@@ -1,11 +1,14 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html
-Type: "AWS::EC2::VPCPeeringConnection"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html
+Type: AWS::EC2::VPCPeeringConnection
 Properties: 
+  PeerOwnerId: String
+  PeerRegion: String
+  PeerRoleArn: String
   PeerVpcId: String
-  Tags:
-    - Resource Tag
+  Tags: 
+    - Tag
   VpcId: String
 
 ]]></content>

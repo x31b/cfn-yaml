@@ -1,13 +1,14 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbsubnet-group.html
-Type: "AWS::RDS::DBSubnetGroup"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbsubnet-group.html
+Type: AWS::RDS::DBSubnetGroup
 Properties: 
   DBSubnetGroupDescription: String
-  SubnetIds:
+  DBSubnetGroupName: String
+  SubnetIds: 
     - String
-  Tags:
-    - Resource Tag 
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-RDS-DBSubnetGroup</tabTrigger>

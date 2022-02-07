@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html
+Type: AWS::MediaLive::Input
+Properties: 
+  Destinations: 
+    - InputDestinationRequest
+  InputDevices: 
+    - InputDeviceSettings
+  InputSecurityGroups: 
+    - String
+  MediaConnectFlows: 
+    - MediaConnectFlowRequest
+  Name: String
+  RoleArn: String
+  Sources: 
+    - InputSourceRequest
+  Tags: Json
+  Type: String
+  Vpc: 
+    InputVpcRequest
+
+]]></content>
+  <tabTrigger>cfn-MediaLive-Input</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

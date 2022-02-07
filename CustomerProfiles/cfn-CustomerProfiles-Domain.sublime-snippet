@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html
+Type: AWS::CustomerProfiles::Domain
+Properties: 
+  DeadLetterQueueUrl: String
+  DefaultEncryptionKey: String
+  DefaultExpirationDays: Integer
+  DomainName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-CustomerProfiles-Domain</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

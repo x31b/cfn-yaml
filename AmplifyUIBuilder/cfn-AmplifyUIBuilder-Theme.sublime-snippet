@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplifyuibuilder-theme.html
+Type: AWS::AmplifyUIBuilder::Theme
+Properties: 
+  Name: String
+  Overrides: 
+    - ThemeValues
+  Tags: 
+    Key : Value
+  Values: 
+    - ThemeValues
+
+]]></content>
+  <tabTrigger>cfn-AmplifyUIBuilder-Theme</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

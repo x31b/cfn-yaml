@@ -1,16 +1,17 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html
-Type: "AWS::IAM::ManagedPolicy"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html
+Type: AWS::IAM::ManagedPolicy
 Properties: 
   Description: String
-  Groups:
+  Groups: 
     - String
+  ManagedPolicyName: String
   Path: String
-  PolicyDocument: JSON object
-  Roles:
+  PolicyDocument: Json
+  Roles: 
     - String
-  Users:
+  Users: 
     - String
 
 ]]></content>

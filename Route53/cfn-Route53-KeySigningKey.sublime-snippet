@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-keysigningkey.html
+Type: AWS::Route53::KeySigningKey
+Properties: 
+  HostedZoneId: String
+  KeyManagementServiceArn: String
+  Name: String
+  Status: String
+
+]]></content>
+  <tabTrigger>cfn-Route53-KeySigningKey</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

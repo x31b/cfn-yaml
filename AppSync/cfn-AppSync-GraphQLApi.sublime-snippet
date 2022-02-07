@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html
+Type: AWS::AppSync::GraphQLApi
+Properties: 
+  AdditionalAuthenticationProviders: 
+    AdditionalAuthenticationProviders
+  AuthenticationType: String
+  LambdaAuthorizerConfig: 
+    LambdaAuthorizerConfig
+  LogConfig: 
+    LogConfig
+  Name: String
+  OpenIDConnectConfig: 
+    OpenIDConnectConfig
+  Tags: 
+    Tags
+  UserPoolConfig: 
+    UserPoolConfig
+  XrayEnabled: Boolean
+
+]]></content>
+  <tabTrigger>cfn-AppSync-GraphQLApi</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

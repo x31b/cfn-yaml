@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnroute.html
+Type: AWS::EC2::ClientVpnRoute
+Properties: 
+  ClientVpnEndpointId: String
+  Description: String
+  DestinationCidrBlock: String
+  TargetVpcSubnetId: String
+
+]]></content>
+  <tabTrigger>cfn-EC2-ClientVpnRoute</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

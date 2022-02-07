@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection-route.html
-Type: "AWS::EC2::VPNConnectionRoute"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection-route.html
+Type: AWS::EC2::VPNConnectionRoute
 Properties: 
   DestinationCidrBlock: String
   VpnConnectionId: String

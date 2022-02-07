@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html
+Type: AWS::EC2::ClientVpnEndpoint
+Properties: 
+  AuthenticationOptions: 
+    - ClientAuthenticationRequest
+  ClientCidrBlock: String
+  ClientConnectOptions: 
+    ClientConnectOptions
+  ClientLoginBannerOptions: 
+    ClientLoginBannerOptions
+  ConnectionLogOptions: 
+    ConnectionLogOptions
+  Description: String
+  DnsServers: 
+    - String
+  SecurityGroupIds: 
+    - String
+  SelfServicePortal: String
+  ServerCertificateArn: String
+  SessionTimeoutHours: Integer
+  SplitTunnel: Boolean
+  TagSpecifications: 
+    - TagSpecification
+  TransportProtocol: String
+  VpcId: String
+  VpnPort: Integer
+
+]]></content>
+  <tabTrigger>cfn-EC2-ClientVpnEndpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

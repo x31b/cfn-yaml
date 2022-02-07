@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-voicechannel.html
+Type: AWS::Pinpoint::VoiceChannel
+Properties: 
+  ApplicationId: String
+  Enabled: Boolean
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-VoiceChannel</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

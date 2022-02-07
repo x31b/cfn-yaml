@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbinstance.html
+Type: AWS::DocDB::DBInstance
+Properties: 
+  AutoMinorVersionUpgrade: Boolean
+  AvailabilityZone: String
+  DBClusterIdentifier: String
+  DBInstanceClass: String
+  DBInstanceIdentifier: String
+  PreferredMaintenanceWindow: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-DocDB-DBInstance</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

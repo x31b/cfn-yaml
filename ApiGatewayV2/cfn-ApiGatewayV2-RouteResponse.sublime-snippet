@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html
+Type: AWS::ApiGatewayV2::RouteResponse
+Properties: 
+  ApiId: String
+  ModelSelectionExpression: String
+  ResponseModels: Json
+  ResponseParameters: Json
+  RouteId: String
+  RouteResponseKey: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-RouteResponse</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

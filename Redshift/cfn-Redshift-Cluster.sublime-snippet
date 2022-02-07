@@ -1,23 +1,40 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html
-Type: "AWS::Redshift::Cluster"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html
+Type: AWS::Redshift::Cluster
 Properties: 
   AllowVersionUpgrade: Boolean
+  AquaConfigurationStatus: String
   AutomatedSnapshotRetentionPeriod: Integer
   AvailabilityZone: String
+  AvailabilityZoneRelocation: Boolean
+  AvailabilityZoneRelocationStatus: String
+  Classic: Boolean
+  ClusterIdentifier: String
   ClusterParameterGroupName: String
-  ClusterSecurityGroups:
+  ClusterSecurityGroups: 
     - String
   ClusterSubnetGroupName: String
   ClusterType: String
   ClusterVersion: String
   DBName: String
+  DeferMaintenance: Boolean
+  DeferMaintenanceDuration: Integer
+  DeferMaintenanceEndTime: String
+  DeferMaintenanceStartTime: String
+  DestinationRegion: String
   ElasticIp: String
   Encrypted: Boolean
+  EnhancedVpcRouting: Boolean
   HsmClientCertificateIdentifier: String
   HsmConfigurationIdentifier: String
+  IamRoles: 
+    - String
   KmsKeyId: String
+  LoggingProperties: 
+    LoggingProperties
+  MaintenanceTrackName: String
+  ManualSnapshotRetentionPeriod: Integer
   MasterUsername: String
   MasterUserPassword: String
   NodeType: String
@@ -26,9 +43,17 @@ Properties:
   Port: Integer
   PreferredMaintenanceWindow: String
   PubliclyAccessible: Boolean
+  ResourceAction: String
+  RevisionTarget: String
+  RotateEncryptionKey: Boolean
   SnapshotClusterIdentifier: String
+  SnapshotCopyGrantName: String
+  SnapshotCopyManual: Boolean
+  SnapshotCopyRetentionPeriod: Integer
   SnapshotIdentifier: String
-  VpcSecurityGroupIds:
+  Tags: 
+    - Tag
+  VpcSecurityGroupIds: 
     - String
 
 ]]></content>

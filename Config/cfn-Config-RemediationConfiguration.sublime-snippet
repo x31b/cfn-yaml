@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-remediationconfiguration.html
+Type: AWS::Config::RemediationConfiguration
+Properties: 
+  Automatic: Boolean
+  ConfigRuleName: String
+  ExecutionControls: 
+    ExecutionControls
+  MaximumAutomaticAttempts: Integer
+  Parameters: Json
+  ResourceType: String
+  RetryAttemptSeconds: Integer
+  TargetId: String
+  TargetType: String
+  TargetVersion: String
+
+]]></content>
+  <tabTrigger>cfn-Config-RemediationConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

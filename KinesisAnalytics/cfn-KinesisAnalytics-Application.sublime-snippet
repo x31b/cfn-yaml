@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-application.html
+Type: AWS::KinesisAnalytics::Application
+Properties: 
+  ApplicationCode: String
+  ApplicationDescription: String
+  ApplicationName: String
+  Inputs: 
+    - Input
+
+]]></content>
+  <tabTrigger>cfn-KinesisAnalytics-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

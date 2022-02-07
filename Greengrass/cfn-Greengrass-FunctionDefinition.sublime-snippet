@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinition.html
+Type: AWS::Greengrass::FunctionDefinition
+Properties: 
+  InitialVersion: 
+    FunctionDefinitionVersion
+  Name: String
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-Greengrass-FunctionDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

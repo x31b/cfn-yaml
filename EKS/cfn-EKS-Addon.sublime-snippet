@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-addon.html
+Type: AWS::EKS::Addon
+Properties: 
+  AddonName: String
+  AddonVersion: String
+  ClusterName: String
+  ResolveConflicts: String
+  ServiceAccountRoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-EKS-Addon</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

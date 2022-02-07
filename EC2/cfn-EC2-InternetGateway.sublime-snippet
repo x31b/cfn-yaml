@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-internet-gateway.html
-Type: "AWS::EC2::InternetGateway"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-internetgateway.html
+Type: AWS::EC2::InternetGateway
 Properties: 
-  Tags:
-    - Resource Tag
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-EC2-InternetGateway</tabTrigger>

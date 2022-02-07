@@ -1,10 +1,13 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-loggroup.html
-Type: "AWS::Logs::LogGroup"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-loggroup.html
+Type: AWS::Logs::LogGroup
 Properties: 
+  KmsKeyId: String
   LogGroupName: String
   RetentionInDays: Integer
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-Logs-LogGroup</tabTrigger>

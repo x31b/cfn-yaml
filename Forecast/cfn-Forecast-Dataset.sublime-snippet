@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-dataset.html
+Type: AWS::Forecast::Dataset
+Properties: 
+  DataFrequency: String
+  DatasetName: String
+  DatasetType: String
+  Domain: String
+  EncryptionConfig: Json
+  Schema: Json
+  Tags: 
+    - Json
+
+]]></content>
+  <tabTrigger>cfn-Forecast-Dataset</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

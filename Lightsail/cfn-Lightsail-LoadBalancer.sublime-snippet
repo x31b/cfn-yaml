@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancer.html
+Type: AWS::Lightsail::LoadBalancer
+Properties: 
+  AttachedInstances: 
+    - String
+  HealthCheckPath: String
+  InstancePort: Integer
+  IpAddressType: String
+  LoadBalancerName: String
+  SessionStickinessEnabled: Boolean
+  SessionStickinessLBCookieDurationSeconds: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-LoadBalancer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

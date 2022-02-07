@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html
+Type: AWS::ApiGateway::DocumentationPart
+Properties: 
+  Location: 
+    Location
+  Properties: String
+  RestApiId: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-DocumentationPart</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

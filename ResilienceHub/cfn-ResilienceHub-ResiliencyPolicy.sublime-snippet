@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resiliencehub-resiliencypolicy.html
+Type: AWS::ResilienceHub::ResiliencyPolicy
+Properties: 
+  DataLocationConstraint: String
+  Policy: 
+    Key : Value
+  PolicyDescription: String
+  PolicyName: String
+  Tags: 
+    Key : Value
+  Tier: String
+
+]]></content>
+  <tabTrigger>cfn-ResilienceHub-ResiliencyPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

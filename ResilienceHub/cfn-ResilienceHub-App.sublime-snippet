@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resiliencehub-app.html
+Type: AWS::ResilienceHub::App
+Properties: 
+  AppTemplateBody: String
+  Description: String
+  Name: String
+  ResiliencyPolicyArn: String
+  ResourceMappings: 
+    - ResourceMapping
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-ResilienceHub-App</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

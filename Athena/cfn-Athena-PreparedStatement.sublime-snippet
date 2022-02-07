@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-preparedstatement.html
+Type: AWS::Athena::PreparedStatement
+Properties: 
+  Description: String
+  QueryStatement: String
+  StatementName: String
+  WorkGroup: String
+
+]]></content>
+  <tabTrigger>cfn-Athena-PreparedStatement</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

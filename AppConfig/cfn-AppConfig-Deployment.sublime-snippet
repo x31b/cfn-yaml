@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-deployment.html
+Type: AWS::AppConfig::Deployment
+Properties: 
+  ApplicationId: String
+  ConfigurationProfileId: String
+  ConfigurationVersion: String
+  DeploymentStrategyId: String
+  Description: String
+  EnvironmentId: String
+  Tags: 
+    - Tags
+
+]]></content>
+  <tabTrigger>cfn-AppConfig-Deployment</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

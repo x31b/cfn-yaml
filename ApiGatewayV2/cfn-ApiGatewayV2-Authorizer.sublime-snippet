@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html
+Type: AWS::ApiGatewayV2::Authorizer
+Properties: 
+  ApiId: String
+  AuthorizerCredentialsArn: String
+  AuthorizerPayloadFormatVersion: String
+  AuthorizerResultTtlInSeconds: Integer
+  AuthorizerType: String
+  AuthorizerUri: String
+  EnableSimpleResponses: Boolean
+  IdentitySource: 
+    - String
+  IdentityValidationExpression: String
+  JwtConfiguration: 
+    JWTConfiguration
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Authorizer</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

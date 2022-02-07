@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-botversion.html
+Type: AWS::Lex::BotVersion
+Properties: 
+  BotId: String
+  BotVersionLocaleSpecification: 
+    - BotVersionLocaleSpecificationItem
+  Description: String
+
+]]></content>
+  <tabTrigger>cfn-Lex-BotVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

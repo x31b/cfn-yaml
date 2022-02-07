@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html
+Type: AWS::AppStream::Fleet
+Properties: 
+  ComputeCapacity: 
+    ComputeCapacity
+  Description: String
+  DisconnectTimeoutInSeconds: Integer
+  DisplayName: String
+  DomainJoinInfo: 
+    DomainJoinInfo
+  EnableDefaultInternetAccess: Boolean
+  FleetType: String
+  IamRoleArn: String
+  IdleDisconnectTimeoutInSeconds: Integer
+  ImageArn: String
+  ImageName: String
+  InstanceType: String
+  MaxConcurrentSessions: Integer
+  MaxUserDurationInSeconds: Integer
+  Name: String
+  Platform: String
+  StreamView: String
+  Tags: 
+    - Tag
+  UsbDeviceFilterStrings: 
+    - String
+  VpcConfig: 
+    VpcConfig
+
+]]></content>
+  <tabTrigger>cfn-AppStream-Fleet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

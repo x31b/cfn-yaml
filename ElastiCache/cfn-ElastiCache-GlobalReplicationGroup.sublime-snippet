@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-globalreplicationgroup.html
+Type: AWS::ElastiCache::GlobalReplicationGroup
+Properties: 
+  AutomaticFailoverEnabled: Boolean
+  CacheNodeType: String
+  CacheParameterGroupName: String
+  EngineVersion: String
+  GlobalNodeGroupCount: Integer
+  GlobalReplicationGroupDescription: String
+  GlobalReplicationGroupIdSuffix: String
+  Members: 
+    - GlobalReplicationGroupMember
+  RegionalConfigurations: 
+    - RegionalConfiguration
+
+]]></content>
+  <tabTrigger>cfn-ElastiCache-GlobalReplicationGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html
+Type: AWS::Kendra::Index
+Properties: 
+  CapacityUnits: 
+    CapacityUnitsConfiguration
+  Description: String
+  DocumentMetadataConfigurations: 
+    - DocumentMetadataConfiguration
+  Edition: String
+  Name: String
+  RoleArn: String
+  ServerSideEncryptionConfiguration: 
+    ServerSideEncryptionConfiguration
+  Tags: 
+    - Tag
+  UserContextPolicy: String
+  UserTokenConfigurations: 
+    - UserTokenConfiguration
+
+]]></content>
+  <tabTrigger>cfn-Kendra-Index</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

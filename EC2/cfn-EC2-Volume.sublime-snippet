@@ -1,17 +1,20 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html
-Type: "AWS::EC2::Volume"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html
+Type: AWS::EC2::Volume
+Properties: 
   AutoEnableIO: Boolean
   AvailabilityZone: String
   Encrypted: Boolean
-  Iops: Number
+  Iops: Integer
   KmsKeyId: String
-  Size: String
+  MultiAttachEnabled: Boolean
+  OutpostArn: String
+  Size: Integer
   SnapshotId: String
-  Tags:
-    - Resource Tag
+  Tags: 
+    - Tag
+  Throughput: Integer
   VolumeType: String
 
 ]]></content>

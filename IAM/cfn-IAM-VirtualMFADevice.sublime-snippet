@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-virtualmfadevice.html
+Type: AWS::IAM::VirtualMFADevice
+Properties: 
+  Path: String
+  Tags: 
+    - Tag
+  Users: 
+    - String
+  VirtualMfaDeviceName: String
+
+]]></content>
+  <tabTrigger>cfn-IAM-VirtualMFADevice</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

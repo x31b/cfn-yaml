@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-datasource.html
+Type: AWS::Kendra::DataSource
+Properties: 
+  DataSourceConfiguration: 
+    DataSourceConfiguration
+  Description: String
+  IndexId: String
+  Name: String
+  RoleArn: String
+  Schedule: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-Kendra-DataSource</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

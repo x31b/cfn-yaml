@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowsource.html
+Type: AWS::MediaConnect::FlowSource
+Properties: 
+  Decryption: 
+    Encryption
+  Description: String
+  EntitlementArn: String
+  FlowArn: String
+  IngestPort: Integer
+  MaxBitrate: Integer
+  MaxLatency: Integer
+  Name: String
+  Protocol: String
+  StreamId: String
+  VpcInterfaceName: String
+  WhitelistCidr: String
+
+]]></content>
+  <tabTrigger>cfn-MediaConnect-FlowSource</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

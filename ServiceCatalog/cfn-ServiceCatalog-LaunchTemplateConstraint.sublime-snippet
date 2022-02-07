@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchtemplateconstraint.html
+Type: AWS::ServiceCatalog::LaunchTemplateConstraint
+Properties: 
+  AcceptLanguage: String
+  Description: String
+  PortfolioId: String
+  ProductId: String
+  Rules: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-LaunchTemplateConstraint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html
+Type: AWS::NetworkFirewall::FirewallPolicy
+Properties: 
+  Description: String
+  FirewallPolicy: 
+    FirewallPolicy
+  FirewallPolicyName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-NetworkFirewall-FirewallPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

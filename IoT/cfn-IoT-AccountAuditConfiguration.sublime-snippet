@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-accountauditconfiguration.html
+Type: AWS::IoT::AccountAuditConfiguration
+Properties: 
+  AccountId: String
+  AuditCheckConfigurations: 
+    AuditCheckConfigurations
+  AuditNotificationTargetConfigurations: 
+    AuditNotificationTargetConfigurations
+  RoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-IoT-AccountAuditConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

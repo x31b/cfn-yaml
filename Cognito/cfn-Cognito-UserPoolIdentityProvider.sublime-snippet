@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html
+Type: AWS::Cognito::UserPoolIdentityProvider
+Properties: 
+  AttributeMapping: Json
+  IdpIdentifiers: 
+    - String
+  ProviderDetails: Json
+  ProviderName: String
+  ProviderType: String
+  UserPoolId: String
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolIdentityProvider</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

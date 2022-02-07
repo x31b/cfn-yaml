@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoveryreadiness-cell.html
+Type: AWS::Route53RecoveryReadiness::Cell
+Properties: 
+  CellName: String
+  Cells: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Route53RecoveryReadiness-Cell</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

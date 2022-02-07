@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-aggregationauthorization.html
+Type: AWS::Config::AggregationAuthorization
+Properties: 
+  AuthorizedAccountId: String
+  AuthorizedAwsRegion: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Config-AggregationAuthorization</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

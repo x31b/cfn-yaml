@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-httpnamespace.html
+Type: AWS::ServiceDiscovery::HttpNamespace
+Properties: 
+  Description: String
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-ServiceDiscovery-HttpNamespace</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

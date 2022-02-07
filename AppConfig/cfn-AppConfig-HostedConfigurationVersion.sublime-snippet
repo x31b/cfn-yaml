@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-hostedconfigurationversion.html
+Type: AWS::AppConfig::HostedConfigurationVersion
+Properties: 
+  ApplicationId: String
+  ConfigurationProfileId: String
+  Content: String
+  ContentType: String
+  Description: String
+  LatestVersionNumber: Double
+
+]]></content>
+  <tabTrigger>cfn-AppConfig-HostedConfigurationVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,12 +1,18 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html
-Type: "AWS::KMS::Key"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html
+Type: AWS::KMS::Key
 Properties: 
   Description: String
   Enabled: Boolean
   EnableKeyRotation: Boolean
-  KeyPolicy: JSON object
+  KeyPolicy: Json
+  KeySpec: String
+  KeyUsage: String
+  MultiRegion: Boolean
+  PendingWindowInDays: Integer
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-KMS-Key</tabTrigger>

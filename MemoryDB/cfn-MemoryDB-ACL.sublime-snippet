@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html
+Type: AWS::MemoryDB::ACL
+Properties: 
+  ACLName: String
+  Tags: 
+    - Tag
+  UserNames: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-MemoryDB-ACL</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

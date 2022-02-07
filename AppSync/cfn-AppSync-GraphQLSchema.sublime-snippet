@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlschema.html
+Type: AWS::AppSync::GraphQLSchema
+Properties: 
+  ApiId: String
+  Definition: String
+  DefinitionS3Location: String
+
+]]></content>
+  <tabTrigger>cfn-AppSync-GraphQLSchema</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

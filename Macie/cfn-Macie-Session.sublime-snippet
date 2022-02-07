@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-session.html
+Type: AWS::Macie::Session
+Properties: 
+  FindingPublishingFrequency: String
+  Status: String
+
+]]></content>
+  <tabTrigger>cfn-Macie-Session</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

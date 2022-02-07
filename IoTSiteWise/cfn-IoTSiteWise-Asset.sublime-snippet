@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html
+Type: AWS::IoTSiteWise::Asset
+Properties: 
+  AssetHierarchies: 
+    - AssetHierarchy
+  AssetModelId: String
+  AssetName: String
+  AssetProperties: 
+    - AssetProperty
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTSiteWise-Asset</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

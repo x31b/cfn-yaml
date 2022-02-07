@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-logging.html
+Type: AWS::IoT::Logging
+Properties: 
+  AccountId: String
+  DefaultLogLevel: String
+  RoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-IoT-Logging</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

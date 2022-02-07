@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-domainname.html
+Type: AWS::AppSync::DomainName
+Properties: 
+  CertificateArn: String
+  Description: String
+  DomainName: String
+
+]]></content>
+  <tabTrigger>cfn-AppSync-DomainName</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

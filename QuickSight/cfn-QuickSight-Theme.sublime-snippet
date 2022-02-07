@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-theme.html
+Type: AWS::QuickSight::Theme
+Properties: 
+  AwsAccountId: String
+  BaseThemeId: String
+  Configuration: 
+    ThemeConfiguration
+  Name: String
+  Permissions: 
+    - ResourcePermission
+  Tags: 
+    - Tag
+  ThemeId: String
+  VersionDescription: String
+
+]]></content>
+  <tabTrigger>cfn-QuickSight-Theme</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

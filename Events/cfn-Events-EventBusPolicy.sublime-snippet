@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbuspolicy.html
+Type: AWS::Events::EventBusPolicy
+Properties: 
+  Action: String
+  Condition: 
+    Condition
+  EventBusName: String
+  Principal: String
+  Statement: Json
+  StatementId: String
+
+]]></content>
+  <tabTrigger>cfn-Events-EventBusPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

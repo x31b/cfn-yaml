@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-schema.html
+Type: AWS::EventSchemas::Schema
+Properties: 
+  Content: String
+  Description: String
+  RegistryName: String
+  SchemaName: String
+  Tags: 
+    - TagsEntry
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-EventSchemas-Schema</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

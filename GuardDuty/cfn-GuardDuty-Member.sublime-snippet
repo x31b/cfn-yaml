@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html
+Type: AWS::GuardDuty::Member
+Properties: 
+  DetectorId: String
+  DisableEmailNotification: Boolean
+  Email: String
+  MemberId: String
+  Message: String
+  Status: String
+
+]]></content>
+  <tabTrigger>cfn-GuardDuty-Member</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

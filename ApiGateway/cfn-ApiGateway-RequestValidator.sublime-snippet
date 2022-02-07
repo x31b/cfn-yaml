@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-requestvalidator.html
+Type: AWS::ApiGateway::RequestValidator
+Properties: 
+  Name: String
+  RestApiId: String
+  ValidateRequestBody: Boolean
+  ValidateRequestParameters: Boolean
+
+]]></content>
+  <tabTrigger>cfn-ApiGateway-RequestValidator</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-mitigationaction.html
+Type: AWS::IoT::MitigationAction
+Properties: 
+  ActionName: String
+  ActionParams: 
+    ActionParams
+  RoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoT-MitigationAction</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

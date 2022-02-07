@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-datacatalogencryptionsettings.html
+Type: AWS::Glue::DataCatalogEncryptionSettings
+Properties: 
+  CatalogId: String
+  DataCatalogEncryptionSettings: 
+    DataCatalogEncryptionSettings
+
+]]></content>
+  <tabTrigger>cfn-Glue-DataCatalogEncryptionSettings</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

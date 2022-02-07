@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html
+Type: AWS::Batch::SchedulingPolicy
+Properties: 
+  FairsharePolicy: 
+    FairsharePolicy
+  Name: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-Batch-SchedulingPolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

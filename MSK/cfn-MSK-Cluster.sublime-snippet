@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html
+Type: AWS::MSK::Cluster
+Properties: 
+  BrokerNodeGroupInfo: 
+    BrokerNodeGroupInfo
+  ClientAuthentication: 
+    ClientAuthentication
+  ClusterName: String
+  ConfigurationInfo: 
+    ConfigurationInfo
+  EncryptionInfo: 
+    EncryptionInfo
+  EnhancedMonitoring: String
+  KafkaVersion: String
+  LoggingInfo: 
+    LoggingInfo
+  NumberOfBrokerNodes: Integer
+  OpenMonitoring: 
+    OpenMonitoring
+  Tags: Json
+
+]]></content>
+  <tabTrigger>cfn-MSK-Cluster</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

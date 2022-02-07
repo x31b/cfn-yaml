@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html
+Type: AWS::ApiGatewayV2::Api
+Properties: 
+  ApiKeySelectionExpression: String
+  BasePath: String
+  Body: Json
+  BodyS3Location: 
+    BodyS3Location
+  CorsConfiguration: 
+    Cors
+  CredentialsArn: String
+  Description: String
+  DisableExecuteApiEndpoint: Boolean
+  DisableSchemaValidation: Boolean
+  FailOnWarnings: Boolean
+  Name: String
+  ProtocolType: String
+  RouteKey: String
+  RouteSelectionExpression: String
+  Tags: Json
+  Target: String
+  Version: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Api</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

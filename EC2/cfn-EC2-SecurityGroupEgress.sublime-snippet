@@ -1,11 +1,13 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html
-Type: "AWS::EC2::SecurityGroupEgress"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html
+Type: AWS::EC2::SecurityGroupEgress
+Properties: 
   CidrIp: String
+  CidrIpv6: String
+  Description: String
   DestinationPrefixListId: String
-  DestinationSecurityGroupId:  String
+  DestinationSecurityGroupId: String
   FromPort: Integer
   GroupId: String
   IpProtocol: String

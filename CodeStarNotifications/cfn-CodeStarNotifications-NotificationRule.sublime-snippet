@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html
+Type: AWS::CodeStarNotifications::NotificationRule
+Properties: 
+  CreatedBy: String
+  DetailType: String
+  EventTypeId: String
+  EventTypeIds: 
+    - String
+  Name: String
+  Resource: String
+  Status: String
+  Tags: Json
+  TargetAddress: String
+  Targets: 
+    - Target
+
+]]></content>
+  <tabTrigger>cfn-CodeStarNotifications-NotificationRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

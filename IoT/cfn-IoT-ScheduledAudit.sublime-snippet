@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html
+Type: AWS::IoT::ScheduledAudit
+Properties: 
+  DayOfMonth: String
+  DayOfWeek: String
+  Frequency: String
+  ScheduledAuditName: String
+  Tags: 
+    - Tag
+  TargetCheckNames: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-IoT-ScheduledAudit</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

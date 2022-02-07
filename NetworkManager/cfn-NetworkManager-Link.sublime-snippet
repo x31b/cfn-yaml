@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html
+Type: AWS::NetworkManager::Link
+Properties: 
+  Bandwidth: 
+    Bandwidth
+  Description: String
+  GlobalNetworkId: String
+  Provider: String
+  SiteId: String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-NetworkManager-Link</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-bucket.html
+Type: AWS::Lightsail::Bucket
+Properties: 
+  AccessRules: 
+    AccessRules
+  BucketName: String
+  BundleId: String
+  ObjectVersioning: Boolean
+  ReadOnlyAccessAccounts: 
+    - String
+  ResourcesReceivingAccess: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Bucket</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

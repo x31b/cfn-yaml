@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html
+Type: AWS::SNS::Subscription
+Properties: 
+  DeliveryPolicy: Json
+  Endpoint: String
+  FilterPolicy: Json
+  Protocol: String
+  RawMessageDelivery: Boolean
+  RedrivePolicy: Json
+  Region: String
+  SubscriptionRoleArn: String
+  TopicArn: String
+
+]]></content>
+  <tabTrigger>cfn-SNS-Subscription</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

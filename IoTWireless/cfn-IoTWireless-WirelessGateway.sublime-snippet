@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessgateway.html
+Type: AWS::IoTWireless::WirelessGateway
+Properties: 
+  Description: String
+  LastUplinkReceivedAt: String
+  LoRaWAN: 
+    LoRaWANGateway
+  Name: String
+  Tags: 
+    - Tag
+  ThingArn: String
+
+]]></content>
+  <tabTrigger>cfn-IoTWireless-WirelessGateway</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,19 +1,23 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html
-Type: "AWS::EC2::NetworkInterface"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinterface.html
+Type: AWS::EC2::NetworkInterface
 Properties: 
   Description: String
-  GroupSet:
+  GroupSet: 
     - String
+  InterfaceType: String
+  Ipv6AddressCount: Integer
+  Ipv6Addresses: 
+    - InstanceIpv6Address
   PrivateIpAddress: String
-  PrivateIpAddresses:
+  PrivateIpAddresses: 
     - PrivateIpAddressSpecification
   SecondaryPrivateIpAddressCount: Integer
   SourceDestCheck: Boolean
   SubnetId: String
-  Tags:
-    - Resource Tag
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-EC2-NetworkInterface</tabTrigger>

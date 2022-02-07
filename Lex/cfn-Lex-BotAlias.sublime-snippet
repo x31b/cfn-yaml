@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-botalias.html
+Type: AWS::Lex::BotAlias
+Properties: 
+  BotAliasLocaleSettings: 
+    - BotAliasLocaleSettingsItem
+  BotAliasName: String
+  BotAliasTags: 
+    - Tag
+  BotId: String
+  BotVersion: String
+  ConversationLogSettings: 
+    ConversationLogSettings
+  Description: String
+  SentimentAnalysisSettings: Json
+
+]]></content>
+  <tabTrigger>cfn-Lex-BotAlias</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

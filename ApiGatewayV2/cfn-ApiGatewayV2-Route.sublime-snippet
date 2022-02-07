@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html
+Type: AWS::ApiGatewayV2::Route
+Properties: 
+  ApiId: String
+  ApiKeyRequired: Boolean
+  AuthorizationScopes: 
+    - String
+  AuthorizationType: String
+  AuthorizerId: String
+  ModelSelectionExpression: String
+  OperationName: String
+  RequestModels: Json
+  RequestParameters: Json
+  RouteKey: String
+  RouteResponseSelectionExpression: String
+  Target: String
+
+]]></content>
+  <tabTrigger>cfn-ApiGatewayV2-Route</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

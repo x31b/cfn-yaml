@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html
+Type: AWS::CloudFront::Function
+Properties: 
+  AutoPublish: Boolean
+  FunctionCode: String
+  FunctionConfig: 
+    FunctionConfig
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFront-Function</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html
+Type: AWS::Backup::BackupVault
+Properties: 
+  AccessPolicy: Json
+  BackupVaultName: String
+  BackupVaultTags: 
+    Key : Value
+  EncryptionKeyArn: String
+  LockConfiguration: 
+    LockConfigurationType
+  Notifications: 
+    NotificationObjectType
+
+]]></content>
+  <tabTrigger>cfn-Backup-BackupVault</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

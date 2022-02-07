@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-serviceaction.html
+Type: AWS::ServiceCatalog::ServiceAction
+Properties: 
+  AcceptLanguage: String
+  Definition: 
+    - DefinitionParameter
+  DefinitionType: String
+  Description: String
+  Name: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-ServiceAction</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

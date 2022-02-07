@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html
+Type: AWS::WAFv2::RuleGroup
+Properties: 
+  Capacity: Integer
+  CustomResponseBodies: 
+    Key : Value
+  Description: String
+  Name: String
+  Rules: 
+    - Rule
+  Scope: String
+  Tags: 
+    - Tag
+  VisibilityConfig: 
+    VisibilityConfig
+
+]]></content>
+  <tabTrigger>cfn-WAFv2-RuleGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

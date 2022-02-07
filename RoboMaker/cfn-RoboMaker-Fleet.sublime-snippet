@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-fleet.html
+Type: AWS::RoboMaker::Fleet
+Properties: 
+  Name: String
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-RoboMaker-Fleet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

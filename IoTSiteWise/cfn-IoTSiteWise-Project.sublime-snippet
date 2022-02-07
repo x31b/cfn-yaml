@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html
+Type: AWS::IoTSiteWise::Project
+Properties: 
+  AssetIds: 
+    - String
+  PortalId: String
+  ProjectDescription: String
+  ProjectName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTSiteWise-Project</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

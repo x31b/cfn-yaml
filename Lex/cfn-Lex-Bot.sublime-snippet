@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-bot.html
+Type: AWS::Lex::Bot
+Properties: 
+  AutoBuildBotLocales: Boolean
+  BotFileS3Location: 
+    S3Location
+  BotLocales: 
+    - BotLocale
+  BotTags: 
+    - Tag
+  DataPrivacy: Json
+  Description: String
+  IdleSessionTTLInSeconds: Integer
+  Name: String
+  RoleArn: String
+  TestBotAliasTags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Lex-Bot</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html
+Type: AWS::Route53Resolver::ResolverRule
+Properties: 
+  DomainName: String
+  Name: String
+  ResolverEndpointId: String
+  RuleType: String
+  Tags: 
+    - Tag
+  TargetIps: 
+    - TargetAddress
+
+]]></content>
+  <tabTrigger>cfn-Route53Resolver-ResolverRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

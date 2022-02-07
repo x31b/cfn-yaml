@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-fleetmetric.html
+Type: AWS::IoT::FleetMetric
+Properties: 
+  AggregationField: String
+  AggregationType: 
+    AggregationType
+  Description: String
+  IndexName: String
+  MetricName: String
+  Period: Integer
+  QueryString: 
+    String
+  QueryVersion: String
+  Tags: 
+    - Tag
+  Unit: String
+
+]]></content>
+  <tabTrigger>cfn-IoT-FleetMetric</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

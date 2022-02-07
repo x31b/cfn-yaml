@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stackuserassociation.html
+Type: AWS::AppStream::StackUserAssociation
+Properties: 
+  AuthenticationType: String
+  SendEmailNotification: Boolean
+  StackName: String
+  UserName: String
+
+]]></content>
+  <tabTrigger>cfn-AppStream-StackUserAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

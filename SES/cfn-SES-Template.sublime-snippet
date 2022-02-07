@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-template.html
+Type: AWS::SES::Template
+Properties: 
+  Template: 
+    Template
+
+]]></content>
+  <tabTrigger>cfn-SES-Template</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

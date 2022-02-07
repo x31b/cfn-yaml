@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrassv2-componentversion.html
+Type: AWS::GreengrassV2::ComponentVersion
+Properties: 
+  InlineRecipe: String
+  LambdaFunction: 
+    LambdaFunctionRecipeSource
+  Tags: 
+    Key : Value
+
+]]></content>
+  <tabTrigger>cfn-GreengrassV2-ComponentVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

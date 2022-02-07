@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualgateway.html
+Type: AWS::AppMesh::VirtualGateway
+Properties: 
+  MeshName: String
+  MeshOwner: String
+  Spec: 
+    VirtualGatewaySpec
+  Tags: 
+    - Tag
+  VirtualGatewayName: String
+
+]]></content>
+  <tabTrigger>cfn-AppMesh-VirtualGateway</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-regexpatternset.html
+Type: AWS::WAFRegional::RegexPatternSet
+Properties: 
+  Name: String
+  RegexPatternStrings: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-WAFRegional-RegexPatternSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

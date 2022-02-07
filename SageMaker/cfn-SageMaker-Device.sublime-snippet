@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html
+Type: AWS::SageMaker::Device
+Properties: 
+  Device: 
+    Device
+  DeviceFleetName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Device</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

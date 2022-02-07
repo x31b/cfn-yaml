@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html
+Type: AWS::DataBrew::Job
+Properties: 
+  DatabaseOutputs: 
+    - DatabaseOutput
+  DataCatalogOutputs: 
+    - DataCatalogOutput
+  DatasetName: String
+  EncryptionKeyArn: String
+  EncryptionMode: String
+  JobSample: 
+    JobSample
+  LogSubscription: String
+  MaxCapacity: Integer
+  MaxRetries: Integer
+  Name: String
+  OutputLocation: 
+    OutputLocation
+  Outputs: 
+    - Output
+  ProfileConfiguration: 
+    ProfileConfiguration
+  ProjectName: String
+  Recipe: 
+    Recipe
+  RoleArn: String
+  Tags: 
+    - Tag
+  Timeout: Integer
+  Type: String
+  ValidationConfigurations: 
+    - ValidationConfiguration
+
+]]></content>
+  <tabTrigger>cfn-DataBrew-Job</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-regexpatternset.html
+Type: AWS::WAFv2::RegexPatternSet
+Properties: 
+  Description: String
+  Name: String
+  RegularExpressionList: 
+    - String
+  Scope: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-WAFv2-RegexPatternSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

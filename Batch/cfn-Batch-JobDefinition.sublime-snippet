@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html
+Type: AWS::Batch::JobDefinition
+Properties: 
+  ContainerProperties: 
+    ContainerProperties
+  JobDefinitionName: String
+  NodeProperties: 
+    NodeProperties
+  Parameters: Json
+  PlatformCapabilities: 
+    - String
+  PropagateTags: Boolean
+  RetryStrategy: 
+    RetryStrategy
+  SchedulingPriority: Integer
+  Tags: Json
+  Timeout: 
+    Timeout
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-Batch-JobDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

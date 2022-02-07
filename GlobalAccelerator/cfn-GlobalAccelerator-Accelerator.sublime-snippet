@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-accelerator.html
+Type: AWS::GlobalAccelerator::Accelerator
+Properties: 
+  Enabled: Boolean
+  IpAddresses: 
+    - String
+  IpAddressType: String
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-GlobalAccelerator-Accelerator</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

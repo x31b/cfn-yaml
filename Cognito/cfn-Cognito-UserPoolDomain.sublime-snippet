@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooldomain.html
+Type: AWS::Cognito::UserPoolDomain
+Properties: 
+  CustomDomainConfig: 
+    CustomDomainConfigType
+  Domain: String
+  UserPoolId: String
+
+]]></content>
+  <tabTrigger>cfn-Cognito-UserPoolDomain</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

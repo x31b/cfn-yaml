@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html
+Type: AWS::SageMaker::Endpoint
+Properties: 
+  DeploymentConfig: 
+    DeploymentConfig
+  EndpointConfigName: String
+  EndpointName: String
+  ExcludeRetainedVariantProperties: 
+    - VariantProperty
+  RetainAllVariantProperties: Boolean
+  RetainDeploymentConfig: Boolean
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Endpoint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

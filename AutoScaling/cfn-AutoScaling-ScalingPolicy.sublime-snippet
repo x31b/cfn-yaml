@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html
-Type: "AWS::AutoScaling::ScalingPolicy"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html
+Type: AWS::AutoScaling::ScalingPolicy
+Properties: 
   AdjustmentType: String
   AutoScalingGroupName: String
   Cooldown: String
@@ -10,9 +10,13 @@ Properties:
   MetricAggregationType: String
   MinAdjustmentMagnitude: Integer
   PolicyType: String
+  PredictiveScalingConfiguration: 
+    PredictiveScalingConfiguration
   ScalingAdjustment: Integer
-  StepAdjustments:
-    - StepAdjustments
+  StepAdjustments: 
+    - StepAdjustment
+  TargetTrackingConfiguration: 
+    TargetTrackingConfiguration
 
 ]]></content>
   <tabTrigger>cfn-AutoScaling-ScalingPolicy</tabTrigger>

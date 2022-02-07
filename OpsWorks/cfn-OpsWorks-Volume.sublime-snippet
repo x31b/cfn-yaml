@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-volume.html
+Type: AWS::OpsWorks::Volume
+Properties: 
+  Ec2VolumeId: String
+  MountPoint: String
+  Name: String
+  StackId: String
+
+]]></content>
+  <tabTrigger>cfn-OpsWorks-Volume</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

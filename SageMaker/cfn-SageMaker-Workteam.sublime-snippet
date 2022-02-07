@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html
+Type: AWS::SageMaker::Workteam
+Properties: 
+  Description: String
+  MemberDefinitions: 
+    - MemberDefinition
+  NotificationConfiguration: 
+    NotificationConfiguration
+  Tags: 
+    - Tag
+  WorkteamName: String
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-Workteam</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

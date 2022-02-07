@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-alarm.html
+Type: AWS::Lightsail::Alarm
+Properties: 
+  AlarmName: String
+  ComparisonOperator: String
+  ContactProtocols: 
+    - String
+  DatapointsToAlarm: Integer
+  EvaluationPeriods: Integer
+  MetricName: String
+  MonitoredResourceName: String
+  NotificationEnabled: Boolean
+  NotificationTriggers: 
+    - String
+  Threshold: Double
+  TreatMissingData: String
+
+]]></content>
+  <tabTrigger>cfn-Lightsail-Alarm</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

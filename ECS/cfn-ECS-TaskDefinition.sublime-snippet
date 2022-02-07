@@ -1,14 +1,34 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html
-Type: "AWS::ECS::TaskDefinition"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html
+Type: AWS::ECS::TaskDefinition
 Properties: 
-  ContainerDefinitions:
-    - Container Definition
+  ContainerDefinitions: 
+    - ContainerDefinition
+  Cpu: String
+  EphemeralStorage: 
+    EphemeralStorage
+  ExecutionRoleArn: String
   Family: String
+  InferenceAccelerators: 
+    - InferenceAccelerator
+  IpcMode: String
+  Memory: String
+  NetworkMode: String
+  PidMode: String
+  PlacementConstraints: 
+    - TaskDefinitionPlacementConstraint
+  ProxyConfiguration: 
+    ProxyConfiguration
+  RequiresCompatibilities: 
+    - String
+  RuntimePlatform: 
+    RuntimePlatform
+  Tags: 
+    - Tag
   TaskRoleArn: String
-  Volumes:
-    - Volume Definition 
+  Volumes: 
+    - Volume
 
 ]]></content>
   <tabTrigger>cfn-ECS-TaskDefinition</tabTrigger>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-stream.html
+Type: AWS::QLDB::Stream
+Properties: 
+  ExclusiveEndTime: String
+  InclusiveStartTime: String
+  KinesisConfiguration: 
+    KinesisConfiguration
+  LedgerName: String
+  RoleArn: String
+  StreamName: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-QLDB-Stream</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

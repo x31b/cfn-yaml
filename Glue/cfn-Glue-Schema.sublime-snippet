@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html
+Type: AWS::Glue::Schema
+Properties: 
+  CheckpointVersion: 
+    SchemaVersion
+  Compatibility: String
+  DataFormat: String
+  Description: String
+  Name: String
+  Registry: 
+    Registry
+  SchemaDefinition: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Glue-Schema</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

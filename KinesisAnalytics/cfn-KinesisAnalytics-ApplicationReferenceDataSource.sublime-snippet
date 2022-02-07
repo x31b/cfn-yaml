@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-applicationreferencedatasource.html
+Type: AWS::KinesisAnalytics::ApplicationReferenceDataSource
+Properties: 
+  ApplicationName: String
+  ReferenceDataSource: 
+    ReferenceDataSource
+
+]]></content>
+  <tabTrigger>cfn-KinesisAnalytics-ApplicationReferenceDataSource</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

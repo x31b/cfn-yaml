@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ratebasedrule.html
+Type: AWS::WAFRegional::RateBasedRule
+Properties: 
+  MatchPredicates: 
+    - Predicate
+  MetricName: String
+  Name: String
+  RateKey: String
+  RateLimit: Integer
+
+]]></content>
+  <tabTrigger>cfn-WAFRegional-RateBasedRule</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html
+Type: AWS::ImageBuilder::ImageRecipe
+Properties: 
+  AdditionalInstanceConfiguration: 
+    AdditionalInstanceConfiguration
+  BlockDeviceMappings: 
+    - InstanceBlockDeviceMapping
+  Components: 
+    - ComponentConfiguration
+  Description: String
+  Name: String
+  ParentImage: String
+  Tags: 
+    Key : Value
+  Version: String
+  WorkingDirectory: String
+
+]]></content>
+  <tabTrigger>cfn-ImageBuilder-ImageRecipe</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

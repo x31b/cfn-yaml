@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amazonmq-broker.html
+Type: AWS::AmazonMQ::Broker
+Properties: 
+  AuthenticationStrategy: String
+  AutoMinorVersionUpgrade: Boolean
+  BrokerName: String
+  Configuration: 
+    ConfigurationId
+  DeploymentMode: String
+  EncryptionOptions: 
+    EncryptionOptions
+  EngineType: String
+  EngineVersion: String
+  HostInstanceType: String
+  LdapServerMetadata: 
+    LdapServerMetadata
+  Logs: 
+    LogList
+  MaintenanceWindowStartTime: 
+    MaintenanceWindow
+  PubliclyAccessible: Boolean
+  SecurityGroups: 
+    - String
+  StorageType: String
+  SubnetIds: 
+    - String
+  Tags: 
+    - TagsEntry
+  Users: 
+    - User
+
+]]></content>
+  <tabTrigger>cfn-AmazonMQ-Broker</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

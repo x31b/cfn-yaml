@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-loggingconfiguration.html
+Type: AWS::NetworkFirewall::LoggingConfiguration
+Properties: 
+  FirewallArn: String
+  FirewallName: String
+  LoggingConfiguration: 
+    LoggingConfiguration
+
+]]></content>
+  <tabTrigger>cfn-NetworkFirewall-LoggingConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

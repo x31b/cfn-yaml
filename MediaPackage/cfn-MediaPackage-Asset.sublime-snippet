@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html
+Type: AWS::MediaPackage::Asset
+Properties: 
+  Id: String
+  PackagingGroupId: String
+  ResourceId: String
+  SourceArn: String
+  SourceRoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-MediaPackage-Asset</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

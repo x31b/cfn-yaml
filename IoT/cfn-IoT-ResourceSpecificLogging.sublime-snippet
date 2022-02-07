@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-resourcespecificlogging.html
+Type: AWS::IoT::ResourceSpecificLogging
+Properties: 
+  LogLevel: String
+  TargetName: String
+  TargetType: String
+
+]]></content>
+  <tabTrigger>cfn-IoT-ResourceSpecificLogging</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelqualityjobdefinition.html
+Type: AWS::SageMaker::ModelQualityJobDefinition
+Properties: 
+  JobDefinitionName: String
+  JobResources: 
+    MonitoringResources
+  ModelQualityAppSpecification: 
+    ModelQualityAppSpecification
+  ModelQualityBaselineConfig: 
+    ModelQualityBaselineConfig
+  ModelQualityJobInput: 
+    ModelQualityJobInput
+  ModelQualityJobOutputConfig: 
+    MonitoringOutputConfig
+  NetworkConfig: 
+    NetworkConfig
+  RoleArn: String
+  StoppingCondition: 
+    StoppingCondition
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-ModelQualityJobDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

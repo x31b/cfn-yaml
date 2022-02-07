@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-datalakesettings.html
+Type: AWS::LakeFormation::DataLakeSettings
+Properties: 
+  Admins: 
+    Admins
+  TrustedResourceOwners: 
+    - String
+
+]]></content>
+  <tabTrigger>cfn-LakeFormation-DataLakeSettings</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

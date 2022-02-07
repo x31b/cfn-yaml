@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotcoredeviceadvisor-suitedefinition.html
+Type: AWS::IoTCoreDeviceAdvisor::SuiteDefinition
+Properties: 
+  SuiteDefinitionConfiguration: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTCoreDeviceAdvisor-SuiteDefinition</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

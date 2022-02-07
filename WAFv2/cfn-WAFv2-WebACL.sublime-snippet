@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html
+Type: AWS::WAFv2::WebACL
+Properties: 
+  CaptchaConfig: 
+    CaptchaConfig
+  CustomResponseBodies: 
+    Key : Value
+  DefaultAction: 
+    DefaultAction
+  Description: String
+  Name: String
+  Rules: 
+    - Rule
+  Scope: String
+  Tags: 
+    - Tag
+  VisibilityConfig: 
+    VisibilityConfig
+
+]]></content>
+  <tabTrigger>cfn-WAFv2-WebACL</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

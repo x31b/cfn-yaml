@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-typeactivation.html
+Type: AWS::CloudFormation::TypeActivation
+Properties: 
+  AutoUpdate: Boolean
+  ExecutionRoleArn: String
+  LoggingConfig: 
+    LoggingConfig
+  MajorVersion: String
+  PublicTypeArn: String
+  PublisherId: String
+  Type: String
+  TypeName: String
+  TypeNameAlias: String
+  VersionBump: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-TypeActivation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html
+Type: AWS::MediaConnect::FlowOutput
+Properties: 
+  CidrAllowList: 
+    - String
+  Description: String
+  Destination: String
+  Encryption: 
+    Encryption
+  FlowArn: String
+  MaxLatency: Integer
+  MinLatency: Integer
+  Name: String
+  Port: Integer
+  Protocol: String
+  RemoteId: String
+  SmoothingLatency: Integer
+  StreamId: String
+  VpcInterfaceAttachment: 
+    VpcInterfaceAttachment
+
+]]></content>
+  <tabTrigger>cfn-MediaConnect-FlowOutput</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

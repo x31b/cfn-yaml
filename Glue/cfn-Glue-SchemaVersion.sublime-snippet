@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schemaversion.html
+Type: AWS::Glue::SchemaVersion
+Properties: 
+  Schema: 
+    Schema
+  SchemaDefinition: String
+
+]]></content>
+  <tabTrigger>cfn-Glue-SchemaVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

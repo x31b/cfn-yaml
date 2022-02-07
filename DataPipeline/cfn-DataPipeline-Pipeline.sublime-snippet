@@ -1,19 +1,19 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html
-Type: "AWS::DataPipeline::Pipeline"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html
+Type: AWS::DataPipeline::Pipeline
+Properties: 
   Activate: Boolean
   Description: String
   Name: String
-  ParameterObjects:
-    - Parameter object
-  ParameterValues:
-    - Parameter value
-  PipelineObjects:
-    - Pipeline object
-  PipelineTags:
-    - Pipeline tag
+  ParameterObjects: 
+    - ParameterObject
+  ParameterValues: 
+    - ParameterValue
+  PipelineObjects: 
+    - PipelineObject
+  PipelineTags: 
+    - PipelineTag
 
 ]]></content>
   <tabTrigger>cfn-DataPipeline-Pipeline</tabTrigger>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html
+Type: AWS::IoTFleetHub::Application
+Properties: 
+  ApplicationDescription: String
+  ApplicationName: String
+  RoleArn: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-IoTFleetHub-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

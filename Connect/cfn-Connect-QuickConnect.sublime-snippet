@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html
+Type: AWS::Connect::QuickConnect
+Properties: 
+  Description: String
+  InstanceArn: String
+  Name: String
+  QuickConnectConfig: 
+    QuickConnectConfig
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Connect-QuickConnect</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

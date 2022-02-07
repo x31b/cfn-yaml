@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-subnetgroup.html
+Type: AWS::MemoryDB::SubnetGroup
+Properties: 
+  Description: String
+  SubnetGroupName: String
+  SubnetIds: 
+    - String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-MemoryDB-SubnetGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

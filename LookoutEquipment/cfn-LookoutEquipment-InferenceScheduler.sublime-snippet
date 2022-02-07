@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html
+Type: AWS::LookoutEquipment::InferenceScheduler
+Properties: 
+  DataDelayOffsetInMinutes: Integer
+  DataInputConfiguration: Json
+  DataOutputConfiguration: Json
+  DataUploadFrequency: String
+  InferenceSchedulerName: String
+  ModelName: String
+  RoleArn: String
+  ServerSideKmsKeyId: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-LookoutEquipment-InferenceScheduler</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

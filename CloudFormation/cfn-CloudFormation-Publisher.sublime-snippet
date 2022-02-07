@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-publisher.html
+Type: AWS::CloudFormation::Publisher
+Properties: 
+  AcceptTermsAndConditions: Boolean
+  ConnectionArn: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-Publisher</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

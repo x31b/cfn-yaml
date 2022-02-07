@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html
+Type: AWS::FraudDetector::EventType
+Properties: 
+  Description: String
+  EntityTypes: 
+    - EntityType
+  EventVariables: 
+    - EventVariable
+  Labels: 
+    - Label
+  Name: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-FraudDetector-EventType</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

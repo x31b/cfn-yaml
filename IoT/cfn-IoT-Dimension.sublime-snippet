@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-dimension.html
+Type: AWS::IoT::Dimension
+Properties: 
+  Name: String
+  StringValues: 
+    - String
+  Tags: 
+    - Tag
+  Type: String
+
+]]></content>
+  <tabTrigger>cfn-IoT-Dimension</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

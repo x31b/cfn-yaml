@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html
+Type: AWS::ServiceCatalog::LaunchNotificationConstraint
+Properties: 
+  AcceptLanguage: String
+  Description: String
+  NotificationArns: 
+    - String
+  PortfolioId: String
+  ProductId: String
+
+]]></content>
+  <tabTrigger>cfn-ServiceCatalog-LaunchNotificationConstraint</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

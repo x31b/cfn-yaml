@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html
+Type: AWS::ElastiCache::User
+Properties: 
+  AccessString: 
+    String
+  Engine: String
+  NoPasswordRequired: Boolean
+  Passwords: 
+    - String
+  UserId: String
+  UserName: String
+
+]]></content>
+  <tabTrigger>cfn-ElastiCache-User</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

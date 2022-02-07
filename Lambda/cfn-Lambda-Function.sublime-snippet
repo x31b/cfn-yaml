@@ -1,19 +1,39 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html
-Type: "AWS::Lambda::Function"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html
+Type: AWS::Lambda::Function
 Properties: 
-  Code:
+  Architectures: 
+    - String
+  Code: 
     Code
+  CodeSigningConfigArn: String
+  DeadLetterConfig: 
+    DeadLetterConfig
   Description: String
+  Environment: 
+    Environment
+  FileSystemConfigs: 
+    - FileSystemConfig
   FunctionName: String
   Handler: String
+  ImageConfig: 
+    ImageConfig
+  KmsKeyArn: String
+  Layers: 
+    - String
   MemorySize: Integer
+  PackageType: String
+  ReservedConcurrentExecutions: Integer
   Role: String
   Runtime: String
+  Tags: 
+    - Tag
   Timeout: Integer
-  VpcConfig:
-    VPCConfig
+  TracingConfig: 
+    TracingConfig
+  VpcConfig: 
+    VpcConfig
 
 ]]></content>
   <tabTrigger>cfn-Lambda-Function</tabTrigger>

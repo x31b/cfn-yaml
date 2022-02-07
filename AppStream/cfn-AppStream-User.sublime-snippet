@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-user.html
+Type: AWS::AppStream::User
+Properties: 
+  AuthenticationType: String
+  FirstName: String
+  LastName: String
+  MessageAction: String
+  UserName: String
+
+]]></content>
+  <tabTrigger>cfn-AppStream-User</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

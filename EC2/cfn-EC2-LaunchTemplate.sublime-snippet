@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-launchtemplate.html
+Type: AWS::EC2::LaunchTemplate
+Properties: 
+  LaunchTemplateData: 
+    LaunchTemplateData
+  LaunchTemplateName: String
+  TagSpecifications: 
+    - LaunchTemplateTagSpecification
+
+]]></content>
+  <tabTrigger>cfn-EC2-LaunchTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

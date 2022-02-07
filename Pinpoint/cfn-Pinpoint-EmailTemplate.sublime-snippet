@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html
+Type: AWS::Pinpoint::EmailTemplate
+Properties: 
+  DefaultSubstitutions: String
+  HtmlPart: String
+  Subject: String
+  Tags: Json
+  TemplateDescription: String
+  TemplateName: String
+  TextPart: String
+
+]]></content>
+  <tabTrigger>cfn-Pinpoint-EmailTemplate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

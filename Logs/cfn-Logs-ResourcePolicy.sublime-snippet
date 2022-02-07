@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-resourcepolicy.html
+Type: AWS::Logs::ResourcePolicy
+Properties: 
+  PolicyDocument: String
+  PolicyName: String
+
+]]></content>
+  <tabTrigger>cfn-Logs-ResourcePolicy</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

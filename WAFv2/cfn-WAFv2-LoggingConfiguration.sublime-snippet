@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html
+Type: AWS::WAFv2::LoggingConfiguration
+Properties: 
+  LogDestinationConfigs: 
+    - String
+  LoggingFilter: Json
+  RedactedFields: 
+    - FieldToMatch
+  ResourceArn: String
+
+]]></content>
+  <tabTrigger>cfn-WAFv2-LoggingConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

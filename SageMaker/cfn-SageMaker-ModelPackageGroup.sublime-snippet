@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelpackagegroup.html
+Type: AWS::SageMaker::ModelPackageGroup
+Properties: 
+  ModelPackageGroupDescription: String
+  ModelPackageGroupName: String
+  ModelPackageGroupPolicy: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-SageMaker-ModelPackageGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

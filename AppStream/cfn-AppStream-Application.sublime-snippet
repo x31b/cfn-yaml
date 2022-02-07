@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-application.html
+Type: AWS::AppStream::Application
+Properties: 
+  AppBlockArn: String
+  AttributesToDelete: 
+    - String
+  Description: String
+  DisplayName: String
+  IconS3Location: 
+    S3Location
+  InstanceFamilies: 
+    - String
+  LaunchParameters: String
+  LaunchPath: String
+  Name: String
+  Platforms: 
+    - String
+  Tags: 
+    - Tag
+  WorkingDirectory: String
+
+]]></content>
+  <tabTrigger>cfn-AppStream-Application</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

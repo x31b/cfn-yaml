@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-primarytaskset.html
+Type: AWS::ECS::PrimaryTaskSet
+Properties: 
+  Cluster: String
+  Service: String
+  TaskSetId: String
+
+]]></content>
+  <tabTrigger>cfn-ECS-PrimaryTaskSet</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

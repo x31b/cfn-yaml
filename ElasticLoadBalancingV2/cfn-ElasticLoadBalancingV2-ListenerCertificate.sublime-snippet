@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenercertificate.html
+Type: AWS::ElasticLoadBalancingV2::ListenerCertificate
+Properties: 
+  Certificates: 
+    - Certificate
+  ListenerArn: String
+
+]]></content>
+  <tabTrigger>cfn-ElasticLoadBalancingV2-ListenerCertificate</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

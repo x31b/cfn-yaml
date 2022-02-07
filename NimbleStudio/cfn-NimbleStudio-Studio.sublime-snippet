@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html
+Type: AWS::NimbleStudio::Studio
+Properties: 
+  AdminRoleArn: String
+  DisplayName: String
+  StudioEncryptionConfiguration: 
+    StudioEncryptionConfiguration
+  StudioName: String
+  Tags: 
+    Key : Value
+  UserRoleArn: String
+
+]]></content>
+  <tabTrigger>cfn-NimbleStudio-Studio</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

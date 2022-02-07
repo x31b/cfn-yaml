@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-scheduledquery.html
+Type: AWS::Timestream::ScheduledQuery
+Properties: 
+  ClientToken: String
+  ErrorReportConfiguration: 
+    ErrorReportConfiguration
+  KmsKeyId: String
+  NotificationConfiguration: 
+    NotificationConfiguration
+  QueryString: 
+    String
+  ScheduleConfiguration: 
+    ScheduleConfiguration
+  ScheduledQueryExecutionRoleArn: String
+  ScheduledQueryName: String
+  Tags: 
+    - Tag
+  TargetConfiguration: 
+    TargetConfiguration
+
+]]></content>
+  <tabTrigger>cfn-Timestream-ScheduledQuery</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

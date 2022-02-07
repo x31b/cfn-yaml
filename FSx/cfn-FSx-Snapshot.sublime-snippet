@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fsx-snapshot.html
+Type: AWS::FSx::Snapshot
+Properties: 
+  Name: String
+  Tags: 
+    - Tag
+  VolumeId: String
+
+]]></content>
+  <tabTrigger>cfn-FSx-Snapshot</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

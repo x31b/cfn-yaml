@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-anomalydetector.html
+Type: AWS::CloudWatch::AnomalyDetector
+Properties: 
+  Configuration: 
+    Configuration
+  Dimensions: 
+    - Dimension
+  MetricMathAnomalyDetector: 
+    MetricMathAnomalyDetector
+  MetricName: String
+  Namespace: String
+  SingleMetricAnomalyDetector: 
+    SingleMetricAnomalyDetector
+  Stat: String
+
+]]></content>
+  <tabTrigger>cfn-CloudWatch-AnomalyDetector</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

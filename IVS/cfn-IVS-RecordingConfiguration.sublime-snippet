@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ivs-recordingconfiguration.html
+Type: AWS::IVS::RecordingConfiguration
+Properties: 
+  DestinationConfiguration: 
+    DestinationConfiguration
+  Name: String
+  Tags: 
+    - Tag
+  ThumbnailConfiguration: 
+    ThumbnailConfiguration
+
+]]></content>
+  <tabTrigger>cfn-IVS-RecordingConfiguration</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-publictypeversion.html
+Type: AWS::CloudFormation::PublicTypeVersion
+Properties: 
+  Arn: String
+  LogDeliveryBucket: String
+  PublicVersionNumber: String
+  Type: String
+  TypeName: String
+
+]]></content>
+  <tabTrigger>cfn-CloudFormation-PublicTypeVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

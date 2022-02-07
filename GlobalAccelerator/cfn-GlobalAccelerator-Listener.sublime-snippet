@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html
+Type: AWS::GlobalAccelerator::Listener
+Properties: 
+  AcceleratorArn: String
+  ClientAffinity: String
+  PortRanges: 
+    - PortRange
+  Protocol: String
+
+]]></content>
+  <tabTrigger>cfn-GlobalAccelerator-Listener</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

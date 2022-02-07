@@ -1,9 +1,11 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html
-Type: "AWS::Redshift::ClusterSecurityGroup"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html
+Type: AWS::Redshift::ClusterSecurityGroup
 Properties: 
   Description: String
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-Redshift-ClusterSecurityGroup</tabTrigger>

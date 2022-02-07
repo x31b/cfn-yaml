@@ -1,9 +1,19 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html
-Type: "AWS::ECS::Cluster"
-Properties:
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html
+Type: AWS::ECS::Cluster
+Properties: 
+  CapacityProviders: 
+    - String
   ClusterName: String
+  ClusterSettings: 
+    - ClusterSettings
+  Configuration: 
+    ClusterConfiguration
+  DefaultCapacityProviderStrategy: 
+    - CapacityProviderStrategyItem
+  Tags: 
+    - Tag
 
 ]]></content>
   <tabTrigger>cfn-ECS-Cluster</tabTrigger>

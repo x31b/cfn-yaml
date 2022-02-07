@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbclusterparametergroup.html
+Type: AWS::Neptune::DBClusterParameterGroup
+Properties: 
+  Description: String
+  Family: String
+  Name: String
+  Parameters: Json
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Neptune-DBClusterParameterGroup</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

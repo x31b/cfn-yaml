@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-feature.html
+Type: AWS::Evidently::Feature
+Properties: 
+  DefaultVariation: String
+  Description: String
+  EntityOverrides: 
+    - EntityOverride
+  EvaluationStrategy: String
+  Name: String
+  Project: String
+  Tags: 
+    - Tag
+  Variations: 
+    - VariationObject
+
+]]></content>
+  <tabTrigger>cfn-Evidently-Feature</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-faq.html
+Type: AWS::Kendra::Faq
+Properties: 
+  Description: String
+  FileFormat: String
+  IndexId: String
+  Name: String
+  RoleArn: String
+  S3Path: 
+    S3Path
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Kendra-Faq</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

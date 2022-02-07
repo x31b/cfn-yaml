@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html
+Type: AWS::Lambda::LayerVersion
+Properties: 
+  CompatibleArchitectures: 
+    - String
+  CompatibleRuntimes: 
+    - String
+  Content: 
+    Content
+  Description: String
+  LayerName: String
+  LicenseInfo: String
+
+]]></content>
+  <tabTrigger>cfn-Lambda-LayerVersion</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

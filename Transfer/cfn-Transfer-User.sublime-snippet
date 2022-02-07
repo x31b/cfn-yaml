@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html
+Type: AWS::Transfer::User
+Properties: 
+  HomeDirectory: String
+  HomeDirectoryMappings: 
+    - HomeDirectoryMapEntry
+  HomeDirectoryType: String
+  Policy: String
+  PosixProfile: 
+    PosixProfile
+  Role: String
+  ServerId: String
+  SshPublicKeys: 
+    - SshPublicKey
+  Tags: 
+    - Tag
+  UserName: String
+
+]]></content>
+  <tabTrigger>cfn-Transfer-User</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[
-#AWS-DOC http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-accesskey.html
-Type: "AWS::IAM::AccessKey"
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-accesskey.html
+Type: AWS::IAM::AccessKey
 Properties: 
-  Serial": Integer
-  Status": String
-  UserName": String
+  Serial: Integer
+  Status: String
+  UserName: String
 
 ]]></content>
   <tabTrigger>cfn-IAM-AccessKey</tabTrigger>

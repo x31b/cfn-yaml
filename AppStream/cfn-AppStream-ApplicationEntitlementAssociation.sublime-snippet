@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-applicationentitlementassociation.html
+Type: AWS::AppStream::ApplicationEntitlementAssociation
+Properties: 
+  ApplicationIdentifier: String
+  EntitlementName: String
+  StackName: String
+
+]]></content>
+  <tabTrigger>cfn-AppStream-ApplicationEntitlementAssociation</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

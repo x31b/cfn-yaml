@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-networkprofile.html
+Type: AWS::DeviceFarm::NetworkProfile
+Properties: 
+  Description: String
+  DownlinkBandwidthBits: Integer
+  DownlinkDelayMs: Integer
+  DownlinkJitterMs: Integer
+  DownlinkLossPercent: Integer
+  Name: String
+  ProjectArn: String
+  Tags: 
+    - Tag
+  UplinkBandwidthBits: Integer
+  UplinkDelayMs: Integer
+  UplinkJitterMs: Integer
+  UplinkLossPercent: Integer
+
+]]></content>
+  <tabTrigger>cfn-DeviceFarm-NetworkProfile</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>

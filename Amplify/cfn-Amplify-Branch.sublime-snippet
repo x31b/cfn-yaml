@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+#AWS-DOC https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html
+Type: AWS::Amplify::Branch
+Properties: 
+  AppId: String
+  BasicAuthConfig: 
+    BasicAuthConfig
+  BranchName: String
+  BuildSpec: String
+  Description: String
+  EnableAutoBuild: Boolean
+  EnablePerformanceMode: Boolean
+  EnablePullRequestPreview: Boolean
+  EnvironmentVariables: 
+    - EnvironmentVariable
+  PullRequestEnvironmentName: String
+  Stage: String
+  Tags: 
+    - Tag
+
+]]></content>
+  <tabTrigger>cfn-Amplify-Branch</tabTrigger>
+  <scope>source.yaml, source.cloudformation</scope>
+  </snippet>
